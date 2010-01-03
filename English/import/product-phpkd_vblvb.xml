@@ -6,8 +6,8 @@
 	<version>3.8.100</version>
 	<vendor><![CDATA[$Vendor: PHP KingDom $]]></vendor>
 	<author><![CDATA[$Author: Abdelrahman Hossam Omran (SolidSnake@GTI) $]]></author>
-	<revision><![CDATA[$Revision$]]></revision>
-	<released><![CDATA[$Date$]]></released>
+	<revision><![CDATA[$Revision: 4 $]]></revision>
+	<released><![CDATA[$Date: 2010-01-03 09:01:11 +0200 (Sun, 03 Jan 2010) $]]></released>
 	<url><![CDATA[http://tools.phpkd.net/en/producthelp/url/vblvb/]]></url>
 	<versioncheckurl><![CDATA[http://tools.phpkd.net/en/producthelp/version/vblvb/]]></versioncheckurl>
 	<extradetails><![CDATA[http://tools.phpkd.net/en/producthelp/info/vblvb/]]></extradetails>

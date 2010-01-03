@@ -6,8 +6,8 @@
 
      * You are free:
      ~~~~~~~~~~~~~~~~
-	+ To Share — to copy, distribute and transmit the work
-	+ To Remix — to adapt the work
+	+ To Share ï¿½ to copy, distribute and transmit the work
+	+ To Remix ï¿½ to adapt the work
 
      * Under the following conditions:
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -25,3 +25,5 @@
      This is a human-readable summary of the Legal Code (the full license).
      http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
      _____________________________________________________________
+
+$Id$

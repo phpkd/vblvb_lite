@@ -263,8 +263,8 @@ License:
 
      * You are free:
      ~~~~~~~~~~~~~~~~
-	+ To Share — to copy, distribute and transmit the work
-	+ To Remix — to adapt the work
+	+ To Share ï¿½ to copy, distribute and transmit the work
+	+ To Remix ï¿½ to adapt the work
 
      * Under the following conditions:
      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -364,3 +364,6 @@ Recent Products:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 |              Brought to you by PHP KingDom (www.phpkd.net)              |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+$Id$
