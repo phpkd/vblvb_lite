@@ -2,7 +2,7 @@
 /*==================================================================================*\
 || ################################################################################ ||
 || # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.120 # ||
-|| # License Type: Free License                                   $Revision: 79 $ # ||
+|| # License Type: Free License                                   $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
 || #            Copyright ©2005-2010 PHP KingDom. All Rights Reserved.            # ||
@@ -121,10 +121,10 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 		$punished = array();
 		while ($post = $vbulletin->db->fetch_array($posts))
 		{
-			$log .= '<li><a href="' . $vbulletin->options['bburl'] . '/showthread.php?p=' . intval($post['postid']) . '" target="_blank">' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '</a><ol>';
+			$log .= '<li><a href="' . $vbulletin->options['bburl'] . '/showthread.php?p=' . intval($post['postid']) . '" target="_blank">' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '</a>';
 			if (defined('IN_CONTROL_PANEL'))
 			{
-				echo '<li><a href="' . $vbulletin->options['bburl'] . '/showthread.php?p=' . intval($post['postid']) . '" target="_blank">' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '</a><ol>';
+				echo '<li><a href="' . $vbulletin->options['bburl'] . '/showthread.php?p=' . intval($post['postid']) . '" target="_blank">' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '</a>';
 				vbflush();
 			}
 
@@ -175,9 +175,15 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 
 	if (is_array($punished) AND count($punished) > 0)
 	{
+		$log .= $vbphrase['phpkd_vblvb_log_punished_posts'] . '<ol class="smallfont">' . $logpunished . '</ol>';
+		if (defined('IN_CONTROL_PANEL'))
+		{
+			echo $vbphrase['phpkd_vblvb_log_punished_posts'] . '<ol class="smallfont">' . $logpunished . '</ol><br />';
+			vbflush();
+		}
+
 		// Punish Dead Posts
 		phpkd_vblvb_punish($punished);
-		$log .= $vbphrase['phpkd_vblvb_log_punished_posts'] . '<ol class="smallfont">' . $logpunished . '</ol>';
 
 		// Send User Reports
 		phpkd_vblvb_rprtu($punished);
@@ -186,6 +192,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 	// Send Staff Reports
 	phpkd_vblvb_rprts($log);
 
+
 	log_cron_action($log, $nextitem, 1);
 }
 
@@ -193,8 +200,8 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 /*============================================================================*\
 || ########################################################################### ||
 || # Version: 4.0.120
-|| # $Revision: 79 $
-|| # Released: $Date: 2010-01-21 04:38:51 +0200 (Thu, 21 Jan 2010) $
+|| # $Revision$
+|| # Released: $Date$
 || ########################################################################### ||
 \*============================================================================*/
 ?>
