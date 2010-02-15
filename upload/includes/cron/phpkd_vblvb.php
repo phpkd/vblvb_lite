@@ -134,7 +134,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 			$log .= $links['log'] . construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['ignored']) . '</li>';
 			if (defined('IN_CONTROL_PANEL'))
 			{
-				echo construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['ignored']) . '</li>';
+				echo $links['log'] . construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['ignored']) . '</li>';
 				vbflush();
 			}
 

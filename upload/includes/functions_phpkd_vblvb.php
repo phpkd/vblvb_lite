@@ -54,7 +54,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 	}
 	else
 	{
-		return array('all' => 0, 'checked' => 0, 'alive' => 0, 'dead' => 0, 'down' => 0, 'log' => $vbphrase['phpkd_vblvb_invalid_criteria']);
+		return array('all' => 0, 'checked' => 0, 'alive' => 0, 'dead' => 0, 'down' => 0, 'log' => '<br />' . $vbphrase['phpkd_vblvb_invalid_criteria'] . '<br />');
 	}
 
 
@@ -74,7 +74,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 	}
 	else
 	{
-		return array('all' => 0, 'checked' => 0, 'alive' => 0, 'dead' => 0, 'down' => 0, 'log' => $vbphrase['phpkd_vblvb_invalid_criteria']);
+		return array('all' => 0, 'checked' => 0, 'alive' => 0, 'dead' => 0, 'down' => 0, 'log' => '<br />' . $vbphrase['phpkd_vblvb_invalid_criteria'] . '<br />');
 	}
 
 
@@ -196,7 +196,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 	}
 	else
 	{
-		return array('all' => 0, 'checked' => 0, 'alive' => 0, 'dead' => 0, 'down' => 0, 'log' => $vbphrase['phpkd_vblvb_invalid_criteria']);
+		return array('all' => 0, 'checked' => 0, 'alive' => 0, 'dead' => 0, 'down' => 0, 'log' => '<br />' . $vbphrase['phpkd_vblvb_invalid_criteria'] . '<br />');
 	}
 }
 
