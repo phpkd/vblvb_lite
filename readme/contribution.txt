@@ -289,7 +289,7 @@
 			[*]zSHARE.com
 			[*]... AND COUNTING ...
 		     [/LIST]
-		     The 'Lite' version can check the following 10 hosts only: (depositfiles.com, easy-share.com, filefactory.com, mediafire.com, megaupload.com, netload.in, rapidshare.com, rapidshare.de, sendspace.com, zshare.net).
+		     'Lite' edition can check the following 10 hosts only: (depositfiles.com, easy-share.com, filefactory.com, mediafire.com, megaupload.com, netload.in, rapidshare.com, rapidshare.de, sendspace.com, zshare.net).
 
 
 		     [*][B]Kill Link Masks ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
@@ -362,7 +362,7 @@
 		     [*][B]On Edit: Revert Actions ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
 		     If any of the punished dead posts has been edited, the product will re-check links within again (if this feature enabled), if it passed the check & doesn't reach the "Critical Limit/Red Line" then "Punishment Actions" can be reverted. This means if the recent punishment for a specific post was (Moving to the "Punishment Recycle Bin Forum" & Moderating Posts & Closing Thread), then after successful check the punishment will be taken off & the post/thread will be (Moved back to the original forum & Posts un-moderated "Approved" & Thread re-opened). Choose "Yes" to activate this behavior, or "No" to disable it.
 
-		     [*][B]Powerful User Groups[/B] ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
+		     [*][B]Powerful User Groups[/B]
 		     Powerful User Groups are those user groups that can override/overcome the "Critical Limit/Red Line" & force their posts to be posted despite of having dead links. Please enter User Group IDs separated by commas.
 		     [B]Note:[/b] This powerful ability doesn't affect only posts for those powerful user groups, but affects also any posts edited by those powerful user groups (regardless of being for them or for other users). It means they can overcome limits when posting & when editing others posts (They should have permissions of course -ex: moderators, staff).
 
