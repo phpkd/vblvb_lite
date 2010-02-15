@@ -156,7 +156,7 @@ $vbulletin->db->show_errors();]]></uninstallcode>
 			<phpcode><![CDATA[// ####################################
 	if ($vbulletin->options['phpkd_vblvb_active'])
 	{
-		if (($type == 'thread' AND ($vbulletin->options['phpkd_vblvb_checked_new'] == 1 OR $vbulletin->options['phpkd_vblvb_checked_new'] == 2)) OR $type == 'reply' AND $vbulletin->options['phpkd_vblvb_checked_new'] == 1)
+		if (($type == 'thread' AND ($vbulletin->options['phpkd_vblvb_checked_newposts'] == 1 OR $vbulletin->options['phpkd_vblvb_checked_newposts'] == 2)) OR $type == 'reply' AND $vbulletin->options['phpkd_vblvb_checked_newposts'] == 1)
 		{
 			if (!in_array($vbulletin->userinfo['usergroupid'], explode(' ', $vbulletin->options['phpkd_vblvb_powerful_ugids'])))
 			{
@@ -178,13 +178,9 @@ $vbulletin->db->show_errors();]]></uninstallcode>
 		</plugin>
 	</plugins>
 	<phrases>
-		<phrasetype name="Control Panel Global" fieldname="cpglobal">
-			<phrase name="phpkd_vblvb_select_forums" date="1254819786" username="PHPKD" version="4.0.101"><![CDATA[Select Forum(s)]]></phrase>
-			<phrase name="phpkd_vblvb_select_usergroups" date="1254819772" username="PHPKD" version="4.0.101"><![CDATA[Select User group(s)]]></phrase>
-		</phrasetype>
 		<phrasetype name="Control Panel Options" fieldname="cpoption">
-			<phrase name="phpkd_vblvb_checked_new_all" date="1254892029" username="PHPKD" version="4.0.101"><![CDATA[All New Posts (Threads & Replies)]]></phrase>
-			<phrase name="phpkd_vblvb_checked_new_first" date="1254892107" username="PHPKD" version="4.0.101"><![CDATA[Only New Threads (Just Thread's Header/First Post)]]></phrase>
+			<phrase name="phpkd_vblvb_checked_newposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[All New Posts (Threads & Replies)]]></phrase>
+			<phrase name="phpkd_vblvb_checked_newposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Only New Threads (Just Thread's Header/First Post)]]></phrase>
 			<phrase name="phpkd_vblvb_checked_none" date="1256564517" username="PHPKD" version="4.0.101"><![CDATA[None]]></phrase>
 			<phrase name="phpkd_vblvb_checked_existingposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[All Posts (Thread's First Post + All Replies)]]></phrase>
 			<phrase name="phpkd_vblvb_checked_existingposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[First Post Only (Only Thread's First Post)]]></phrase>
@@ -247,8 +243,8 @@ Best Regards
 		<phrasetype name="vBulletin Settings" fieldname="vbsettings">
 			<phrase name="setting_phpkd_vblvb_active_desc" date="1254750256" username="PHPKD" version="4.0.101"><![CDATA[Choose whether the product "PHPKD - Link Verifier Bot 'Lite'" is active or not.]]></phrase>
 			<phrase name="setting_phpkd_vblvb_active_title" date="1254750256" username="PHPKD" version="4.0.101"><![CDATA[Product Active]]></phrase>
-			<phrase name="setting_phpkd_vblvb_checked_new_desc" date="1256565201" username="PHPKD" version="4.0.101"><![CDATA[Which new posts do you wish to check against dead links? You can choose between checking "All New Posts" or checking only "New Threads" (thread's header, without replies).]]></phrase>
-			<phrase name="setting_phpkd_vblvb_checked_new_title" date="1256565201" username="PHPKD" version="4.0.101"><![CDATA[New Posts: What to check?]]></phrase>
+			<phrase name="setting_phpkd_vblvb_checked_newposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Which new posts do you wish to check against dead links? You can choose between checking "All New Posts" or checking only "New Threads" (thread's header, without replies).]]></phrase>
+			<phrase name="setting_phpkd_vblvb_checked_newposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[New Posts: What to check?]]></phrase>
 			<phrase name="setting_phpkd_vblvb_checked_existingposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Which posts do you wish to check against dead links? You can choose between checking "All Posts" or checking only "First Post from each thread".]]></phrase>
 			<phrase name="setting_phpkd_vblvb_checked_existingposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Existing Posts: What to check?]]></phrase>
 			<phrase name="setting_phpkd_vblvb_critical_desc" date="1262357136" username="PHPKD" version="4.0.101"><![CDATA[Checked posts may contain dead links, you can control when posts should be punished because of high percentage of dead links within it. Just enter the Red Line percentage here as a positive integer value (without any symbols). This critical Limit/Red Line is the maximum percentage that dead links can represent from all links available per post.<br /><br />
@@ -368,12 +364,12 @@ Select "Include All Forums" to check all forums' posts, or select "Include Speci
 2|phpkd_vblvb_checked_existingposts_first</optioncode>
 				<defaultvalue>1</defaultvalue>
 			</setting>
-			<setting varname="phpkd_vblvb_checked_new" displayorder="70">
+			<setting varname="phpkd_vblvb_checked_newposts" displayorder="70">
 				<datatype>integer</datatype>
 				<optioncode>radio:piped
 0|phpkd_vblvb_checked_none
-1|phpkd_vblvb_checked_new_all
-2|phpkd_vblvb_checked_new_first</optioncode>
+1|phpkd_vblvb_checked_newposts_all
+2|phpkd_vblvb_checked_newposts_first</optioncode>
 				<defaultvalue>0</defaultvalue>
 			</setting>
 			<setting varname="phpkd_vblvb_maxlinks" displayorder="80">
