@@ -88,7 +88,7 @@ Features:
 	     o Included/Excluded User Groups (Ultimate Edition Only)
 	          - If you've chosen "Include Specific User Groups" OR "Exclude Specific User Groups" from the above setting, then you've to choose those specified user groups from the list displayed. Please note that you can multiple select options by clicking "CTRL" key & keep holding it while selecting.
 
-	     o Include/Exclude Forums (Ultimate Edition Only)
+	     o Include/Exclude Forums
 	          - You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.
 	          - You've three options to choose from:
 		+ Include All Forums
@@ -96,7 +96,7 @@ Features:
 		+ Exclude Specific Forums
 	          - Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts except those specific user groups' posts -defined in the following setting-.
 
-	     o Included/Excluded Forums (Ultimate Edition Only)
+	     o Included/Excluded Forums
 	          - If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to choose those specified forums from the list displayed. Please note that you can multiple select options by clicking "CTRL" key & keep holding it while selecting.
 
 	     o Time/Date Cutoff Mode
@@ -281,16 +281,23 @@ Features:
 	     o Unmasking recursion level (Ultimate Edition Only)
 	          - If you've activated "Recusive Unmasking", then you may wish to set recusive level. Just enter how many levels do you wish to go in the deep. Please note that '0' means UNLIMITED (NOT recommended).
 
+	     o Sending Reports To Staff
+	          - If you've chosen to send reports to staff as "PMs" or "Emails", then you've the ability to select which staff should receive these reports.
+	          - Options: [Send Reports To Moderators Only | Send Reports To Moderators & Administrators]
+
+	     o Staff Reports Mode
+	          - When do you wish to send staff reports? You've four options to choose from:
+		+ Always send (always send regardless there's checked/dead/punished posts or not)
+		+ Send Only If there's Checked posts (send only if there's checked posts, regardless there's dead/punished posts or not)
+		+ Send Only If there's Dead posts (send only if there's checked posts with dead links regardless it exceeds the critical limit or not (punished or not))
+		+ Send Only If there's Punished posts (send only if there's punished posts (checked, contains dead links and exceeds the critical limit))
+
 	     o Staff Reports
 	          - After each run of the script, it's possible to auto send the final report to staff using any of the following methods: (PM, Email, New Reply, New Thread).
 		+ Send Private Message
 		+ Send Email Message (Ultimate Edition Only)
 		+ Post New Thread
 		+ Post New Reply (Ultimate Edition Only)
-
-	     o Sending Reports To Staff
-	          - If you've chosen to send reports to staff as "PMs" or "Emails", then you've the ability to select which staff should receive these reports.
-	          - Options: [Send Reports To Moderators Only | Send Reports To Moderators & Administrators]
 
 	     o User Reports
 	          - After each run of the script, if there is punished posts: it's possible to auto send a simple report to their owners using any of the following methods: (PM, Email) telling them that some of their posts has dead links.
@@ -322,6 +329,9 @@ Features:
 	     o Powerful User Groups
 	          - Powerful User Groups are those user groups that can override/overcome the "Critical Limit/Red Line" & force their posts to be posted despite of having dead links. Please enter User Group IDs separated by commas.
 	          - Note: This powerful ability doesn't affect only posts for those powerful user groups, but affects also any posts edited by those powerful user groups (regardless of being for them or for other users). It means they can overcome limits when posting & when editing others posts (They should have permissions of course -ex: moderators, staff).
+
+	     o Link Status Colors
+	          - You can change link status colors from this setting, just enter the color's name (or hexadecimal code) for each link status as preferred.
 
 	     o Used Phrases
 	          - You've the ability to control/localize the content used in automated messages & reports sent to staff & users.
@@ -407,17 +417,24 @@ Known Issues:
 
 Future TO-DO-LIST:
 ~~~~~~~~~~~~~~~~~~~
-     * Detailed user reports (http://forum.phpkd.net/project.php?issueid=6).
-     * Staff/User Report modes (Always send/Send only if ..) (http://forum.phpkd.net/project.php?issueid=7).
-     * Add cronjob status messages & configuration conclusion (http://forum.phpkd.net/project.php?issueid=8).
+     * Login to premium accounts (http://forum.phpkd.net/project.php?issueid=39).
      * Add separate page for online bulk checking (http://forum.phpkd.net/project.php?issueid=11).
-     * Reply to thread when dead links found (http://forum.phpkd.net/project.php?issueid=18).
-     * Post flag - Last checked in Date/Time (http://forum.phpkd.net/project.php?issueid=17).
-     * Archive all reports & link it to their threads & posts (http://forum.phpkd.net/project.php?issueid=19).
-     * Modify posts & colorize Active/Dead Links (http://forum.phpkd.net/project.php?issueid=16).
-     * Linked points system for reputation purposes (http://forum.phpkd.net/project.php?issueid=20).
-     * Administration Maintenance tools (http://forum.phpkd.net/project.php?issueid=21).
+     * Check authentication (http://forum.phpkd.net/project.php?issueid=9).
+     * Detect masked links (linksave.in, linkcrypt.ws, linkencrypter.com) (http://forum.phpkd.net/project.php?issueid=2).
+     * User Report modes (Always send/Send only if ..) (http://forum.phpkd.net/project.php?issueid=51).
+     * Run cronjob via external shceduled task services (http://forum.phpkd.net/project.php?issueid=44).
+     * Add a new thread option to enable/disable bot checking (http://forum.phpkd.net/project.php?issueid=42).
+     * Critical Limit/Red Line for each filehost in one thread (http://forum.phpkd.net/project.php?issueid=33).
+     * Detect Linkbucks Alias URLs (http://forum.phpkd.net/project.php?issueid=35).
      * Post flag - How many dead links included (http://forum.phpkd.net/project.php?issueid=25).
+     * Administration Maintenance tools (http://forum.phpkd.net/project.php?issueid=21).
+     * Linked points system for reputation purposes (http://forum.phpkd.net/project.php?issueid=20).
+     * Modify posts & colorize Active/Dead Links (http://forum.phpkd.net/project.php?issueid=16).
+     * Archive all reports & link it to their threads & posts (http://forum.phpkd.net/project.php?issueid=19).
+     * Post flag - Last checked in Date/Time (http://forum.phpkd.net/project.php?issueid=17).
+     * Reply to thread when dead links found (http://forum.phpkd.net/project.php?issueid=18).
+     * Detailed user reports (http://forum.phpkd.net/project.php?issueid=6).
+     * Add cronjob status messages & configuration conclusion (http://forum.phpkd.net/project.php?issueid=8).
      * Post your suggestions!
 
 
@@ -461,6 +478,28 @@ History:
 	+ Optimizations: Ability to follow redirected pages till reaching the actual download page & verify it (http://forum.phpkd.net/project.php?issueid=30).
 	+ New feature: Exclude forums.
 
+     * v4.0.130 14/02/2010 10:00 PM UTC: Featured release (public)
+	+ Bug Fix: No reports sent when the cronjob autorun (http://forum.phpkd.net/project.php?issueid=43).
+	+ Bug Fix: Massive checking MegaUpload.Com Links lead to wrond dead status reports (http://forum.phpkd.net/project.php?issueid=37).
+	+ Task Achieved: URL status 'Temporary Down' is Important (http://forum.phpkd.net/project.php?issueid=38).
+	+ Task Achieved: Multilingual hosts requires checking & optimizing (http://forum.phpkd.net/project.php?issueid=46).
+	+ Optimization: Cronjob has more checks now before running, it will check if there's hosts/protocols/bbcodes to be checked or not. If yes, proceed, if no then kill the process & display an error message. Additional check added to make sure there's posts to be checked, if there isn't then an error message displayed (http://forum.phpkd.net/project.php?issueid=8).
+	+ Optimization: Display punished posts report within manual cronjob run report (http://forum.phpkd.net/project.php?issueid=50).
+	+ Optimization: Always send staff reports regardless there's checked/punished posts or not.
+	+ Optimization: Multiple tweaks and optimizations to the product's core.
+	+ New Feature: Ability to determine forums inclusion/execlusion mode.
+	+ Updated the following hosts:
+       1. depositfiles.com
+       2. easy-share.com
+       3. filefactory.com
+       4. mediafire.com
+       5. megaupload.com
+       6. netload.in
+       7. rapidshare.com
+       8. rapidshare.de
+       9. sendspace.com
+       10. zshare.net
+
 
 Screen Shots:
 ~~~~~~~~~~~~~~
@@ -469,21 +508,19 @@ Screen Shots:
 
 Notes:
 ~~~~~~~~~~~~~~~~~
-     * English & Arabic versions supported & supplied officially.
-     * Un-official translations are available up-to-date (French, Turkish) & more translations by the way.
-     * Staff reports sent only if there's punished posts.
+     * Multiple translations are available (Arabic, English, French, German, Greek, Turkish, Spanish .. and counting!).
 
 
 Technical Notes:
 ~~~~~~~~~~~~~~~~~
      * New Plugins: 1
-     * New Phrases: 100
+     * New Phrases: 109
      * New Templates: 0
      * Manual Template changes: 0
      * Auto Template changes: 0
      * New Files: 3
      * Manual File Changes: 0
-     * New vBulletin Settings: 31
+     * New vBulletin Settings: 32
      * New Usergroup Permissions: 0
      * New Moderator Permissions: 0
      * New Administrator Permissions: 0

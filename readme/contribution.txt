@@ -92,7 +92,7 @@
 		     [*][B]Included/Excluded User Groups ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
 		     If you've chosen "Include Specific User Groups" OR "Exclude Specific User Groups" from the above setting, then you've to choose those specified user groups from the list displayed. Please note that you can multiple select options by clicking "CTRL" key & keep holding it while selecting.
 
-		     [*][B]Include/Exclude Forums ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
+		     [*][B]Include/Exclude Forums
 		     You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.
 		     You've three options to choose from:
 		     [LIST]
@@ -102,7 +102,7 @@
 		     [/LIST]
 		     Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts except those specific user groups' posts -defined in the following setting-.
 
-		     [*][B]Included/Excluded Forums ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
+		     [*][B]Included/Excluded Forums
 		     If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to choose those specified forums from the list displayed. Please note that you can multiple select options by clicking "CTRL" key & keep holding it while selecting.
 
 		     [*][B]Time/Date Cutoff Mode[/B]
@@ -309,6 +309,20 @@
 		     If you've activated "Recusive Unmasking", then you may wish to set recusive level. Just enter how many levels do you wish to go in the deep. Please note that '0' means UNLIMITED (NOT recommended).
 
 
+		     [*][B]Sending Reports To Staff[/B]
+		     If you've chosen to send reports to staff as "PMs" or "Emails", then you've the ability to select which staff should receive these reports.
+		     Options: [Send Reports To Moderators Only | Send Reports To Moderators & Administrators]
+
+
+		     [*][B]Staff Reports Mode ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
+		     When do you wish to send staff reports? You've four options to choose from:
+     		     [LIST]
+			[*]Always send (always send regardless there's checked/dead/punished posts or not)
+			[*]Send Only If there's Checked posts (send only if there's checked posts, regardless there's dead/punished posts or not)
+			[*]Send Only If there's Dead posts (send only if there's checked posts with dead links regardless it exceeds the critical limit or not (punished or not))
+			[*]Send Only If there's Punished posts (send only if there's punished posts (checked, contains dead links and exceeds the critical limit))
+		     [/LIST]
+
 		     [*][B]Staff Reports[/B]
 		     After each run of the script, it's possible to auto send the final report to staff using any of the following methods: (PM, Email, New Reply, New Thread).
      		     [LIST]
@@ -317,10 +331,6 @@
 			[*]Post New Thread
 			[*]Post New Reply [B]([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
 		     [/LIST]
-
-		     [*][B]Sending Reports To Staff[/B]
-		     If you've chosen to send reports to staff as "PMs" or "Emails", then you've the ability to select which staff should receive these reports.
-		     Options: [Send Reports To Moderators Only | Send Reports To Moderators & Administrators]
 
 		     [*][B]User Reports[/B]
 		     After each run of the script, if there is punished posts: it's possible to auto send a simple report to their owners using any of the following methods: (PM, Email) telling them that some of their posts has dead links.
@@ -352,9 +362,12 @@
 		     [*][B]On Edit: Revert Actions ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
 		     If any of the punished dead posts has been edited, the product will re-check links within again (if this feature enabled), if it passed the check & doesn't reach the "Critical Limit/Red Line" then "Punishment Actions" can be reverted. This means if the recent punishment for a specific post was (Moving to the "Punishment Recycle Bin Forum" & Moderating Posts & Closing Thread), then after successful check the punishment will be taken off & the post/thread will be (Moved back to the original forum & Posts un-moderated "Approved" & Thread re-opened). Choose "Yes" to activate this behavior, or "No" to disable it.
 
-		     [*][B]Powerful User Groups[/B]
+		     [*][B]Powerful User Groups[/B] ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
 		     Powerful User Groups are those user groups that can override/overcome the "Critical Limit/Red Line" & force their posts to be posted despite of having dead links. Please enter User Group IDs separated by commas.
 		     [B]Note:[/b] This powerful ability doesn't affect only posts for those powerful user groups, but affects also any posts edited by those powerful user groups (regardless of being for them or for other users). It means they can overcome limits when posting & when editing others posts (They should have permissions of course -ex: moderators, staff).
+
+		     [*][B]Link Status Colors ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
+		     You can change link status colors from this setting, just enter the color's name (or hexadecimal code) for each link status as preferred.
 
 		     [*][B]Used Phrases[/B]
      		     [LIST]
@@ -454,17 +467,24 @@ This is a human-readable summary of the Legal Code (the full license).
 
 [U][B]Future TO-DO-LIST:[/B][/U]
 [LIST]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=6"]Detailed user reports[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=7"]Staff/User Report modes (Always send/Send only if ..)[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=8"]Add cronjob status messages & configuration conclusion[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=11"]Add separate page for online bulk checking[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=18"]Reply to thread when dead links found[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=17"]Post flag - Last checked in Date/Time[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=19"]Archive all reports & link it to their threads & posts[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=16"]Modify posts & colorize Active/Dead Links[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=20"]Linked points system for reputation purposes[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=21"]Administration Maintenance tools[/URL].
-     [*][URL="http://forum.phpkd.net/project.php?issueid=25"]Post flag - How many dead links included[/URL].
+     [*][URL="http://forum.phpkd.net/project.php?issueid=39"]Login to premium accounts.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=11"]Add separate page for online bulk checking.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=9"]Check authentication.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=2"]Detect masked links (linksave.in, linkcrypt.ws, linkencrypter.com).[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=51"]User Report modes (Always send/Send only if ..).[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=44"]Run cronjob via external shceduled task services.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=42"]Add a new thread option to enable/disable bot checking.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=33"]Critical Limit/Red Line for each filehost in one thread.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=35"]Detect Linkbucks Alias URLs.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=25"]Post flag - How many dead links included.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=21"]Administration Maintenance tools.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=20"]Linked points system for reputation purposes.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=16"]Modify posts & colorize Active/Dead Links.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=19"]Archive all reports & link it to their threads & posts.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=17"]Post flag - Last checked in Date/Time.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=18"]Reply to thread when dead links found.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=6"]Detailed user reports.[/URL]
+     [*][URL="http://forum.phpkd.net/project.php?issueid=8"]Add cronjob status messages & configuration conclusion.[/URL]
      [*]Post your suggestions!
 [/LIST]
 
@@ -514,6 +534,32 @@ This is a human-readable summary of the Legal Code (the full license).
 	[*][URL="http://forum.phpkd.net/project.php?issueid=30"]Optimizations: Ability to follow redirected pages till reaching the actual download page & verify it.[/URL].
 	[*]New feature: Exclude forums.
      [/LIST]
+
+     [*][B]v4.0.130[/B] 14/02/2010 10:00 PM UTC: Featured release (public)
+     [LIST=1]
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=43"]No reports sent when the cronjob autorun[/URL].
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=37"]Massive checking MegaUpload.Com Links lead to wrond dead status reports[/URL].
+	[*]Task Achieved: [URL="http://forum.phpkd.net/project.php?issueid=38"]URL status 'Temporary Down' is Important[/URL].
+	[*]Task Achieved: [URL="http://forum.phpkd.net/project.php?issueid=46"]Multilingual hosts requires checking & optimizing[/URL].
+	[*]Optimization: [URL="http://forum.phpkd.net/project.php?issueid=8"]Cronjob has more checks now before running, it will check if there's hosts/protocols/bbcodes to be checked or not. If yes, proceed, if no then kill the process & display an error message. Additional check added to make sure there's posts to be checked, if there isn't then an error message displayed[/URL].
+	[*]Optimization: [URL="http://forum.phpkd.net/project.php?issueid=50"]Display punished posts report within manual cronjob run report[/URL].
+	[*]Optimization: Always send staff reports regardless there's checked/punished posts or not.
+	[*]Optimization: Multiple tweaks and optimizations to the product's core.
+	[*]New Feature: Ability to determine forums inclusion/execlusion mode.
+	[*][URL="http://forum.phpkd.net/project.php?issueid=46"]Updated the following hosts:[/URL]
+		[LIST=1]
+		[*]depositfiles.com
+		[*]easy-share.com
+		[*]filefactory.com
+		[*]mediafire.com
+		[*]megaupload.com
+		[*]netload.in
+		[*]rapidshare.com
+		[*]rapidshare.de
+		[*]sendspace.com
+		[*]zshare.net
+		[/LIST]
+     [/LIST]
 [/LIST]
 
 
@@ -525,23 +571,20 @@ This is a human-readable summary of the Legal Code (the full license).
 
 [U][B]Notes:[/B][/U]
 [LIST]
-     [*]English & Arabic versions supported & supplied officially.
-     [*]Un-official translations are available up-to-date (French, Turkish) & more translations by the way.
-     [*]Staff reports sent only if there's punished posts.
+     [*]Multiple translations are available (Arabic, English, French, German, Greek, Turkish, Spanish .. and counting!).
 [/LIST]
 
 
 [U][B]Technical Notes:[/B][/U]
 [LIST]
-     [B][I]
      [*][COLOR="DimGray"]New Plugins:[/COLOR] 1
-     [*][COLOR="DimGray"]New Phrases:[/COLOR] 100
+     [*][COLOR="DimGray"]New Phrases:[/COLOR] 109
      [*][COLOR="dimgray"]New Templates:[/COLOR] 0
      [*][COLOR="dimgray"]Manual Template changes:[/COLOR] 0
      [*][COLOR="dimgray"]Auto Template changes:[/COLOR] 0
      [*][COLOR="dimgray"]New Files:[/COLOR] 3
      [*][COLOR="dimgray"]Manual File Changes:[/COLOR] 0
-     [*][COLOR="dimgray"]New vBulletin Settings:[/COLOR] 31
+     [*][COLOR="dimgray"]New vBulletin Settings:[/COLOR] 32
      [*][COLOR="dimgray"]New Usergroup Permissions:[/COLOR] 0
      [*][COLOR="dimgray"]New Moderator Permissions:[/COLOR] 0
      [*][COLOR="dimgray"]New Administrator Permissions:[/COLOR] 0
@@ -552,7 +595,6 @@ This is a human-readable summary of the Legal Code (the full license).
      --------------------------------
      [*][COLOR="dimgray"]Installation Level:[/COLOR] V.Easy
      [*][COLOR="dimgray"]Installation Time:[/COLOR] ~20 seconds
-     [/I][/B]
 [/LIST]
 
 
