@@ -130,11 +130,11 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 
 			$links = phpkd_vblvb_fetch_urls($post['pagetext']);
 
-			$links['ignored'] = $links['all'] - ($links['alive'] + $links['dead']);
-			$log .= $links['log'] . construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['ignored']) . '</li>';
+			$links['ignored'] = $links['all'] - ($links['alive'] + $links['dead'] + $links['down']);
+			$log .= $links['log'] . construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['down'], $links['ignored']) . '</li>';
 			if (defined('IN_CONTROL_PANEL'))
 			{
-				echo (($links['all'] == 0) ? $links['log'] : '') . construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['ignored']) . '</li>';
+				echo (($links['all'] == 0) ? $links['log'] : '') . construct_phrase($vbphrase['phpkd_vblvb_log_summery'], $links['all'], $links['checked'], $links['alive'], $links['dead'], $links['down'], $links['ignored']) . '</li>';
 				vbflush();
 			}
 
