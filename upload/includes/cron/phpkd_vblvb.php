@@ -175,7 +175,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 
 	if (is_array($punished) AND count($punished) > 0)
 	{
-		$log .= $vbphrase['phpkd_vblvb_log_punished_posts'] . '<ol class="smallfont">' . $logpunished . '</ol>';
+		$log .= $vbphrase['phpkd_vblvb_log_punished_posts'] . '<ol class="smallfont">' . $logpunished . '</ol><br />';
 		if (defined('IN_CONTROL_PANEL'))
 		{
 			echo $vbphrase['phpkd_vblvb_log_punished_posts'] . '<ol class="smallfont">' . $logpunished . '</ol><br />';

@@ -208,7 +208,7 @@ $vbulletin->db->show_errors();]]></uninstallcode>
 		</phrasetype>
 		<phrasetype name="Scheduled Tasks" fieldname="cron">
 			<phrase name="task_phpkd_vblvb_desc" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[This script check posts against dead links.]]></phrase>
-			<phrase name="task_phpkd_vblvb_log" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[Links Verification Completed!]]></phrase>
+			<phrase name="task_phpkd_vblvb_log" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Executed!]]></phrase>
 			<phrase name="task_phpkd_vblvb_title" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
 		</phrasetype>
 		<phrasetype name="Error Messages" fieldname="error">
