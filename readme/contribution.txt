@@ -10,7 +10,7 @@
 
 
 [B]Name:[/B] PHPKD - vB Link Verifier Bot 'Lite'
-[B]Version:[/B] 4.0.120
+[B]Version:[/B] 4.0.130
 
 [B]Description:[/B] This product extract sharing links (Rapidshare, Megaupload, Zshare, Adrive, Depositfiles, Filefactory, ...etc) from posts, then verifies them; If they're "Alive" the post will pass, otherwise the post will be punished (Fully Customizable).
 

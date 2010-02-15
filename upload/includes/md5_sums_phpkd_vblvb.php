@@ -1,8 +1,8 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.120 # ||
-|| # License Type: Free License                                   $Revision$ # ||
+|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.130 # ||
+|| # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
 || #            Copyright ©2005-2010 PHP KingDom. All Rights Reserved.            # ||
@@ -24,12 +24,12 @@ $md5_sums = array(
 	),
 );
 $md5_sum_softwareid = 'phpkd_vblvb';
-$md5_sum_versions['phpkd_vblvb'] = '4.0.120';
+$md5_sum_versions['phpkd_vblvb'] = '4.0.130';
 
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.120
+|| # Version: 4.0.130
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||
