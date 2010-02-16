@@ -533,7 +533,7 @@ Translations:
 Technical Notes:
 ~~~~~~~~~~~~~~~~~
      * New Plugins: 1
-     * New Phrases: 109
+     * New Phrases: 107
      * New Templates: 0
      * Manual Template changes: 0
      * Auto Template changes: 0
