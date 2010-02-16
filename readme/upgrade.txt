@@ -7,7 +7,6 @@ Installation Procedure:
 	     functions_phpkd_vblvb.php
 	     md5_sums_phpkd_vblvb.php
 
-
      2. Import the product's XML file "product-phpkd_vblvb.xml" from AdminCP (allow overwrite).
 
      3. [Optional] Configure product's settings.
