@@ -162,6 +162,11 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 	else
 	{
 		$log .= $vbphrase['phpkd_vblvb_nothing_checked'];
+		if (defined('IN_CONTROL_PANEL'))
+		{
+			print_stop_message('phpkd_vblvb_nothing_checked');
+			vbflush();
+		}
 	}
 	$vbulletin->db->free_result($posts);
 
