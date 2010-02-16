@@ -397,15 +397,14 @@
 		[/LIST]
 	[/LIST]
      [*]Import the product's XML file "product-phpkd_vblvb.xml" from AdminCP.
-     [*]Configure the product's settings.
-     [*]You're Done :).
-
+     [*]Configure product's settings.
      [*][Optional] Translations: vBulletin AdminCP » Languages & Phrases » Download / Upload Languages » Import Language XML File (Make sure that your forum's Character Set is equivalent to the imported language as follow):
 	[LIST]
 	     [*]English, French, German, Spanish » ISO-8859-1
 	     [*]Greek » ISO-8859-7
 	     [*]You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using [URL="http://www.elfdata.com/encodingmaster/"]Encoding Master[/URL].
 	[/LIST]
+     [*]You're Done :).
 [/LIST]
 
 
@@ -553,6 +552,7 @@ This is a human-readable summary of the Legal Code (the full license).
 	[*]Optimization: Always send staff reports regardless there's checked/punished posts or not.
 	[*]Optimization: Multiple tweaks and optimizations to the product's core.
 	[*]New Feature: Ability to determine forums inclusion/execlusion mode.
+	[*]New: Added three translations to the product's package (French, Greek, Spanish).
 	[*][URL="http://forum.phpkd.net/project.php?issueid=46"]Updated the following hosts:[/URL]
 		[LIST=1]
 		[*]depositfiles.com

@@ -497,7 +497,8 @@ History:
 	+ Optimization: Display punished posts report within manual cronjob run report (http://forum.phpkd.net/project.php?issueid=50).
 	+ Optimization: Always send staff reports regardless there's checked/punished posts or not.
 	+ Optimization: Multiple tweaks and optimizations to the product's core.
-	+ New Feature: Ability to determine forums inclusion/execlusion mode.
+	+ New Feature: Ability to determine forums inclusion/exclusion mode.
+	+ New: Added three translations to the product's package (French, Greek, Spanish).
 	+ Updated the following hosts:
        1. depositfiles.com
        2. easy-share.com
