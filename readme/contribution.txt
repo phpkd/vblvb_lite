@@ -382,6 +382,20 @@
 [/LIST]
 
 
+[U][B]Translations:[/B][/U]
+[LIST]
+     [*]Arabic
+     [*]English
+     [*]French
+     [*]German
+     [*]Greek
+     [*]Turkish
+     [*]Spanish
+     [*][COLOR="Red"][SIZE="1"].. and counting![/SIZE][/COLOR]
+     [*][COLOR="Blue"][SIZE="1"]Submit new translation & get free 'Ultimate' edition![/SIZE][/COLOR]
+[/LIST]
+
+
 [U][B]Installation Procedure:[/B][/U]
 [LIST=1]
      [*]Upload required files to their appropriate places:
@@ -573,20 +587,6 @@ This is a human-readable summary of the Legal Code (the full license).
 [U][B]Screen Shots:[/B][/U]
 [LIST]
      [*]Available down there.
-[/LIST]
-
-
-[U][B]Translations:[/B][/U]
-[LIST]
-     [*]Arabic
-     [*]English
-     [*]French
-     [*]German
-     [*]Greek
-     [*]Turkish
-     [*]Spanish
-     [*].. and counting!
-     [*]Submit new translation & get free 'Ultimate' edition!
 [/LIST]
 
 

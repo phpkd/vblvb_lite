@@ -344,6 +344,19 @@ Features:
 		+ User Email Reports: [Report Title] [Report Body] (Ultimate Edition Only)
 
 
+Translations:
+~~~~~~~~~~~~~~~~~
+     * Arabic
+     * English
+     * French
+     * German
+     * Greek
+     * Turkish
+     * Spanish
+     * .. and counting!
+     * Submit new translation & get free 'Ultimate' edition!
+
+
 Installation Procedure:
 ~~~~~~~~~~~~~~~~~~~~~~~~
      1. Upload required files to their appropriate places:
@@ -515,19 +528,6 @@ History:
 Screen Shots:
 ~~~~~~~~~~~~~~
      * Available in the screenshots folder.
-
-
-Translations:
-~~~~~~~~~~~~~~~~~
-     * Arabic
-     * English
-     * French
-     * German
-     * Greek
-     * Turkish
-     * Spanish
-     * .. and counting!
-     * Submit new translation & get free 'Ultimate' edition!
 
 
 Technical Notes:
