@@ -5,9 +5,9 @@
 	<description><![CDATA[This product extract sharing links (Rapidshare, Megaupload, Zshare, Adrive, Depositfiles, Filefactory, ...etc) from posts, then verifies them; If they're "Alive" the post will pass, otherwise the post will be punished (Fully Customizable).]]></description>
 	<version>4.0.130</version>
 	<vendor><![CDATA[$Vendor: PHP KingDom $]]></vendor>
-	<author><![CDATA[$Author$]]></author>
-	<revision><![CDATA[$Revision$]]></revision>
-	<released><![CDATA[$Date$]]></released>
+	<author><![CDATA[$Author: phpkdacp $]]></author>
+	<revision><![CDATA[$Revision: 119 $]]></revision>
+	<released><![CDATA[$Date: 2010-02-16 12:05:07 +0200 (Tue, 16 Feb 2010) $]]></released>
 	<url><![CDATA[http://tools.phpkd.net/en/producthelp/url/vblvb/]]></url>
 	<versioncheckurl><![CDATA[http://tools.phpkd.net/en/producthelp/version/vblvb/]]></versioncheckurl>
 	<extradetails><![CDATA[http://tools.phpkd.net/en/producthelp/info/vblvb/]]></extradetails>
