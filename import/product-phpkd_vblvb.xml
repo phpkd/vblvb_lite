@@ -431,7 +431,6 @@ $options = construct_forum_chooser_options(1);</optioncode>
 			</setting>
 			<setting varname="phpkd_vblvb_powerful_ugids" displayorder="200">
 				<datatype>free</datatype>
-				<defaultvalue>6</defaultvalue>
 			</setting>
 			<setting varname="phpkd_vblvb_hosts_depositfiles_com" displayorder="210">
 				<datatype>boolean</datatype>
