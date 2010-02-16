@@ -153,3 +153,5 @@ Select "Include All Forums" to check all forums' posts, or select "Include Speci
 		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
 	</phrasetype>
 </language>
+
+<!-- SVN: $Version: 4.0.130 $ - $Id: cpnav_phpkd_vblvb.xml 115 2010-02-14 13:33:31Z phpkdacp $ -->

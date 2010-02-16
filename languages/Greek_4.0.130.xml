@@ -153,3 +153,5 @@
 		<phrase name="settinggroup_phpkd_vblvb" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[PHPKD - Σύνδεσμος Επαληθευτή Bot 'Lite']]></phrase>
 	</phrasetype>
 </language>
+
+<!-- SVN: $Version: 4.0.130 $ - $Id: cpnav_phpkd_vblvb.xml 115 2010-02-14 13:33:31Z phpkdacp $ -->
