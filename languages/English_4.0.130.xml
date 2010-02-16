@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<language name="MASTER LANGUAGE" vbversion="4.0.1" product="phpkd_vblvb" type="master">
+	<skippedgroups>
+		<skippedgroup>cphelptext</skippedgroup>
+	</skippedgroups>
+	<phrasetype name="Control Panel Options" fieldname="cpoption">
+		<phrase name="phpkd_vblvb_checked_existingposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[All Posts (Thread's First Post + All Replies)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_existingposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[First Post Only (Only Thread's First Post)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[All New Posts (Threads & Replies)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Only New Threads (Just Thread's Header/First Post)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_none" date="1256564517" username="PHPKD" version="4.0.101"><![CDATA[None]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_lastx" date="1254889566" username="PHPKD" version="4.0.101"><![CDATA[Last X Days]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_specific" date="1254889584" username="PHPKD" version="4.0.101"><![CDATA[Specific date]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_depositfiles_com" date="1254985505" username="PHPKD" version="4.0.101"><![CDATA[Depositfiles.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_easy_share_com" date="1254985523" username="PHPKD" version="4.0.101"><![CDATA[Easy-Share.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_filefactory_com" date="1254985561" username="PHPKD" version="4.0.101"><![CDATA[Filefactory.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_mediafire_com" date="1254985637" username="PHPKD" version="4.0.101"><![CDATA[Mediafire.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_megaupload_com" date="1254988551" username="PHPKD" version="4.0.101"><![CDATA[Megaupload.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_netload_in" date="1254988915" username="PHPKD" version="4.0.101"><![CDATA[NETLOAD.in]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_com" date="1254988632" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_de" date="1254988636" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.de]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_sendspace_com" date="1254988734" username="PHPKD" version="4.0.101"><![CDATA[Sendspace.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_zshare_net" date="1254988886" username="PHPKD" version="4.0.101"><![CDATA[zSHARE.com]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include All Forums]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_ex" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Exclude Specific Forums]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_in" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include Specific Forums]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators" date="1256311007" username="PHPKD" version="4.0.101"><![CDATA[Send Reports To Moderators Only]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators_and_administrators" date="1256310989" username="PHPKD" version="4.0.101"><![CDATA[Send Reports To Moderators & Administrators]]></phrase>
+	</phrasetype>
+	<phrasetype name="Scheduled Tasks" fieldname="cron">
+		<phrase name="task_phpkd_vblvb_desc" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[This script check posts against dead links.]]></phrase>
+		<phrase name="task_phpkd_vblvb_log" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Executed!]]></phrase>
+		<phrase name="task_phpkd_vblvb_title" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
+	</phrasetype>
+	<phrasetype name="Error Messages" fieldname="error">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266127622" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_newpost" date="1256546122" username="PHPKD" version="4.0.101"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+	</phrasetype>
+	<phrasetype name="GLOBAL" fieldname="global">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1264021868" username="PHPKD" version="4.0.120"><![CDATA[Criteria doesn't met any matches for this post.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Checked Hosts" first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_active" date="1256670134" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: green; font-weight: bold">Active:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_dead" date="1256670327" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: red; font-weight: bold">Dead:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_down" date="1256670279" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: orange; font-weight: bold">Temporary Down:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_punished_posts" date="1256667940" username="PHPKD" version="4.0.101"><![CDATA[<strong>Punished Posts:</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_log_summery" date="1256737712" username="PHPKD" version="4.0.101"><![CDATA[<strong>Summery: All Links: {1}, <span style="color: blue">Checked Links: {2}</span>, <span style="color: green">Alive: {3}</span>, <span style="color: red">Dead: {4}</span>, Ignored: {5}.</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1266074342" username="PHPKD" version="4.0.130"><![CDATA[Nothing to check, no records returned from your query. Please check <a href="options.php?do=options&dogroup=phpkd_vblvb">product's settings</a> first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_message" date="1256556785" username="PHPKD" version="4.0.101"><![CDATA[{1}]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_title" date="1256556790" username="PHPKD" version="4.0.101"><![CDATA[Link Verifier Bot Report: {1} {2}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_message" date="1256560375" username="PHPKD" version="4.0.101"><![CDATA[Hello {1},
+
+
+Recently, our "Link Verifier Bot" has detected some dead links within some of your posts, those dead links exceeds the critical limit that administration has set for posts. So that, those posts containing exceeding dead links has been punished.
+
+[B]Punished Posts:[/B]
+{2}
+
+Please [URL="{3}"]contact administration[/URL] for further information.
+
+
+Best Regards
+{4}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_title" date="1256557527" username="PHPKD" version="4.0.101"><![CDATA[Link Verifier Bot Report: {1} {2}]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+		<phrase name="setting_phpkd_vblvb_active_desc" date="1254750256" username="PHPKD" version="4.0.101"><![CDATA[Choose whether the product "PHPKD - Link Verifier Bot 'Lite'" is active or not.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_active_title" date="1254750256" username="PHPKD" version="4.0.101"><![CDATA[Product Active]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Which posts do you wish to check against dead links? You can choose between checking "All Posts" or checking only "First Post from each thread".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Existing Posts: What to check?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Which new posts do you wish to check against dead links? You can choose between checking "All New Posts" or checking only "New Threads" (thread's header, without replies).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[New Posts: What to check?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_desc" date="1262357136" username="PHPKD" version="4.0.101"><![CDATA[Checked posts may contain dead links, you can control when posts should be punished because of high percentage of dead links within it. Just enter the Red Line percentage here as a positive integer value (without any symbols). This critical Limit/Red Line is the maximum percentage that dead links can represent from all links available per post.<br /><br />
+<strong>Examples:</strong> If you enter "10", that means 10% only of dead links allowed per post (And 90% alive), if that post contains more than that percentage of dead links from all links, then it will be flagged; this way it can be punished by the way you specify in the settings below. If the post has less than 10% of dead links then it will pass as valid without punishment.<br /><br />
+<strong>Please note</strong> that "0" means that all links per post should be valid & alive (no dead links allowed, if just one link is dead the post will be flagged); While "100" means the opposite, it means that all links per post should be dead to be flagged, that means if there is only one link alive & the rest are dead, the post will pass as valid without punishment.<br /><br />
+<strong>Note Also:</strong> If any post has only 5 links within it to be checked, then that means each link represents 20% from the whole checked links. This means also if only one link is dead & you've set this setting to '10%' the expression will evaluate as true & will punish that post since it has 20% dead links.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_title" date="1262357136" username="PHPKD" version="4.0.101"><![CDATA[Critical Limit/Red Line]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_desc" date="1254891214" username="PHPKD" version="4.0.101"><![CDATA[You can force this product to process only posts in a specific time frame.<br />
+You've two modes to choose from:<br />
+<strong>"Specific Date":</strong> This mode will check all posts posted after that specific date.<br />
+<strong>"Last X Days":</strong> This mode will check all posts posted only in the last X days.<br />
+After choosing your preferred mode, you've to enter the appropriate value either it's for "Specific Date" OR "Last X Days" in the following setting.<br /><br />
+<em><u>If you don't wish to use the Cutoff feature then enter "0" in the following setting's field "Time/Date Cutoff Value".</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_title" date="1254891214" username="PHPKD" version="4.0.101"><![CDATA[Time/Date Cutoff Mode]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_desc" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[If you wish to force this product to process only posts in a specific time frame, then choose your preferred mode in the above setting, then enter the appropriate value here in this setting's field according to the following definition:<br />
+<strong>"Specific Date"</strong>: Enter a correct date in the format (yyyy-mm-dd) to check posts posted after it.<br />
+<strong>"Last X Days"</strong>: Enter a correct positive integer value for that period in days to check posts posted within last X days.<br /><br />
+<em><u>If you don't wish to use the Cutoff feature then enter "0" in this setting's field.</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_title" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[Time/Date Cutoff Value]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_desc" date="1264030402" username="PHPKD" version="4.0.120"><![CDATA[Are you looking for dedicated support, feature feature request, bug report and/or any other inquiry?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_title" date="1264030402" username="PHPKD" version="4.0.120"><![CDATA[Help & Support]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_desc" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>depositfiles.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_title" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: depositfiles.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_desc" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>easy-share.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_title" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: easy-share.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_desc" date="1256673998" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>filefactory.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_title" date="1256673998" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: filefactory.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_desc" date="1256674007" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>mediafire.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_title" date="1256674007" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: mediafire.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_desc" date="1256668899" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>megaupload.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_title" date="1256668899" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: megaupload.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_desc" date="1256668924" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>netload.in</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_title" date="1256668924" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: netload.in]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_desc" date="1256668953" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>rapidshare.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_title" date="1256668953" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: rapidshare.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_desc" date="1256668972" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>rapidshare.de</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_title" date="1256668972" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: rapidshare.de]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_desc" date="1256669001" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>sendspace.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_title" date="1256669001" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: sendspace.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_desc" date="1256669048" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>zshare.net</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_title" date="1256669048" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: zshare.net]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.<br />
+You've three options to choose from:<br />
+<ul>
+	<li><strong>Include All Forums</strong></li>
+	<li><strong>Include Specific Forums</strong></li>
+	<li><strong>Exclude Specific Forums</strong></li>
+</ul>
+Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts <strong>except</strong> those specific forums' posts -defined in the following setting-.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to enter their IDs here in this setting separated by commas ','.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Included/Excluded Forums]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include/Exclude Forums]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_desc" date="1262356373" username="PHPKD" version="4.0.101"><![CDATA[Commonly, it's recommended to set a specific number of posts to process in each turn to prevent any possible timeout or Memory/CPU exhausting during the execution process. <strong>A Lower Value usually recommended specially for boards that has long posts containing many links. There's other important factors that have strong affect also such as: <span class="diff-changed">"Time/Date Cutoff Mode" & "Time/Date Cutoff Value", "Existing Posts: What to check?", "Maximum Links to check per post", "Check Succession Period"</span>; So please take care & try to set a logical value for each of these settings/options or you may result in unexpected results; Such as checking only the first X number of posts in the forum & re-check them again without shifting to other posts. You're the one who knows your board & you're the one who can determine which suits you & your board according to your board's activity/content/requirements.</strong> Enter "0" for UNLIMITED!]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_title" date="1262356373" username="PHPKD" version="4.0.101"><![CDATA[Posts To Check in Each Batch]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1262356685" username="PHPKD" version="4.0.101"><![CDATA[How many links you do wish to check per post? If any post contains more than that defined limit, then those 'over limit' links will be ignored & will not be checked; only the first X links (as defined here) will be checked against dead links. Enter "0" for UNLIMITED.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1262356685" username="PHPKD" version="4.0.101"><![CDATA[Maximum Links to check per post]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_desc" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[You've the ability to control/localize the content used in automated messages & reports sent to staff & users.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_title" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[Used Phrases]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_desc" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[Powerful User Groups are those user groups that can override/overcome the "Critical Limit/Red Line" & force their posts to be posted despite of having dead links. Please enter User Group IDs separated by commas.<br /><br />
+<strong>Note:</strong> This powerful ability doesn't affect only posts for those powerful user groups, but affects also any post for any user that's edited by those powerful user groups. It means they can overcome limits when posting & when editing others posts (They should have permissions of course).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_title" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[Powerful User Groups]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_desc" date="1255178933" username="PHPKD" version="4.0.101"><![CDATA[If you've chosen to punish dead posts by moving threads, so you've to determine "Recycle Bin Forum" from here. Those punished dead posts will be auto moved to this "Recycle Bin Forum".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_title" date="1255178933" username="PHPKD" version="4.0.101"><![CDATA[Punishment Recycle Bin Forum]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_desc" date="1256673957" username="PHPKD" version="4.0.101"><![CDATA[You may want to punish posts that has dead links exceeding the critical limit by moving to "Recycle Bin Forum". If so, then choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_title" date="1256673957" username="PHPKD" version="4.0.101"><![CDATA[Punishment Method for Dead posts: Move to Recycle Bin]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_desc" date="1255090673" username="PHPKD" version="4.0.101"><![CDATA[If you've chosen to post reports as new threads, so you've to determine that forum from here.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_title" date="1255090673" username="PHPKD" version="4.0.101"><![CDATA[Report Forum]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_desc" date="1262356161" username="PHPKD" version="4.0.101"><![CDATA[Reports (1. Sent as PMs to staff and/or to normal users, 2. Posted as replies or threads) upon script run needs a valid staff member username to use as a sender & poster for these reports. Please enter the valid specified staff username here in this setting's field. Note: If this username is invalid or doesn't has appropriate permissions, then all "PM/Reply/Thread Reports" will be terminated & will not function until it's corrected.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_title" date="1262356161" username="PHPKD" version="4.0.101"><![CDATA[Reports Handler Staff User]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_desc" date="1262355983" username="PHPKD" version="4.0.101"><![CDATA[If you've chosen to send reports to staff as "PMs", then you've the ability to select which staff should receive these reports.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_title" date="1262355983" username="PHPKD" version="4.0.101"><![CDATA[Sending Reports To Staff]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_desc" date="1256659107" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, it's possible to auto send the final report to staff as a private message.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_title" date="1256659107" username="PHPKD" version="4.0.101"><![CDATA[Staff Reports: Private Messages]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_desc" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, it's possible to auto create a new thread with the final report so staff can view it.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_title" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[Staff Reports: Create Thread]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_desc" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, if there is punished posts: it's possible to auto send a simple report to their authors as a private message telling them that some of their posts has dead links.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_title" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[User Reports: Private Message]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1262357279" username="PHPKD" version="4.0.101"><![CDATA[You can determine the separating time period between successive checks for same posts, so those "checked recently" posts don't be checked every time the script runs. If you wish you can force posts to be checked multiple times, but with at least 1 day between each two successive checks. Enter how many days you wish to separate each two successive checks here, or enter "0" to disable this feature. Note: "7" means your posts will be checked every seven days, those checked posts will not be checked again before seven days has been passed from the last check, "0" means that checked posts will be checked just once. <strong>A Higher Value usually recommended specially for large boards.</strong>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1262357279" username="PHPKD" version="4.0.101"><![CDATA[Check Succession Period]]></phrase>
+		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
+	</phrasetype>
+</language>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<language name="MASTER LANGUAGE" vbversion="4.0.1" product="phpkd_vblvb" type="master">
+	<skippedgroups>
+		<skippedgroup>cphelptext</skippedgroup>
+	</skippedgroups>
+	<phrasetype name="Control Panel Options" fieldname="cpoption">
+		<phrase name="phpkd_vblvb_checked_existingposts_all" date="1266301410" username="PHPKD" version="4.0.130"><![CDATA[¼ëá ôá ìçíýìáôá (Ðñþôï ìÞíõìá + áðáíôÞóåéò)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_existingposts_first" date="1266301418" username="PHPKD" version="4.0.130"><![CDATA[Ðñþôï ìÞíõìá ìüíï (Ðñþôï ìÞíõìá èÝìáôïò)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_all" date="1266301489" username="PHPKD" version="4.0.130"><![CDATA[¼ëá ôá íÝá ìçíýìáôá (ÈÝìáôá êáé áðáíôÞóåéò)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_first" date="1266301495" username="PHPKD" version="4.0.130"><![CDATA[Ìüíï íÝá èÝìáôá (Ìüíï ôï ðñþôï ìÞíõìá)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_none" date="1256564517" username="PHPKD" version="4.0.101"><![CDATA[ÊáíÝíá]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_lastx" date="1254889566" username="PHPKD" version="4.0.101"><![CDATA[Ôåëåõôáßåò × çìÝñåò]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_specific" date="1254889584" username="PHPKD" version="4.0.101"><![CDATA[ÓõãêåêñéìÝíåò ìÝñåò]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_depositfiles_com" date="1254985505" username="PHPKD" version="4.0.101"><![CDATA[Depositfiles.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_easy_share_com" date="1254985523" username="PHPKD" version="4.0.101"><![CDATA[Easy-Share.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_filefactory_com" date="1254985561" username="PHPKD" version="4.0.101"><![CDATA[Filefactory.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_mediafire_com" date="1254985637" username="PHPKD" version="4.0.101"><![CDATA[Mediafire.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_megaupload_com" date="1254988551" username="PHPKD" version="4.0.101"><![CDATA[Megaupload.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_netload_in" date="1254988915" username="PHPKD" version="4.0.101"><![CDATA[NETLOAD.in]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_com" date="1254988632" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_de" date="1254988636" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.de]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_sendspace_com" date="1254988734" username="PHPKD" version="4.0.101"><![CDATA[Sendspace.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_zshare_net" date="1254988886" username="PHPKD" version="4.0.101"><![CDATA[zSHARE.com]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_all" date="1266297673" username="PHPKD" version="4.0.130"><![CDATA[ÐåñéÝëáâå üëá ôá öüñá]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_ex" date="1266297684" username="PHPKD" version="4.0.130"><![CDATA[Áðüêëåéóå óõãêåêñéìÝíá öüñá]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_in" date="1266297695" username="PHPKD" version="4.0.130"><![CDATA[Ìüíï óõãêåêñéìÝíá öüñá]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators" date="1256311007" username="PHPKD" version="4.0.101"><![CDATA[ÁðïóôïëÞ áíáöïñÜò óôïõò Moderator ìüíï]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators_and_administrators" date="1256310989" username="PHPKD" version="4.0.101"><![CDATA[ÁðïóôïëÞ ôùí åêèÝóåùí óôïõò åðüðôåò & Äéá÷åéñéóôÝò]]></phrase>
+	</phrasetype>
+	<phrasetype name="Scheduled Tasks" fieldname="cron">
+		<phrase name="task_phpkd_vblvb_desc" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[Ï êþäéêáò áõôüò åëåã÷åß ôá íåêñÜ Link óôá èÝìáôá.]]></phrase>
+		<phrase name="task_phpkd_vblvb_log" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[ÅðáëÞèåõóç Link ïëïêëçñþèçêå!]]></phrase>
+		<phrase name="task_phpkd_vblvb_title" date="1266295812" username="PHPKD" version="4.0.130"><![CDATA[PHPKD - Óýíäåóìïò ÅðáëçèåõôÞ Bot]]></phrase>
+	</phrasetype>
+	<phrasetype name="Error Messages" fieldname="error">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266303880" username="PHPKD" version="4.0.130"><![CDATA[¸÷åéò äéáëÝîåé íá ìçí åëåã÷ôïýí ôá Þäç õðÜñ÷ïí ìçíýìáôá. Êïßôá <a href="options.php?do=options&dogroup=phpkd_vblvb">îáíÜ ôç ñýèìéóç</a> "ÕðÜñ÷ïíôá ìçíýìáôá: Ôé íá åëÝãîù?" êáé åíåñãïðïßçóå ôçí.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Ôá êñéôÞñéá äåí âñßóêïõí êÜðïéá áíôéóôïé÷åßá ãéá áõôü ôï ìÞíõìá.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266303394" username="PHPKD" version="4.0.130"><![CDATA[Óõããíþìç, äåí åðéëÝãïíôáé ïéêïäåóðüôåò ðïõ ðñÝðåé íá åëÝã÷ïíôáé! Èá ðñÝðåé íá åðéëÝîåôå ôïõëÜ÷éóôïí Ýíá êñÜôïò íá åëÝã÷åé, ðáñáêáëþ ðïõ öéëïîåíåß ôçí åðéëïãÞ óáò áðü ôï <a href="options.php?do=options&dogroup=phpkd_vblvb">ðñïúüí</a>, ðïõ ðñïóäéïñßæïõí ðñþôá êáé ðñïóðáèÞóôå îáíÜ.]]></phrase>
+		<phrase name="phpkd_vblvb_newpost" date="1256546122" username="PHPKD" version="4.0.101"><![CDATA[ÕðÜñ÷ïõí íåêñÜ èÝìáôá ìÝóá óôï èÝìá óïõ! Ðáñáêáëþ Ýëåãîå ôá.]]></phrase>
+	</phrasetype>
+	<phrasetype name="GLOBAL" fieldname="global">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266303880" username="PHPKD" version="4.0.130"><![CDATA[¸÷åéò äéáëÝîåé íá ìçí åëåã÷ôïýí ôá Þäç õðÜñ÷ïí ìçíýìáôá. Êïßôá <a href="options.php?do=options&dogroup=phpkd_vblvb">îáíÜ ôç ñýèìéóç</a> "ÕðÜñ÷ïíôá ìçíýìáôá: Ôé íá åëÝãîù?" êáé åíåñãïðïßçóå ôçí.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1263436144" username="PHPKD" version="4.0.110"><![CDATA[Ôá êñéôÞñéá äåí âñßóêïõí êÜðïéá áíôéóôïé÷åßá ãéá áõôü ôï ìÞíõìá.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266303394" username="PHPKD" version="4.0.130"><![CDATA[Óõããíþìç, äåí åðéëÝãïíôáé ïéêïäåóðüôåò ðïõ ðñÝðåé íá åëÝã÷ïíôáé! Èá ðñÝðåé íá åðéëÝîåôå ôïõëÜ÷éóôïí Ýíá êñÜôïò íá åëÝã÷åé, ðáñáêáëþ ðïõ öéëïîåíåß ôçí åðéëïãÞ óáò áðü ôï <a href="options.php?do=options&dogroup=phpkd_vblvb">ðñïúüí</a>, ðïõ ðñïóäéïñßæïõí ðñþôá êáé ðñïóðáèÞóôå îáíÜ.]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_active" date="1256670151" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: green; font-weight: bold">ÅíåñãÜ:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_dead" date="1256670335" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: red; font-weight: bold">ÍåêñÜ:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_down" date="1256670279" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: orange; font-weight: bold">ÐñïóùñéíÜ ÍåêñÜ:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_punished_posts" date="1256667949" username="PHPKD" version="4.0.101"><![CDATA[<strong>ÔéìùñçìÝíá ìçíýìáôá:</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_log_summery" date="1256737708" username="PHPKD" version="4.0.101"><![CDATA[<strong>ÓõìðÝñáóìá: ÓõíïëéêÜ Link: {1}, <span style="color: blue">ÅëÝãèçêáí: {2}</span>, <span style="color: green">ÆùíôáíÜ: {3}</span>, <span style="color: red">ÍåêñÜ: {4}</span>, ÁãíïÞèçêáí: {5}.</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1266304353" username="PHPKD" version="4.0.130"><![CDATA[Äåí Ý÷åé ôßðïôá íá åëÝãîåôå, äåí åããñáöÝò åðÝóôñåøå áðü ôï åñþôçìÜ óáò. <a href="options.php?do=options&dogroup=phpkd_vblvb">Ðáñáêáëþ åëÝãîôå ôéò ñõèìßóåéò ôïõ ðñïúüíôïò ðñþôï êáé ðñïóðáèÞóôå îáíÜ.</a>]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_message" date="1256556785" username="PHPKD" version="4.0.101"><![CDATA[{1}]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_title" date="1266295822" username="PHPKD" version="4.0.130"><![CDATA[Óýíäåóìïò ÅðáëçèåõôÞ Bot ÁíáöïñÜ: {1} {2}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_message" date="1256560375" username="PHPKD" version="4.0.101"><![CDATA[ÊáëçóðÝñá {1},
+
+
+Ðñüóöáôá, ôï ðñüãñáììá áíß÷íåõóçò äéáãñáììÝíùí link áíß÷íåõóå  ìåñéêÜ íåêñÜ link óå ìåñéêÜ èÝìáôÜ óïõ. Ôá óõãêåêñéìÝíá Link îåðÝñáóáí ôï êñßóéìï üñéï üðïõ ï äéá÷åéñéóôÞò Ý÷åé ïñßóåé! ¸ôóé, ôá óõãêåêñéìÝíá èÝìáôá Ý÷ïõí ôéìùñçèåß.
+
+[B]ÔéìùñçìÝíá èÝìáôá:[/B]
+{2}
+
+Ðáñáêáëþ [URL="{3}"]åðéêïéíùíÞóôå[/URL] ìå ôçí ïìÜäá äéá÷åßñçóçò ãéá ðëçñïöïñßåò.
+
+
+Ìå åêôßìçóç,
+{4}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_title" date="1266295855" username="PHPKD" version="4.0.130"><![CDATA[Óýíäåóìïò ÅðáëçèåõôÞ Bot ÁíáöïñÜ: {1} {2}]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+		<phrase name="setting_phpkd_vblvb_active_desc" date="1266295776" username="PHPKD" version="4.0.130"><![CDATA[ÄéÜëåîå áí ôï ðñïúüí "PHPKD - Óýíäåóìïò ÅðáëçèåõôÞ Bot" åßíáé åíåñãü Þ ü÷é.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_active_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[Ðñïúïí Åíåñãü]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_desc" date="1266301438" username="PHPKD" version="4.0.130"><![CDATA[Ðïéá ìçíýìáôá èåò íá åëÝãîåéò ãéá íåêñÜ links? Ìðïñåßò íá äéáëÝîåéò áíÜìåóá óôá: "¼ëá ôá ìçíýìáôá" Þ ìüíï "Ðñþôï ìÞíõìá óå êÜèå èÝìá".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_title" date="1266301446" username="PHPKD" version="4.0.130"><![CDATA[ÕðÜñ÷ïí ìçíýìáôá: Ôé íá åëåã÷ôåß?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_desc" date="1266301477" username="PHPKD" version="4.0.130"><![CDATA[Ðïéá íÝá ìçíýìáôá èåò íá åëÝãîåéò ãéá íåêñÜ links? Ìðïñåßò íá äéáëÝîåéò áíÜìåóá óôá: "¼ëá ôá íÝá" Þ "ÍÝá èÝìáôá" (ðñþôï ìÞíõìá).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_title" date="1266301483" username="PHPKD" version="4.0.130"><![CDATA[ÍÝá ìçíýìáôá: Ôé íá åëåã÷ôåß?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[Ïé åëåãìÝíåò èÝóåéò ìðïñïýí íá ðåñéÝ÷ïõí ôéò íåêñÝò óõíäÝóåéò, ìðïñåßôå íá åëÝãîåôå üôáí ïé èÝóåéò ðñÝðåé íá ôéìùñçèïýí ëüãù ôïõ õøçëïý ðïóïóôïý ôùí íåêñþí óõíäÝóåùí ìÝóá óå ôï. Áêñéâþò åéóÜãåôå ôï êüêêéíï ðïóïóôü ãñáììþí åäþ ùò èåôéêÞ áîßá áêÝñáéùí áñéèìþí (÷ùñßò ïðïéáäÞðïôå óýìâïëá). Áõôü ôï êñßóéìï üñéï/ç êüêêéíç ãñáììÞ åßíáé ôï ìÝãéóôï ðïóïóôü ðïõ ïé íåêñÝò óõíäÝóåéò ìðïñïýí íá áíôéðñïóùðåýóïõí áðü üëåò ôéò óõíäÝóåéò äéáèÝóéìåò áíÜ ìÞíõìá.<br /><br />
+<strong>Ðáñáäåßãìáôá:</strong> ÅÜí åéóáãÜãåôå "10", ïé ïðïßïé óçìáßíïõí üôé 10% ìüíï ôùí íåêñþí óõíäÝóåùí åðÝôñåøáí áíÜ èÝóç (êáé 90% æùíôáíÜ), åÜí åêåßíç ç èÝóç ðåñéÝ÷åé ðåñéóóüôåñï áðü åêåßíï ôï ðïóïóôü ôùí íåêñþí óõíäÝóåùí áðü üëåò ôéò óõíäÝóåéò, êáôüðéí áõôü èá óçìáéïóôïëéóôåß áõôüò ï ôñüðïò ìðïñåß íá ôéìùñçèåß áðü ôïí ôñüðï ðïõ äéåõêñéíßæåôå óôéò ôïðïèåôÞóåéò êáôùôÝñù. ÅÜí ç èÝóç íá Ý÷å ëéãüôåñï áðü 10% ôùí íåêñþí óõíäÝóåùí Ýðåéôá èá ðåñÜóåé üðùò Ýãêõñç ÷ùñßò ôéìùñßá. <br /><br />
+<strong>Ðáñáêáëþ óçìåéþóôå:</strong> üôé "0" óçìáßíïõí üôé üëåò ïé óõíäÝóåéò áíÜ èÝóç ðñÝðåé íá åßíáé Ýãêõñåò & æùíôáíÝò (êáìßá íåêñÞ óýíäåóç ðïõ åðéôñÝðåôáé, åÜí ìüíï ìéá óýíäåóç åßíáé íåêñÞ ç èÝóç äåí èá óçìáéïóôïëéóôåß) Åíþ "100" óçìáßíïõí ôï áíôßèåôï, óçìáßíåé üôé üëåò ïé óõíäÝóåéò áíÜ èÝóç ðñÝðåé íá åßíáé íåêñÝò ãéá íá óçìáéïóôïëéóôïýí, áõôÞ óçìáßíåé åÜí õðÜñ÷åé ìüíï ìéá óýíäåóç æùíôáíÞ & ôï õðüëïéðï åßíáé íåêñü, ç èÝóç èá ðåñÜóåé üðùò Ýãêõñç ÷ùñßò ôéìùñßá.<br /><br />
+<strong>Óçìåßùóç åðßóçò:</strong> ÅÜí ïðïéáäÞðïôå èÝóç Ý÷åé ìüíï 5 óõíäÝóåéò ìÝóá óå ôï ðïõ åëÝã÷åôáé, êáôüðéí áõôÞ óçìáßíåé üôé êÜèå óýíäåóç áíôéðñïóùðåýåé 20% áðü ïëüêëçñåò ôéò åëåãìÝíåò óõíäÝóåéò. Áõôü óçìáßíåé åðßóçò åÜí ìüíï ìéá óýíäåóç åßíáé íåêñÞ & Ý÷åôå èÝóåé áõôü ôï èÝôïíôáò "10%" ðïõ ç Ýêöñáóç èá áîéïëïãÞóåé ùò áëçèéíüò & èá ôéìùñÞóåé åêåßíç ôçí èÝóç äåäïìÝíïõ üôé Ý÷åé ôéò íåêñÝò óõíäÝóåéò 20%.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¼ñéï/Êüêêéíç ãñáììÞ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[Ìðïñåßò íá áíáãêÜóåéò ôï ðñïúüí íá ôñÝ÷åé óõãêåêñéìÝíåò þñåò.<br />
+¸÷åéò äýï åðéëïãÝò:<br />
+<strong>"ÓõãêåêñéìÝíç ìÝñá":</strong> ÁõôÞ ç ëåéôïõñãßá èá åëåã÷åß ôá ìçíýìáôá ðïõ äçìéïõñãÞèçêáí ìåôÜ ôçí åðéëåãìÝíç çìåñïìçíßá.<br />
+<strong>"Ôåëåõôáßåò × ìÝñåò":</strong> ÁõôÞ ç ëåéôïõñãßá èá åëåã÷åß ôá ìçíýìáôá ðïõ äçìéïõñãÞèçêáí ôéò ôåëåõôáßåò × ìÝñåò.<br />
+Áöïý äéáëÝîåéò ôçí åðéèõìçôÞ ëåéôïõñãßá, ðñÝðåé íá âÜëåéò ôçí êáôÜëëçëç ôéìÞ åßôå ãéá ôçí åðéëïãÞ "ÓõãêåêñéìÝíç ìÝñá" ¹ "Ôåëåõôáßåò X ìÝñåò" óôçí áêüëïõèç ñýèìéóç.<br /><br />
+<em><u>Áí äåí èåò íá ÷ñçóéìïðïéÞóåéò ôçí ëåéôïõñãßá áðïêïðÞò åéóÞãáãå ôï "0" óôçí áêüëïõèç ñýèìéóç "¿ñá/ÌÝñá ÁðïêïðÞ".</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¿ñá/ÌÝñá ÄéáêïðÞò]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÅÜí åðéèõìåßôå íá áíáãêÜóåôå áõôü ôï ðñïúüí ãéá íá åðåîåñãáóôåßôå ìüíï ôéò èÝóåéò óå Ýíá ðëáßóéï óõãêåêñéìÝíïõ ÷ñüíïõ, êáôüðéí åðéëÝîôå ôïí ðñïôéìçìÝíï ôñüðï óáò óôçí áíùôÝñù ñýèìéóç, êáôüðéí åéóÜãåôå ôçí êáôÜëëçëç áîßá åäþ óå áõôüí ôïí èÝôïíôáò ôïìÝá óýìöùíá ìå ôïí áêüëïõèï ïñéóìü:<br />
+<strong>"ÓõãêåêñéìÝíç ìÝñá"</strong>: ÂÜëå ìéá ÷ùóôÞ ìÝñá óå ìïñöÞ (××××-ÌÌ-ÇÇ) ãéá íá åëÝãîåéò ôá ìçíýìáôá ìåôÜ áðü áõôÞ.<br />
+<strong>"Ôåëåõôáßåò × ìÝñåò"</strong>: ÂÜëå ìéá óùóôÞ èåôéêÞ ðïóüôçôá ãéá íá åëÝãîåéò ôá ìçíýìáôá ôéò ôåëåõôáßåò áõôÝò ìÝñåò.<br /><br />
+<em><u>Áí äåí èåò íá ÷ñçóéìïðïéÞóåéò ôçí õðçñåóßá äéáêïðÞò âÜëå "0"</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¿ñá/ÌÝñá äéáêïðÞò]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_desc" date="1266301785" username="PHPKD" version="4.0.130"><![CDATA[ØÜ÷íåôå ôçí áöéåñùìÝíç õðïóôÞñéîç, ôï áßôçìá ÷áñáêôçñéóôéêþí ãíùñéóìÜôùí ÷áñáêôçñéóôéêþí ãíùñéóìÜôùí, ôçí Ýêèåóç æùýöéïõ Þ/êáé ïðïéáäÞðïôå ÜëëçäÞðïôå Ýñåõíá;]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_title" date="1266301785" username="PHPKD" version="4.0.130"><![CDATA[ÂïÞèåéá & ÕðïóôÞñéîç]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>depositfiles.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_title" date="1266306136" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: depositfiles.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>easy-share.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_title" date="1266306144" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: easy-share.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>filefactory.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_title" date="1266306156" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: filefactory.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>mediafire.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_title" date="1266306165" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: mediafire.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>megaupload.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_title" date="1266306174" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: megaupload.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>netload.in</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_title" date="1266306188" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: netload.in]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>rapidshare.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é"".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_title" date="1266306197" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: rapidshare.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>rapidshare.de</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_title" date="1266306208" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: rapidshare.de]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>sendspace.com</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_title" date="1266306220" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: sendspace.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí èåò íá åëÝã÷åéò ôá '<strong>zshare.net</strong>' links, åðÝëåîå "Íáé", áëëéþò åðÝëåîå "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_title" date="1266306227" username="PHPKD" version="4.0.130"><![CDATA[¸ëåã÷ïò ïéêïäåóðüôçò: zshare.net]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_desc" date="1266302360" username="PHPKD" version="4.0.130"><![CDATA[Ìðïñåßôå íá äéåõêñéíßóåôå ïñéóìÝíá öüñïõì ãéá íá åëÝãîåôå ôéò èÝóåéò ôïõò óå ó÷Ýóç ìå ôéò íåêñÝò óõíäÝóåéò, Þ ãéá íá áðïêëåßóåôå Üëëåò ôéò èÝóåéò áðü íá åëåã÷èåßôå êáèüëïõ.<br />
+¸÷åéò ôñåéò åðéëïãÝò:<br />
+<ul>
+	<li><strong>ÅðÝëåîå üëá ôá öüñïõì</strong></li>
+	<li><strong>ÅðÝëåîå óõãêåêñéìÝíá öüñïõì</strong></li>
+	<li><strong>ÁðÝêëåéóå óõãêåêñéìÝíá öüñïõì</strong></li>
+</ul>
+ÅðÝëåîå "ÅðÝëåîå üëá ôá öüñïõì" ãéá íá åëÝã÷åéò üëá ôá öüñïõì' ìçíýìáôá, Þ åðÝëåîå "ÅðÝëåîå óõãêåêñéìÝíá öüñïõì" ãéá íá åëÝãîåéò óõãêåêñéìÝíá öüñïõì' ìçíýìáôá -êáèïñéóìÝíá óôç óõãêåêñéìÝíç ñýèìéóç-, ç åðÝëåîå "ÁðÝêëåéóå óõãêåêñéìÝíá öüñïõì" ãéá íá äéáëÝîåéò üëá ôá öüñïõì êáé ìçíýìáôá <strong>ÅÊÔÏÓ</strong> ôùí óõãêåêñéìÝíùí.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_desc" date="1266302383" username="PHPKD" version="4.0.130"><![CDATA[ÅÜí äéÜëåîåò "ÅðÝëåîå óõãêåêñéìÝíá öüñïõì" ¹ "ÁðÝêëåéóå óõãêåêñéìÝíá öüñïõì" áðü ôçí ðáñáðÜíù ñýèìéóç, ìðïñåßò íá âÜëåéò ôá ID ôïõò åäþ ÷ùñßæïíôáò ôá ìå êüììá ','.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_title" date="1266302383" username="PHPKD" version="4.0.130"><![CDATA[ÅðÝëåîå/ÁðÝêëåéóå öüñá]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_title" date="1266302360" username="PHPKD" version="4.0.130"><![CDATA[ÅðÝëåîå/ÁðÝêëåéóå öüñïõì]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÓõíÞèùò, óõóôÞíåôáé íá ôåèåß Ýíáò óõãêåêñéìÝíïò áñéèìüò èÝóåùí óôç äéáäéêáóßá óå êÜèå óôñïöÞ ãéá íá áðïôñÝøåé ïðïéáäÞðïôå ðéèáíÞ åîÜíôëçóç äéáëåßììáôïò Þ ìíÞìçò/ÊÌÅ êáôÜ ôç äéÜñêåéá ôçò äéáäéêáóßáò åêôÝëåóçò. <strong>Ìéá ÷áìçëüôåñç áîßá ðïõ óõóôÞíåôáé óõíÞèùò åéäéêÜ ãéá ôïõò ðßíáêåò ðïõ Ý÷åé ôéò ìáêñï÷ñüíéåò èÝóåéò ðïõ ðåñéÝ÷ïõí ðïëëÝò óõíäÝóåéò. Åêåß Üëëïé óçìáíôéêïß ðáñÜãïíôåò ðïõ ðñÝðåé éó÷õñüò íá Ý÷ïõí åðéðôþóåéò åðßóçò üðùò: <span class="diff-changed">"Ôñüðïò ÄéáêïðÞò ÌÝñáò/¿ñáò" & "¿ñá/ÌÝñá äéáêïðÞò", "ÕðÜñ÷ïõóåò èÝóåéò: Ðïéåò èÝóåéò íá åëÝãîïõí;", "ÌÝãéóôåò óõíäÝóåéò ðïõ åëÝã÷ïõí áíÜ èÝóç", "ðåñßïäïò äéáäï÷Þò åëÝã÷ïõ"</span>; Ôüóï ðáñáêáëþ ðÜñôå ôçí ðñïóï÷Þ & ðñïóðáèÞóôå íá èÝóåôå ìéá ëïãéêÞ áîßá ãéá êÜèå ìéá áðü áõôÝò ôéò ôïðïèåôÞóåéò/åðéëïãÝò Þ ìðïñåßôå íá ïäçãÞóåôå óôá áðñïóäüêçôá áðïôåëÝóìáôá ¼ðùò ï Ýëåã÷ïò ìüíï ôïõ ðñþôïõ × ï áñéèìüò èÝóåùí óôï öüñïõì & ôïõò åðáíåëÝã÷åé ðÜëé ÷ùñßò ìåôáôüðéóç óå Üëëåò èÝóåéò. Åßóôå áõôïß ðïõ îÝñïõí ôïí ðßíáêÜ óáò & åßóôå áõôïß ðïõ ìðïñïýí íá êáèïñßóïõí üðïéïò ôáéñéÜæåé óáò & ôïí ðßíáêÜ óáò óýìöùíá ìå äñáóôçñéüôçôåò/ðåñéå÷üìåíï/áðáéôÞóåéò. ôïõ ðßíáêÜ óáò</strong> ÅéóÜãåôå "0" ãéá ÁÐÅÑÉÏÑÉÓÔÏ!]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÅëÝã÷ïìåí ìçíýìáôá óå êÜèå ãýñï]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[Ðüóåò óõíäÝóåéò åðéèõìåßôå íá åëÝãîåôå áíÜ èÝóç; ÅÜí ïðïéáäÞðïôå èÝóç ðåñéÝ÷åé ðåñéóóüôåñï áðü åêåßíï ôï êáèïñéóìÝíï üñéï, êáôüðéí åêåßíåò ïé óõíäÝóåéò "ðÝñá áðü ôïõ ïñßïõ" èá áãíïçèïýí & äåí èá åëåã÷èïýí ìüíï ïé ðñþôåò óõíäÝóåéò × (üðùò êáèïñßæåôáé åäþ) èá åëåã÷èïýí óå ó÷Ýóç ìå ôéò íåêñÝò óõíäÝóåéò.  ÅéóÜãåôå "0" ãéá ÁÐÅÑÉÏÑÉÓÔÏ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÌÝãéóôïò áñéèìüò Link åëÝã÷ïõ óå êÜèå ìÞíõìá]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸÷åôå ôç äõíáôüôçôá íá åëÝãîåôå/åíôïðßæåôå ôï ðåñéå÷üìåíï ðïõ ÷ñçóéìïðïéåßôáé óôá áõôïìáôïðïéçìÝíåò ìçíýìáôá & ôéò åêèÝóåéò ðïõ óôÝëíïíôáé óôï ðñïóùðéêü & ôïõò ÷ñÞóôåò.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[×ñçóéìïðïéçìÝíåò öñÜóåéò]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[Ïé éó÷õñÝò ïìÜäåò ÷ñçóôþí åßíáé åêåßíåò ïé ïìÜäåò ÷ñçóôþí ðïõ ìðïñïýí íá áãíïÞóïõí/ðïõ õðåñíéêéïýíôáé ôï "êñßóéìï üñéï/ôçí êüêêéíç ãñáììÞ" & íá áíáãêÜóïõí ôéò èÝóåéò ôïõò ãéá íá ôá÷õäñïìçèïýí ðáñÜ ôçí êáôï÷Þ ôùí íåêñþí óõíäÝóåùí.  Ðáñáêáëþ åéóÜãåôå ôçí ïìÜäá ÷ñçóôþí IDs ðïõ ÷ùñßæåôáé áðü ôá êüììáôá.<br /><br />
+<strong>Óçìåßùóç:</strong> ÁõôÞ ç éó÷õñÞ äõíáôüôçôá äåí Ý÷åé åðéðôþóåéò ìüíï óôéò èÝóåéò ãéá åêåßíåò ôéò éó÷õñÝò ïìÜäåò ÷ñçóôþí, áëëÜ Ý÷åé åðéðôþóåéò åðßóçò óå ïðïéáäÞðïôå èÝóç ãéá ïðïéïäÞðïôå ÷ñÞóôç ðïõ åîÝäùóå áðü åêåßíåò ôéò éó÷õñÝò ïìÜäåò ÷ñçóôþí. Áõôü ìÝóá ìðïñïýí íá õðåñíéêÞóïõí ôá üñéá êáôÜ ôçí ôá÷õäñüìçóç & üôáí ôá÷õäñïìåß ç Ýêäïóç Üëëùí (ðñÝðåé íá Ý÷ïõí ôéò Üäåéåò öõóéêÜ).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÅéäéêÝò ïìÜäåò ÷ñçóôþí]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÅÜí Ý÷åôå åðéëÝîåé íá ôéìùñÞóåôå ôéò íåêñÝò èÝóåéò ìå ôçí êßíçóç ôùí íçìÜôùí, Ýôóé ðñÝðåé íá êáèïñßóåôå ôï "áíáêýêëùóçò öüñïõì äï÷åßùí" áðü åäþ. Åêåßíåò ïé ôéìùñçìÝíåò íåêñÝò èÝóåéò èá åßíáé áõôüìáôåò ðïõ êéíïýíôáé ðñïò áõôü ôï "áíáêýêëùóçò öüñïõì äï÷åßùí".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[×þñïò áíáêýêëùóçò íåêñþí èåìÜôùí]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[Ìðïñåß íá èåò íá ôéìùñÞóåéò ôá èÝìáôá ðïõ Ý÷ïõí íåêñÜ link êáé õðåñâáßíïõí ôï êñßóéìï üñéï ìå ôï íá ôá ìåôáöÝñåéò óôï "áíáêýêëùóçò öüñïõì äï÷åßùí". ÅÜí èåò, åðÝëåîå "Íáé", áëëéþò "¼÷é".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÌÝèïäïò ôéìùñßáò èåìÜôùí ìå íåêñÜ link: ÌåôáöïñÜ óôïí êÜäï áíáêýêëùóçò]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_desc" date="1266302397" username="PHPKD" version="4.0.130"><![CDATA[ÅÜí Ý÷åéò äéáëÝîåé íá åìöáíßæïíôáé ïé áíáöïñÝò óå íÝï èÝìá äéÜëåîå óå ðïéï ôìÞìá èá ãßíåôáé.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_title" date="1266302397" username="PHPKD" version="4.0.130"><![CDATA[öüñïõì ÁíáöïñÜò]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÁíáöïñÝò (1. ÁðïóôïëÞ ùò ðñïóùðéêü ìÞíõìá óôï ðñïóùðéêü êáé óôïõò ÷ñÞóôåò, 2. Äçìéïõñãßá ìçíýìáôïò Þ èÝìáôïò! ÐñïûðïèÝôåé Ýíá óùóôü üíïìá ÷ñÞóôç ãéá íá äçìéïõñãåßôå ôï ìÞíõìá. ÅéóÞãáãå ôï åðéèõìçôü üíïìá ÷ñÞóôç áðü ôï ðñïóùðéêü ãéá íá åìöáíßæåôáé óôï ìÞíõìá. Óçìåßùóç: Áí ôï üíïìá åßíáé ëáíèáóìÝíï Þ äåí Ý÷åéò ôá êáôÜëëçëá äéêáéþìáôá, ôüôå üëá ôá "PM/ÁðáíôÞóåéò/ÁíáöïñÝò èåìÜôùí" äåí èá ëåéôïõñãïõí ìÝ÷ñé íá äéïñèùèåß, ìüíï ïé áíáöïñÝò ìÝóù Email èá ëåéôïõñãïõí.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÁíáöïñÝò óôá ìÝëç ôïõ ðñïóùðéêïý]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[¸áí Ý÷åéò äéáëÝîåé íá óôÝëíåéò áíáöïñÜ ìå "PMs" Þ "Emails", óôï ðñïóùðéêü Ý÷åéò ôçí äõíáôüôçôá íá äéáëÝîåéò ðïéïé èá ôï ëáìâÜíïõí.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÁðïóôïëÞ áíáöïñÜò óôï ðñïóùðéêü]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÌåôÜ áðü êÜèå åêôÝëåóç ôïõ ðñïãñÜììáôïò, åßíáé ðéèáíü íá óôÝëíåéò ôçí ôåëéêÞ áíáöüñá óå êÜðïéï ìÝëïò ôïõ ðñïóùðéêïý ìå ðñïóùðéêü ìÞíõìá.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÁíáöïñÜ ðñïóùðéêïý: ðñïóùðéêü ìÞíõìá]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÌåôÜ áðü êÜèå åêôÝëåóç ôïõ ðñïãñÜììáôïò, åßíáé ðéèáíü íá äçìéïõñãåßò Ýíá èÝìá ìå ôçí áíáöïñÜ ãéá íá ôç âëÝðåé ôï ðñïóùðéêü.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÁíáöïñÜ ðñïóùðéêïý: Äçìéïõñãßá ÈÝìáôïò]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_desc" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÌåôÜ áðü êÜèå åêôÝëåóç ôïõ ðñïãñÜììáôïò, åÜí õðÜñ÷ïõí ôéìùñçìÝíá ìçíýìáôá: åßíáé ðéèáíü íá åíçìåñþóåéò ôïõò ÷ñÞóôåò ðïõ Ý÷ïõí ôï èÝìá óôÝëíïíôáò Ýíá ðñïóùðéêü ìÞíõìá.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_title" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[ÁíáöïñÜ ÷ñÞóôç: Ðñïóùðéêü ìÞíõìá]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1266301820" username="PHPKD" version="4.0.130"><![CDATA[Ìðïñåßôå íá êáèïñßóåôå ôï ÷ùñßæïíôáò ÷ñïíéêü äéÜóôçìá ìåôáîý ôùí äéáäï÷éêþí åëÝã÷ùí ãéá ôéò ßäéåò èÝóåéò, Ýôóé åêåßíåò ïé "åëåãìÝíåò ðñüóöáôá" èÝóåéò äåí åëÝã÷ïíôáé êÜèå öïñÜ ðïõ ôñÝ÷åé ôï ÷åéñüãñáöï. ÅÜí åðéèõìåßôå ìðïñåßôå íá áíáãêÜóåôå ôéò èÝóåéò ãéá íá åßóôå åëåãìÝíïé ðïëëáðëÜóéïé ÷ñüíïé, áëëÜ ìå ôïõëÜ÷éóôïí 1 çìÝñá ìåôáîý ôïõ êÜèå äýï äéáäï÷éêïß Ýëåã÷ïé. ÅéóÜãåôå ðüóåò çìÝñåò åðéèõìåßôå ãéá íá ÷ùñßóåôå êÜèå äýï äéáäï÷éêïýò åëÝã÷ïõò åäþ, Þ íá åéóáãÜãåôå "0" ãéá íá èÝóåôå åêôüò ëåéôïõñãßáò áõôïý ôïõ ÷áñáêôçñéóôéêü ãíþñéóìá. Óçìåßùóç: "7" óçìáßíïõí ïé èÝóåéò üôé óáò èá åëåã÷èïýí êÜèå åðôÜ çìÝñåò, åêåßíåò ôéò åëåãìÝíåò èÝóåéò äåí èá åëåã÷èïýí ðÜëé ðñéí áðü åðôÜ çìÝñåò Ý÷ïõí ðåñÜóåé áðü ôïí ôåëåõôáßï Ýëåã÷ï, "0" óçìáßíïõí üôé ïé åëåãìÝíåò èÝóåéò èá åëåã÷èïýí áêñéâþò ìéá öïñÜ. <strong> Ìéá õøçëÞ ôéìÞ óõóôÞíåôáé åéäéêÜ ãéá ìåãÜëï öüñïõì.</strong>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1266301820" username="PHPKD" version="4.0.130"><![CDATA[Ðåñßïäïò äéáäï÷Þò åëÝã÷ïõ]]></phrase>
+		<phrase name="settinggroup_phpkd_vblvb" date="1266295720" username="PHPKD" version="4.0.130"><![CDATA[PHPKD - Óýíäåóìïò ÅðáëçèåõôÞ Bot 'Lite']]></phrase>
+	</phrasetype>
+</language>
