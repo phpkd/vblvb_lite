@@ -558,7 +558,7 @@ This is a human-readable summary of the Legal Code (the full license).
      [*][B]v4.0.130[/B] 14/02/2010 10:00 PM UTC: Featured release (public)
      [LIST=1]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=43"]No reports sent when the cronjob autorun[/URL].
-	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=37"]Massive checking MegaUpload.Com Links lead to wrond dead status reports[/URL].
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=37"]Massive checking MegaUpload.Com Links lead to wrong dead status reports[/URL].
 	[*]Task Achieved: [URL="http://forum.phpkd.net/project.php?issueid=38"]URL status 'Temporary Down' is Important[/URL].
 	[*]Task Achieved: [URL="http://forum.phpkd.net/project.php?issueid=46"]Multilingual hosts requires checking & optimizing[/URL].
 	[*]Optimization: [URL="http://forum.phpkd.net/project.php?issueid=8"]Cronjob has more checks now before running, it will check if there's hosts/protocols/bbcodes to be checked or not. If yes, proceed, if no then kill the process & display an error message. Additional check added to make sure there's posts to be checked, if there isn't then an error message displayed[/URL].

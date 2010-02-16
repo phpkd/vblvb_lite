@@ -503,7 +503,7 @@ History:
 
      * v4.0.130 14/02/2010 10:00 PM UTC: Featured release (public)
 	+ Bug Fix: No reports sent when the cronjob autorun (http://forum.phpkd.net/project.php?issueid=43).
-	+ Bug Fix: Massive checking MegaUpload.Com Links lead to wrond dead status reports (http://forum.phpkd.net/project.php?issueid=37).
+	+ Bug Fix: Massive checking MegaUpload.Com Links lead to wrong dead status reports (http://forum.phpkd.net/project.php?issueid=37).
 	+ Task Achieved: URL status 'Temporary Down' is Important (http://forum.phpkd.net/project.php?issueid=38).
 	+ Task Achieved: Multilingual hosts requires checking & optimizing (http://forum.phpkd.net/project.php?issueid=46).
 	+ Optimization: Cronjob has more checks now before running, it will check if there's hosts/protocols/bbcodes to be checked or not. If yes, proceed, if no then kill the process & display an error message. Additional check added to make sure there's posts to be checked, if there isn't then an error message displayed (http://forum.phpkd.net/project.php?issueid=8).
