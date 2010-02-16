@@ -19,4 +19,4 @@
      5. You're Done :).
 
 
-$Version: 4.0.130 $ - $Id: info.txt 105 2010-02-15 22:02:39Z phpkdacp $
+$Version: 4.0.130 $ - $Id$
