@@ -399,6 +399,13 @@
      [*]Import the product's XML file "product-phpkd_vblvb.xml" from AdminCP.
      [*]Configure the product's settings.
      [*]You're Done :).
+
+     [*][Optional] Translations: vBulletin AdminCP » Languages & Phrases » Download / Upload Languages » Import Language XML File (Make sure that your forum's Character Set is equivalent to the imported language as follow):
+	[LIST]
+	     [*]English, French, German, Spanish » ISO-8859-1
+	     [*]Greek » ISO-8859-7
+	     [*]You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using [URL="http://www.elfdata.com/encodingmaster/"]Encoding Master[/URL].
+	[/LIST]
 [/LIST]
 
 
@@ -569,9 +576,17 @@ This is a human-readable summary of the Legal Code (the full license).
 [/LIST]
 
 
-[U][B]Notes:[/B][/U]
+[U][B]Translations:[/B][/U]
 [LIST]
-     [*]Multiple translations are available (Arabic, English, French, German, Greek, Turkish, Spanish .. and counting!).
+     [*]Arabic
+     [*]English
+     [*]French
+     [*]German
+     [*]Greek
+     [*]Turkish
+     [*]Spanish
+     [*].. and counting!
+     [*]Submit new translation & get free 'Ultimate' edition!
 [/LIST]
 
 
