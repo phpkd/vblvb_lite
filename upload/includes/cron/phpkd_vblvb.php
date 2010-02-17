@@ -144,7 +144,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 				if ($critical > $vbulletin->options['phpkd_vblvb_critical'])
 				{
 					$logpunished .= '<li><a href="' . $vbulletin->options['bburl'] . '/showpost.php?p=' . intval($post['postid']) . '" target="_blank">' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '</a></li>';
-					$punished[$post['userid']][$post['postid']] = $post;
+					$punished[$post['userid']][$post['postid']] = array('threadid' => $post['threadid'], 'forumid' => $post['forumid'], 'username' => $post['username'], 'title' => $post['title'], 'threadtitle' => $post['threadtitle']);
 				}
 			}
 
