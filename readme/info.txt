@@ -525,6 +525,7 @@ History:
        10. zshare.net
      * v4.0.131 17/02/2010 10:00 AM UTC: Maintenance release (public)
 	+ Bug Fix: No punishments at all!! (http://forum.phpkd.net/project.php?issueid=55)
+	+ Bug Fix: 'temporary down' URL status doesn't appear in 'Lite' edition reports (http://forum.phpkd.net/project.php?issueid=56)
 	+ Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
 
 
