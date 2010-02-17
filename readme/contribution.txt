@@ -583,7 +583,7 @@ This is a human-readable summary of the Legal Code (the full license).
      [/LIST]
      [*][B]v4.0.131[/B] 17/02/2010 10:00 AM UTC: Maintenance release (public)
      [LIST=1]
-	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=55"]No punishments at all!![/URL]
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=55"]Forum excluding isn't working in 'Lite' edition[/URL]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=56"]'temporary down' URL status doesn't appear in 'Lite' edition reports[/URL]
 	[*]Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
      [/LIST]
