@@ -17,10 +17,10 @@
 
 $md5_sums = array(
 	'/includes' => array(
-		'functions_phpkd_vblvb.php' => '9906fc13cbd1088c8e1ee6f5b38b7135',
+		'functions_phpkd_vblvb.php' => '2ae2ee08c4118cf8252b0df36865c188',
 	),
 	'/includes/cron' => array(
-		'phpkd_vblvb.php' => '4c7a5cd00ed978aa6aa5d592d9e5c11f',
+		'phpkd_vblvb.php' => '4498557d7ef32431b0bafb4a58303e47',
 	),
 );
 $md5_sum_softwareid = 'phpkd_vblvb';
