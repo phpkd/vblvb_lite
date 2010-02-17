@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.130 # ||
+|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.131 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -81,18 +81,16 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 	switch ($vbulletin->options['phpkd_vblvb_inex_forums'])
 	{
 		case 1:
-			$forums = @implode(',', $vbulletin->options['phpkd_vblvb_inex_forums_ids']);
-			$inex_forums = (($forums != '' AND strlen($forums) > 0) ? 'AND thread.forumid IN (' . $vbulletin->db->escape_string($forums) . ')' : '');
+			$inex_forums = (($vbulletin->options['phpkd_vblvb_inex_forums_ids'] != '' AND strlen($vbulletin->options['phpkd_vblvb_inex_forums_ids']) > 0) ? 'AND thread.forumid IN (' . $vbulletin->db->escape_string($vbulletin->options['phpkd_vblvb_inex_forums_ids']) . ')' : '');
 			break;
 		case 2:
-			$forums = @implode(',', $vbulletin->options['phpkd_vblvb_inex_forums_ids']);
-			$inex_forums = (($forums != '' AND strlen($forums) > 0) ? 'AND thread.forumid NOT IN (' . $vbulletin->db->escape_string($forums) . ')' : '');
+			$inex_forums = (($vbulletin->options['phpkd_vblvb_inex_forums_ids'] != '' AND strlen($vbulletin->options['phpkd_vblvb_inex_forums_ids']) > 0) ? 'AND thread.forumid NOT IN (' . $vbulletin->db->escape_string($vbulletin->options['phpkd_vblvb_inex_forums_ids']) . ')' : '');
 			break;
 	}
 
 
 	$posts = $vbulletin->db->query_read("
-		SELECT user.username, user.usergroupid, user.email, user.languageid, post.userid, post.postid, post.threadid, post.dateline, post.title, post.pagetext, thread.forumid, thread.title AS threadtitle
+		SELECT user.username, post.userid, post.postid, post.threadid, post.title, post.pagetext, thread.forumid, thread.title AS threadtitle
 		FROM " . TABLE_PREFIX . "post AS post
 		LEFT JOIN " . TABLE_PREFIX . "user AS user ON (post.userid = user.userid)
 		LEFT JOIN " . TABLE_PREFIX . "thread AS thread ON (post.threadid = thread.threadid)
@@ -204,7 +202,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.130
+|| # Version: 4.0.131
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

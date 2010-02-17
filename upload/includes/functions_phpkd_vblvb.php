@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.130 # ||
+|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.131 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -447,7 +447,7 @@ function phpkd_vblvb_rprtu($punished)
 						$user['username'] = $post['username'];
 					}
 
-					$formatedlog .= '[*][url=' . $vbulletin->options['bburl'] . '/showpost.php?p=' . $post['postid'] . ']' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '[/url]';
+					$formatedlog .= '[*][url=' . $vbulletin->options['bburl'] . '/showpost.php?p=' . $postid . ']' . ($post['title'] ? $post['title'] : $post['threadtitle']) . '[/url]';
 				}
 				$formatedlog .= '[/LIST]';
 
@@ -628,7 +628,7 @@ function phpkd_vblvb_cron_kill($log, $nextitem)
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.130
+|| # Version: 4.0.131
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

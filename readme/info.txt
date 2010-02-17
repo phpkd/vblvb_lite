@@ -11,7 +11,7 @@ Name:
 
 Version:
 ~~~~~~~~~
-     * 4.0.130
+     * 4.0.131
 
 
 Description:
@@ -523,6 +523,9 @@ History:
        8. rapidshare.de
        9. sendspace.com
        10. zshare.net
+     * v4.0.131 17/02/2010 10:00 AM UTC: Maintenance release (public)
+	+ Bug Fix: No punishments at all!! (http://forum.phpkd.net/project.php?issueid=55)
+	+ Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
 
 
 Screen Shots:
@@ -575,4 +578,4 @@ Recent Products:
 |              Brought to you by PHP KingDom (www.phpkd.net)              |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-$Version: 4.0.130 $ - $Id$
+$Version: 4.0.131 $ - $Id$
