@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.131 # ||
+|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.133 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -9,7 +9,7 @@
 || #     This product may be redistributed in whole or significant part under     # ||
 || #        "Creative Commons - Attribution-Noncommercial-Share Alike 3.0"        # ||
 || # 																			  # ||
-|| # -------------- 'vB Link Verifier Bot Lite' IS FREE SOFTWARE ---------------- # ||
+|| # -------------- "vB Link Verifier Bot 'Lite'" IS FREE SOFTWARE -------------- # ||
 || #        http://www.phpkd.net | http://info.phpkd.net/en/license/free          # ||
 || ################################################################################ ||
 \*==================================================================================*/
@@ -84,12 +84,12 @@ function phpkd_vblvb_fetch_urls($messagetext)
 		$hosts = array();
 		if ($vbulletin->options['phpkd_vblvb_hosts_depositfiles_com'])
 		{
-			$hosts[] = array("depositfiles\.com\/([a-z]{2}\/)?files\/[0-9a-z]+", "downloadblock", "@com\/([a-z]{2}\/)?files\/@i", "com/en/files/");
+			$hosts[] = array("depositfiles\.com\/([a-z]{2}\/)?files\/[0-9a-z]+", "gateway_result|show_gold_offer", "@com\/([a-z]{2}\/)?files\/@i", "com/en/files/");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_easy_share_com'])
 		{
-			$hosts[] = array("easy-share\.com\/[0-9]+" , "wcontent");
+			$hosts[] = array("easy-share\.com\/[0-9]+", "wcontent");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_filefactory_com'])
@@ -99,7 +99,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_mediafire_com'])
 		{
-			$hosts[] = array("mediafire\.com\/(download\.php)?\?[0-9a-z]+", "download_file_title");
+			$hosts[] = array("mediafire\.com\/(download\.php)?\?[0-9a-z]+", "download_file_title", "@download\.php@i", "");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_megaupload_com'])
@@ -109,7 +109,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_netload_in'])
 		{
-			$hosts[] = array("netload\.in\/(datei[0-9a-z]+|index.php?id=[0-9]+&file_id=[0-9a-z]+)", "dl_first_file_download", "@&lang=[a-zA-Z]{2}@i", "&lang=en");
+			$hosts[] = array("netload\.in\/datei[0-9a-z]+", "dl_first_file_download", "@&lang=[a-zA-Z]{2}@i", "&lang=en");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_rapidshare_com'])
@@ -124,7 +124,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_sendspace_com'])
 		{
-			$hosts[] = array("sendspace\.com\/file\/[0-9a-z]+", "(downlink|download_link)");
+			$hosts[] = array("sendspace\.com\/file\/[0-9a-z]+", "REGULAR DOWNLOAD");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_zshare_net'])
@@ -376,6 +376,14 @@ function phpkd_vblvb_rprts($log)
 		{
 			if ($vbulletin->options['phpkd_vblvb_report_fid'] > 0 AND $rpforuminfo = fetch_foruminfo($vbulletin->options['phpkd_vblvb_report_fid']))
 			{
+				// Start: Required for 'mark_thread_read', fix the following bug: http://forum.phpkd.net/project.php?issueid=76
+				if (!$db)
+				{
+					global $db;
+					$db = $this->registry->db;
+				}
+				// End: Required for 'mark_thread_read', fix the following bug: http://forum.phpkd.net/project.php?issueid=76
+
 				$threadman =& datamanager_init('Thread_FirstPost', $vbulletin, ERRTYPE_SILENT, 'threadpost');
 				$threadman->set_info('forum', $rpforuminfo);
 				$threadman->set_info('is_automated', true);
@@ -628,7 +636,7 @@ function phpkd_vblvb_cron_kill($log, $nextitem)
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.131
+|| # Version: 4.0.133
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

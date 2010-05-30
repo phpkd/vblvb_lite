@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.131 # ||
+|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.133 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -9,7 +9,7 @@
 || #     This product may be redistributed in whole or significant part under     # ||
 || #        "Creative Commons - Attribution-Noncommercial-Share Alike 3.0"        # ||
 || # 																			  # ||
-|| # -------------- 'vB Link Verifier Bot Lite' IS FREE SOFTWARE ---------------- # ||
+|| # -------------- "vB Link Verifier Bot 'Lite'" IS FREE SOFTWARE -------------- # ||
 || #        http://www.phpkd.net | http://info.phpkd.net/en/license/free          # ||
 || ################################################################################ ||
 \*==================================================================================*/
@@ -89,6 +89,9 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 	}
 
 
+	// Auto exclude report forums/threads & recycle bin forum from being checked: http://forum.phpkd.net/project.php?issueid=71
+	$forced_inex_forums = array($vbulletin->options['phpkd_vblvb_report_fid'], $vbulletin->options['phpkd_vblvb_punish_fid']);
+
 	$posts = $vbulletin->db->query_read("
 		SELECT user.username, post.userid, post.postid, post.threadid, post.title, post.pagetext, thread.forumid, thread.title AS threadtitle
 		FROM " . TABLE_PREFIX . "post AS post
@@ -97,6 +100,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 		Where thread.open = 1
 			AND thread.visible = 1
 			AND post.visible = 1
+			AND thread.forumid NOT IN (" . @implode(',', $forced_inex_forums) . ")
 			$cutoff
 			$inex_forums
 			" . (($vbulletin->options['phpkd_vblvb_checked_existingposts'] == 2) ? 'AND post.postid = thread.firstpostid' : '') . "
@@ -202,7 +206,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.131
+|| # Version: 4.0.133
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

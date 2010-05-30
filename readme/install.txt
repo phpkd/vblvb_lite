@@ -12,11 +12,14 @@
      3. Configure product's settings.
 
      4. [Optional] Translations: vBulletin AdminCP » Languages & Phrases » Download / Upload Languages » Import Language XML File (Make sure that your forum's Character Set is equivalent to the imported language as follow):
-	     English, French, German, Spanish » ISO-8859-1
+	     Arabic » ISO-8859-6
+	     English, French, Spanish » ISO-8859-1
 	     Greek » ISO-8859-7
-	     You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using Encoding Master (http://www.elfdata.com/encodingmaster/).
+	     Russian » ISO-8859-5
+	     Turkish » ISO-8859-9
+	     You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using the wonderful applications "Encoding Master" (http://www.elfdata.com/encodingmaster/).
 
      5. You're Done :).
 
 
-$Version: 4.0.131 $ - $Id$
+$Version: 4.0.133 $ - $Id$

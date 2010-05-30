@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: PHPKD - vB Link Verifier Bot Lite             Version: 4.0.131 # ||
+|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.133 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -9,7 +9,7 @@
 || #     This product may be redistributed in whole or significant part under     # ||
 || #        "Creative Commons - Attribution-Noncommercial-Share Alike 3.0"        # ||
 || # 																			  # ||
-|| # -------------- 'vB Link Verifier Bot Lite' IS FREE SOFTWARE ---------------- # ||
+|| # -------------- "vB Link Verifier Bot 'Lite'" IS FREE SOFTWARE -------------- # ||
 || #        http://www.phpkd.net | http://info.phpkd.net/en/license/free          # ||
 || ################################################################################ ||
 \*==================================================================================*/
@@ -24,12 +24,12 @@ $md5_sums = array(
 	),
 );
 $md5_sum_softwareid = 'phpkd_vblvb';
-$md5_sum_versions['phpkd_vblvb'] = '4.0.131';
+$md5_sum_versions['phpkd_vblvb'] = '4.0.133';
 
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.131
+|| # Version: 4.0.133
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

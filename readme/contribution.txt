@@ -10,7 +10,7 @@
 
 
 [B]Name:[/B] PHPKD - vB Link Verifier Bot 'Lite'
-[B]Version:[/B] 4.0.131
+[B]Version:[/B] 4.0.133
 
 [B]Description:[/B] This product extract sharing links (Rapidshare, Megaupload, Zshare, Adrive, Depositfiles, Filefactory, ...etc) from posts, then verifies them; If they're "Alive" the post will pass, otherwise the post will be punished (Fully Customizable).
 
@@ -21,6 +21,12 @@
 [U][B]Requirements:[/B][/U]
 [LIST]
      [*]vBulletin version 3.8.x/4.0.x
+[/LIST]
+
+
+[U][B]License:[/B][/U]
+[LIST]
+     [*]http://info.phpkd.net/en/license/free/
 [/LIST]
 
 
@@ -383,16 +389,16 @@
 
 
 [U][B]Translations:[/B][/U]
-[LIST]
-     [*]Arabic
-     [*]English
-     [*]French
-     [*]German
-     [*]Greek
-     [*]Turkish
-     [*]Spanish
-     [*][COLOR="Red"][SIZE="1"].. and counting![/SIZE][/COLOR]
-     [*][COLOR="Blue"][SIZE="1"]Submit new translation & get free 'Ultimate' edition![/SIZE][/COLOR]
+[LIST=1]
+     [*]Arabic .. (by [URL="http://forum.phpkd.net/member.php?u=86"][COLOR="Green"]CUPID[/COLOR][/URL])
+     [*]English .. [COLOR="Green"]Official[/COLOR]
+     [*]French .. (by [URL="http://forum.phpkd.net/member.php?u=19"][COLOR="Green"]mitch84[/COLOR][/URL])
+     [*]Greek .. (by [URL="http://forum.phpkd.net/member.php?u=49"][COLOR="Green"]greek-madness[/COLOR][/URL])
+     [*]Russian .. (by [URL="http://forum.phpkd.net/member.php?u=158"][COLOR="Green"]xorex[/COLOR][/URL])
+     [*]Spanish .. (by [URL="http://forum.phpkd.net/member.php?u=89"][COLOR="Green"]owned91[/COLOR][/URL])
+     [*]Turkish .. (by [URL="http://forum.phpkd.net/member.php?u=34"][COLOR="Green"]laztrix[/COLOR][/URL])
+     [COLOR="Red"][SIZE="1"].. and counting![/SIZE][/COLOR]
+     [COLOR="Blue"][SIZE="1"]Submit new translation & get free 'Ultimate' edition![/SIZE][/COLOR]
 [/LIST]
 
 
@@ -414,9 +420,12 @@
      [*]Configure product's settings.
      [*][Optional] Translations: vBulletin AdminCP » Languages & Phrases » Download / Upload Languages » Import Language XML File (Make sure that your forum's Character Set is equivalent to the imported language as follow):
 	[LIST]
-	     [*]English, French, German, Spanish » ISO-8859-1
+	     [*]Arabic » ISO-8859-6
+	     [*]English, French, Spanish » ISO-8859-1
 	     [*]Greek » ISO-8859-7
-	     [*]You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using [URL="http://www.elfdata.com/encodingmaster/"]Encoding Master[/URL].
+	     [*]Russian » ISO-8859-5
+	     [*]Turkish » ISO-8859-9
+	     You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using the wonderful applications "[URL="http://www.elfdata.com/encodingmaster/"]Encoding Master[/URL]".
 	[/LIST]
      [*]You're Done :).
 [/LIST]
@@ -431,7 +440,7 @@
 [U][B]Controls:[/B][/U]
 [LIST]
      [*][B][U]AdminCP Settings:[/U][/B]
-     vBulletin AdminCP » vBulletin Options » vBulletin Options » [B]PHPKD - Link Verifier Bot 'Lite'[/B]
+     vBulletin AdminCP » Settings » Options » [B]PHPKD - Link Verifier Bot 'Lite'[/B]
      [*][B][U]Scheduled Task:[/U][/B]
      vBulletin AdminCP » Scheduled Tasks » Scheduled Task Manager » [B]PHPKD - Link Verifier Bot 'Lite'[/B]
 [/LIST]
@@ -481,31 +490,41 @@ This is a human-readable summary of the Legal Code (the full license).
 
 [U][B]Known Issues:[/B][/U]
 [LIST]
-     [*]Posts containing huge number of links may cause "MySQL gone away" error while checking specially when you're checking many posts of that kind. A new checking process by it's way to fix this issue & allow large scall checking without causing high load.
+     [*]None!
 [/LIST]
 
 
 [U][B]Future TO-DO-LIST:[/B][/U]
-[LIST]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=39"]Login to premium accounts.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=11"]Add separate page for online bulk checking.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=9"]Check authentication.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=2"]Detect masked links (linksave.in, linkcrypt.ws, linkencrypter.com).[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=51"]User Report modes (Always send/Send only if ..).[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=44"]Run cronjob via external shceduled task services.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=42"]Add a new thread option to enable/disable bot checking.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=33"]Critical Limit/Red Line for each filehost in one thread.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=35"]Detect Linkbucks Alias URLs.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=25"]Post flag - How many dead links included.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=21"]Administration Maintenance tools.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=20"]Linked points system for reputation purposes.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=16"]Modify posts & colorize Active/Dead Links.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=19"]Archive all reports & link it to their threads & posts.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=17"]Post flag - Last checked in Date/Time.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=18"]Reply to thread when dead links found.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=6"]Detailed user reports.[/URL]
-     [*][URL="http://forum.phpkd.net/project.php?issueid=8"]Add cronjob status messages & configuration conclusion.[/URL]
-     [*]Post your suggestions!
+[LIST=1]
+[*][URL="http://forum.phpkd.net/project.php?issueid=17"]Post  flag - Last checked in Date/Time[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=69"]Change  thread title's color in forumdisplay according to it's status  (alive/dead)[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=16"]Modify  posts & colorize Active/Dead Links[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=18"]Reply to thread when dead  links found[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=33"]Critical Limit/Red Line  for each filehost in one thread[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=8"]Add  cronjob status messages & configuration conclusion[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=21"]Administration  Maintenance tools[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=63"]Notifier  system within AdminCP for new releases[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=78"]Include/Exclude  alive links/posts from reports[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=25"]Post  flag - How many dead links included[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=67"]Intelligence  for detecting malformed links & check them (wrong http prefix)[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=51"]User Report  modes (Always send/Send only if ..)[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=42"]Add a  new thread option to enable/disable bot checking[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=11"]Add separate page for online bulk checking[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=44"]Run  cronjob via external shceduled task services[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=39"]Login  to premium accounts[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=57"]Color  picker for link status colors[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=6"]Detailed user reports[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=86"]Ability To Set Different Task Profiles[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=62"]Support  additional hosts[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=20"]Linked points system for reputation purposes[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=83"]Report  checksum verify, prevent duplicate reports[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=19"]Archive all reports & link it to their threads &  posts[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=66"]Add  support for Private Messages, Visitor Messages, Social Group  Discussions, Social Group Picture Comments, Picture Comments, Blogs[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=9"]Check authintication[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=82"]Setup  Adviser - Auto determine recommended configurations[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=64"]Provide  seo thread links with vB4[/URL]
+[*][URL="http://forum.phpkd.net/project.php?issueid=35"]Detect Linkbucks Alias URLs[/URL]
+[*]Post your suggestions!
 [/LIST]
 
 
@@ -586,6 +605,19 @@ This is a human-readable summary of the Legal Code (the full license).
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=55"]Forum excluding isn't working in 'Lite' edition[/URL]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=56"]'temporary down' URL status doesn't appear in 'Lite' edition reports[/URL]
 	[*]Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
+     [/LIST]
+     [*][B]v4.0.133[/B] 30/05/2010 10:00 AM UTC: Maintenance release (public)
+     [LIST=1]
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
+	[*]Fixes & updates for the following hosts:
+		[LIST=1]
+		[*]depositfiles.com
+		[*]easy-share.com
+		[*]mediafire.com
+		[*]netload.in
+		[*]sendspace.com
+		[/LIST]
      [/LIST]
 [/LIST]
 
