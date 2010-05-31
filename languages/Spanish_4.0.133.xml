@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<language name="MASTER LANGUAGE" vbversion="4.0.1" product="phpkd_vblvb" type="master">
+<language name="MASTER LANGUAGE" vbversion="4.0.3" product="phpkd_vblvb" type="master">
 	<skippedgroups>
 		<skippedgroup>cphelptext</skippedgroup>
 	</skippedgroups>
@@ -29,15 +29,20 @@
 		<phrase name="phpkd_vblvb_rprts_messaging_moderators_and_administrators" date="1256310989" username="PHPKD" version="4.0.101"><![CDATA[Enviar Reportes A Moderadores & Administradores]]></phrase>
 	</phrasetype>
 	<phrasetype name="Scheduled Tasks" fieldname="cron">
-		<phrase name="task_phpkd_vblvb_desc" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[Éste script verifica los post en busca de enlaces muertos.]]></phrase>
-		<phrase name="task_phpkd_vblvb_log" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD -  Verificador De Enlaces 'Lite' Ejecutado!]]></phrase>
-		<phrase name="task_phpkd_vblvb_title" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD -  Verificador De Enlaces 'Lite']]></phrase>
+		<phrase name="task_phpkd_vblvb_desc" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[Éste script verifica los post en busca de enlaces muertos.]]></phrase>
+		<phrase name="task_phpkd_vblvb_log" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Ejecutado!]]></phrase>
+		<phrase name="task_phpkd_vblvb_title" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
 	</phrasetype>
 	<phrasetype name="Error Messages" fieldname="error">
 		<phrase name="phpkd_vblvb_existing_notchecked" date="1266127622" username="PHPKD" version="4.0.130"><![CDATA[Usted ha optado por no comprobar los posts existentes. Por favor, revise la <a href="options.php?do=options&dogroup=phpkd_vblvb">configuración del producto</a> "Los posts existentes: ¿Qué comprobar?" y asegúrese de que éste activa.]]></phrase>
 		<phrase name="phpkd_vblvb_invalid_criteria" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Los Criterios no cumplen con las coincidencias para este post.]]></phrase>
 		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Por favor, revise la <a href="options.php?do=options&dogroup=phpkd_vblvb">configuración del producto</a>, se debe de tener al menos un protocolo de control.]]></phrase>
 		<phrase name="phpkd_vblvb_newpost" date="1256546122" username="PHPKD" version="4.0.101"><![CDATA[Tú has puesto enlaces muertos dentro de tu post, por favor verifica y valida los enlaces primero.]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312192" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
 	</phrasetype>
 	<phrasetype name="GLOBAL" fieldname="global">
 		<phrase name="phpkd_vblvb_existing_notchecked" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Usted ha optado por no comprobar los posts existentes. Por favor, revise la <a href="options.php?do=options&dogroup=phpkd_vblvb">configuración del producto</a> "Los posts existentes: ¿Qué comprobar?" y asegúrese de que éste activa.]]></phrase>
@@ -47,8 +52,12 @@
 		<phrase name="phpkd_vblvb_log_link_dead" date="1256670327" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: red; font-weight: bold">Muerto:</span> ]]></phrase>
 		<phrase name="phpkd_vblvb_log_link_down" date="1256670279" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: orange; font-weight: bold">Temporalmente No Disponible:</span> ]]></phrase>
 		<phrase name="phpkd_vblvb_log_punished_posts" date="1256667940" username="PHPKD" version="4.0.101"><![CDATA[<strong>Posts Castigados:</strong>]]></phrase>
-		<phrase name="phpkd_vblvb_log_summery" date="1256737712" username="PHPKD" version="4.0.101"><![CDATA[<strong>Resumen: Todos los enlaces: {1}, <span style="color: blue">Enlaces Verificados: {2}</span>, <span style="color: green">Activo: {3}</span>, <span style="color: red">Muerto: {4}</span>, Ignorado: {5}.</strong>]]></phrase>
-		<phrase name="phpkd_vblvb_nothing_checked" date="1266074342" username="PHPKD" version="4.0.130"><![CDATA[Usted ha optado por no comprobar los posts existentes. Por favor, revise la <a href="options.php?do=options&dogroup=phpkd_vblvb">configuración del producto</a> "Los posts existentes: ¿Qué comprobar?" y asegúrese de que éste activa.]]></phrase>
+		<phrase name="phpkd_vblvb_log_summery" date="1275319489" username="PHPKD" version="4.0.133"><![CDATA[<strong>Summery: All Links: {1}, <span style="color: blue">Checked Links: {2}</span>, <span style="color: green">Alive: {3}</span>, <span style="color: red">Dead: {4}</span>, <span style="color: orange">Temorary Down: {5}</span>, Ignored: {6}.</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312192" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
 		<phrase name="phpkd_vblvb_rprts_message" date="1256556785" username="PHPKD" version="4.0.101"><![CDATA[{1}]]></phrase>
 		<phrase name="phpkd_vblvb_rprts_title" date="1256556790" username="PHPKD" version="4.0.101"><![CDATA[Reporte del  Verificador de Enlaces: {1} {2}]]></phrase>
 		<phrase name="phpkd_vblvb_rprtu_message" date="1256560375" username="PHPKD" version="4.0.101"><![CDATA[Hola {1},
@@ -90,8 +99,8 @@ Después de elegir el modo que más desee, usted tendrá que introducir el valor ad
 <strong>"Últimos X Días"</strong>: Introduzca un valor entero positivo correcto para ese período en días para comprobar temas despues de haber publicado un post en los últimos X días.<br /><br />
 <em><u>Si no deseas utilizar la función del Límite De Fecha/Tiempo a continuación, introduzca "0" en el campo.</u></em>]]></phrase>
 		<phrase name="setting_phpkd_vblvb_cutoff_value_title" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[Valor Del Límite De Fecha/Tiempo]]></phrase>
-		<phrase name="setting_phpkd_vblvb_help_desc" date="1264030402" username="PHPKD" version="4.0.120"><![CDATA[¿Estás buscando soporte, funciones, pedidos de funciones, informe de errores o cualquier otra consulta?]]></phrase>
-		<phrase name="setting_phpkd_vblvb_help_title" date="1264030402" username="PHPKD" version="4.0.120"><![CDATA[Ayuda y Soporte]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_desc" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[¿Estás buscando soporte, funciones, pedidos de funciones, informe de errores o cualquier otra consulta?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_title" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[Ayuda y Soporte]]></phrase>
 		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_desc" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[Si deseas comprobar los enlaces de  '<strong>depositfiles.com</strong>', elija "Sí", de lo contrario elija "No".]]></phrase>
 		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_title" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[Comprobar: depositfiles.com]]></phrase>
 		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_desc" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[Si deseas comprobar los enlaces de  '<strong>easy-share.com</strong>', elija "Sí", de lo contrario elija "No".]]></phrase>
@@ -123,10 +132,10 @@ Seleccione "Incluir Todos Los Foros" para verificar todos los posts del foro, ó 
 		<phrase name="setting_phpkd_vblvb_inex_forums_ids_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Si has elegido "Incluir Los Foros Específicos" ó "Excluir Los Foros Específicos" desde la configuración anterior, ingresa aquí sus IDs, separadas por una coma ','.]]></phrase>
 		<phrase name="setting_phpkd_vblvb_inex_forums_ids_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Foros Incluidos/Excluidos]]></phrase>
 		<phrase name="setting_phpkd_vblvb_inex_forums_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Foros Incluidos/Excluidos]]></phrase>
-		<phrase name="setting_phpkd_vblvb_limit_desc" date="1262356373" username="PHPKD" version="4.0.101"><![CDATA[Comúnmente, se recomienda establecer un número determinado de posts para procesar en cada turno para evitar cualquier posible tiempo de espera ó altos recursos de uso de memoria/CPU durante el proceso de ejecución. <strong>Se recomienda especialmente un valor bajo para los foros que tienen temas muy largos con numerosos enlaces. Hay otros factores importantes que afectan también tales como: <span class="diff-changed">"Modo Del Límite Fecha/Tiempo" & "Valor del Límite Fecha/Tiempo", "Posts Existentes: ¿Qué Desea Verificar?", " Número Máximo De Enlaces para verificar por cada post", "Sucesión Del Periodo De Verificación"</span>; Por favor de tener cuidado y tratar de establecer un valor lógico para cada uno de estos ajustes y opciones, o puedes dar lugar a resultados inesperados; Como la comprobación de sólo el primer X número de posts en el foro y volver a comprobar otra vez sin desplazar a otros posts. Usted es el que sabe de su foro y usted es el único que puede determinar que se adapte a usted y a su foro de acuerdo a la actividad de de administración/contenido/requisitos de su foro.</strong> Ingrese "0" para ¡ILIMITADO!]]></phrase>
-		<phrase name="setting_phpkd_vblvb_limit_title" date="1262356373" username="PHPKD" version="4.0.101"><![CDATA[Posts Para Comprobar En Cada Conjunto]]></phrase>
-		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1262356685" username="PHPKD" version="4.0.101"><![CDATA[¿Cuántos enlaces deseas comprobar por post? Si cualquier post contiene más de lo que define el límite, entonces esos enlaces estaran 'sobre el límite' se ignorarán y no se verificaran; sólo los primeros X enlaces (tal y como se define aquí) se comprobará en busca de enlaces muertos. Ingrese "0" para ¡ILIMITADO!.]]></phrase>
-		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1262356685" username="PHPKD" version="4.0.101"><![CDATA[Máximo De Enlaces Para Verificar Por Post]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_desc" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[Comúnmente, se recomienda establecer un número determinado de posts para procesar en cada turno para evitar cualquier posible tiempo de espera ó altos recursos de uso de memoria/CPU durante el proceso de ejecución. <strong>Se recomienda especialmente un valor bajo para los foros que tienen temas muy largos con numerosos enlaces. Hay otros factores importantes que afectan también tales como: <span class="diff-changed">"Modo Del Límite Fecha/Tiempo" & "Valor del Límite Fecha/Tiempo", "Posts Existentes: ¿Qué Desea Verificar?", " Número Máximo De Enlaces para verificar por cada post", "Sucesión Del Periodo De Verificación"</span>; Por favor de tener cuidado y tratar de establecer un valor lógico para cada uno de estos ajustes y opciones, o puedes dar lugar a resultados inesperados; Como la comprobación de sólo el primer X número de posts en el foro y volver a comprobar otra vez sin desplazar a otros posts. Usted es el que sabe de su foro y usted es el único que puede determinar que se adapte a usted y a su foro de acuerdo a la actividad de de administración/contenido/requisitos de su foro.</strong> Ingrese "0" para ¡ILIMITADO!]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_title" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[Posts Para Comprobar En Cada Conjunto]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[¿Cuántos enlaces deseas comprobar por post? Si cualquier post contiene más de lo que define el límite, entonces esos enlaces estaran 'sobre el límite' se ignorarán y no se verificaran; sólo los primeros X enlaces (tal y como se define aquí) se comprobará en busca de enlaces muertos. Ingrese "0" para ¡ILIMITADO!.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[Máximo De Enlaces Para Verificar Por Post]]></phrase>
 		<phrase name="setting_phpkd_vblvb_phrases_desc" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[Tienes la capacidad para controlar o localizar el contenido utilizado en los mensajes automatizados e informes enviados al staff y a los usuarios.]]></phrase>
 		<phrase name="setting_phpkd_vblvb_phrases_title" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[Frases Usadas]]></phrase>
 		<phrase name="setting_phpkd_vblvb_powerful_ugids_desc" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA['Grupo Élite' son los grupos de usuarios que pueden invalidar ó superar el "Límite Crítico y Línea Roja" y obligar el envio de sus posts a pesar de tener enlaces muertos. Por favor, ingrese los IDs de los Grupos de Usuarios separados por una coma(,).<br /><br />
@@ -148,9 +157,9 @@ Seleccione "Incluir Todos Los Foros" para verificar todos los posts del foro, ó 
 		<phrase name="setting_phpkd_vblvb_rprts_thread_title" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[Reportes Del Staff: Crear Tema]]></phrase>
 		<phrase name="setting_phpkd_vblvb_rprtu_pm_desc" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[Después de cada ejecución del script,  si hay posts castigados: es posible auto-enviar un simple reporte a los autores por mensaje privado diciendoles que algunos de sus posts tienen enlaces muertos.]]></phrase>
 		<phrase name="setting_phpkd_vblvb_rprtu_pm_title" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[Reportes Del Usuario: Mensaje Privado]]></phrase>
-		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1262357279" username="PHPKD" version="4.0.101"><![CDATA[Puedes determinar el período de tiempo de separación entre los controles sucesivos de los mismos posts, por lo que los posts "comprobados recientemente" no se comproboran cada vez que se ejecute el script. Si lo deseas, puedes obligar la comprobación de los posts varias veces, pero con al menos 1 día entre cada dos compraciones sucesivas. Introduzca cuántos días deseas para separar cada dos comprobaciones sucesivas, o escriba "0" para desactivar esta función. Nota: "7" significa que los posts serán conprobados cada siete días, los posts comprobados no volverán a comprobarse antes de los siete días de la última comprobación, "0" significa que los posts comprobados se comprobarán solo una vez. <strong>Se recomienda especialmente un valor superior, para los foros grandes.</strong>]]></phrase>
-		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1262357279" username="PHPKD" version="4.0.101"><![CDATA[Sucesión Del Perido De Comprobación]]></phrase>
-		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD -  Verificador De Enlaces 'Lite']]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[Puedes determinar el período de tiempo de separación entre los controles sucesivos de los mismos posts, por lo que los posts "comprobados recientemente" no se comproboran cada vez que se ejecute el script. Si lo deseas, puedes obligar la comprobación de los posts varias veces, pero con al menos 1 día entre cada dos compraciones sucesivas. Introduzca cuántos días deseas para separar cada dos comprobaciones sucesivas, o escriba "0" para desactivar esta función. Nota: "7" significa que los posts serán conprobados cada siete días, los posts comprobados no volverán a comprobarse antes de los siete días de la última comprobación, "0" significa que los posts comprobados se comprobarán solo una vez. <strong>Se recomienda especialmente un valor superior, para los foros grandes.</strong>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[Sucesión Del Perido De Comprobación]]></phrase>
+		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
 	</phrasetype>
 </language>
 

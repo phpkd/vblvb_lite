@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<language name="MASTER LANGUAGE" vbversion="4.0.3" product="phpkd_vblvb" type="master">
+	<skippedgroups>
+		<skippedgroup>cphelptext</skippedgroup>
+	</skippedgroups>
+	<phrasetype name="Control Panel Options" fieldname="cpoption">
+		<phrase name="phpkd_vblvb_checked_existingposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Tüm Mesajlar (Konunun İlk Mesajı + Tüm Yanıtlar)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_existingposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Sadece İlk Mesaj (Konunun Sadece İlk Mesajı)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Tüm Yeni Mesajlar (Konular & Konuya Yazılmış Mesajlar)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Sadece Yeni Konular (Konunun Sadece İlk Mesajı)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_none" date="1256564517" username="PHPKD" version="4.0.101"><![CDATA[Hiçbiri]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_lastx" date="1254889566" username="PHPKD" version="4.0.101"><![CDATA[Son X Günler]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_specific" date="1254889584" username="PHPKD" version="4.0.101"><![CDATA[Belirli Bir Zaman]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_depositfiles_com" date="1254985505" username="PHPKD" version="4.0.101"><![CDATA[Depositfiles.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_easy_share_com" date="1254985523" username="PHPKD" version="4.0.101"><![CDATA[Easy-Share.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_filefactory_com" date="1254985561" username="PHPKD" version="4.0.101"><![CDATA[Filefactory.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_mediafire_com" date="1254985637" username="PHPKD" version="4.0.101"><![CDATA[Mediafire.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_megaupload_com" date="1254988551" username="PHPKD" version="4.0.101"><![CDATA[Megaupload.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_netload_in" date="1254988915" username="PHPKD" version="4.0.101"><![CDATA[NETLOAD.in]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_com" date="1254988632" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_de" date="1254988636" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.de]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_sendspace_com" date="1254988734" username="PHPKD" version="4.0.101"><![CDATA[Sendspace.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_zshare_net" date="1254988886" username="PHPKD" version="4.0.101"><![CDATA[zSHARE.com]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include All Forums]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_ex" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Exclude Specific Forums]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_in" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include Specific Forums]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators" date="1256311007" username="PHPKD" version="4.0.101"><![CDATA[Raporları Sadece Moderatörlere Gönder]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators_and_administrators" date="1256310989" username="PHPKD" version="4.0.101"><![CDATA[Raporları  Moderatörlere ve Adminlere Gönder]]></phrase>
+	</phrasetype>
+	<phrasetype name="Scheduled Tasks" fieldname="cron">
+		<phrase name="task_phpkd_vblvb_desc" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[Bu yazılm konu ve mesajlarda ölü linklerin olup olmadığını kontrol eder.]]></phrase>
+		<phrase name="task_phpkd_vblvb_log" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Executed!]]></phrase>
+		<phrase name="task_phpkd_vblvb_title" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
+	</phrasetype>
+	<phrasetype name="Error Messages" fieldname="error">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266127622" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_newpost" date="1256546122" username="PHPKD" version="4.0.101"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312192" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
+	</phrasetype>
+	<phrasetype name="GLOBAL" fieldname="global">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1264021868" username="PHPKD" version="4.0.120"><![CDATA[Criteria doesn't met any matches for this post.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Checked Hosts" first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_active" date="1256670151" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: green; font-weight: bold">Etkin:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_dead" date="1256670335" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: red; font-weight: bold">Ölü:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_down" date="1256670271" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: orange; font-weight: bold">Geçici Süreliğine Erişime Kapalı:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_punished_posts" date="1256667949" username="PHPKD" version="4.0.101"><![CDATA[<strong>Önlem Alınmış Mesajlar:</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_log_summery" date="1275319489" username="PHPKD" version="4.0.133"><![CDATA[<strong>Summery: All Links: {1}, <span style="color: blue">Checked Links: {2}</span>, <span style="color: green">Alive: {3}</span>, <span style="color: red">Dead: {4}</span>, <span style="color: orange">Temorary Down: {5}</span>, Ignored: {6}.</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312186" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_message" date="1256556785" username="PHPKD" version="4.0.101"><![CDATA[{1}]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_title" date="1256556790" username="PHPKD" version="4.0.101"><![CDATA[Link Verifier Bot Raporu: {1} {2}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_message" date="1256560375" username="PHPKD" version="4.0.101"><![CDATA[Merhaba {1},
+
+
+Forumumuzda, linklerin ölü olup olmadığını kontrol eden "Link Verifier Bot" yazılımının konu ya da mesajında yer alan linklerin bir bölümünün, site yöneticisinin tayin ettiği ölü link limitini aştığını tesbit ettiği için önlem aldı.
+
+[B]Önlem Alınmış Mesaj & Konular:[/B]
+{2}
+
+Daha geniş bilgi için lütfen [URL="{3}"]site yöneticisi[/URL] ile temas kurunuz.
+
+
+Esen Kalınız.
+{4}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_title" date="1256557527" username="PHPKD" version="4.0.101"><![CDATA[Link Verifier Bot Raporu: {1} {2}]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+		<phrase name="setting_phpkd_vblvb_active_desc" date="1257768879" username="PHPKD" version="4.0.101"><![CDATA["PHPKD - Link Verifier Bot" Etkinleştirilsin mı?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_active_title" date="1257768879" username="PHPKD" version="4.0.101"><![CDATA[Yazılım Etkinleştir]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Hangi yeni mesaj(ları) ölü link var olup olmadığı için kontrol edeceksin? Burada "Tüm Mesajlar" ya da sadece "her konunun ilk mesajı" arasında seçim yapabilirsin.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Daha Önce Yazılmış Mesajlar: Hangisini Seçeceksin?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Hangi yeni mesaj(ları) ölü link var olup olmadığı için kontrol edeceksin? "Tüm Yeni Mesajlar" ya da sadece "Yeni Konular"ı seçebilirsin.(Bir konunun sadece ilk mesajı, konuya yazılmış cevapları gözardı eder).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Yeni Mesajlar: Hangisini Seçeceksin?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_desc" date="1256564087" username="PHPKD" version="4.0.101"><![CDATA[Daha önce yazılmış mesajlar halihazırda ölü link içerebilir. Böylesi durumda bir mesaj için önlem alınabilmesi için ölü link yüzdesinin ne olduğunu belirleyebilirsiniz. Lütfen herhangi bir sembol yazmadan bir sayı yazınız.<br /><br />
+<strong>Örnekler:</strong> Eğer "10" yazarsanız, bu demek olur ki sadece %10'luk bir ölü link oranı bir mesaj için iznin veriliyor ve linklerin %90%'ı sağlam olması yani etkin olması gerekiyor. Eğer bir mesaj bu sınırı aşarsa, bu mesajlar not ediliyor; bu yolla senin daha önce belirlediğin "Önlem" metodu ile mesajlara işlem yapılır. Eğer mesaj(lar) bu oranın altındaysa herhangi bir Önleme (Cezaya) maruz kalmıyor.<br /><br />
+<strong>Önemli Not</strong> şayet "0" yazılırsa tüm mesajların içerindeki "her link" etkin olması yani ölü olmaması gerekiyor.(Tek link bile ölü olursa mesaj not edilecek); "100" yazılırsa bu "0"'ın tam tersi anlamına gelir ki mesaj için sistemin önlem alması için tüm mesajların içerisindeki linklerin "hepsi" ölü olması gerekecek. Yani bir konu içerisinde sadece tek link bile etkin ise bu mesaj not edilmeyecek yani önleme maruz kalmayacak.<br /><br />
+<strong>Ayrıca Not Ediniz:</strong> Eğer bir mesaj sadece 5 linki varsa bunun oransal olarak karşılığı her link için %25'e denk geliyor. Eğer yüzdelik oranını '%10' olarak belirlerseniz bu önlem oranını, linklerin %20'sinin ölü olduğu için doğru kılacaktır.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_title" date="1256564087" username="PHPKD" version="4.0.101"><![CDATA[Kritik Sınır/Kırmızı Kod]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_desc" date="1254891214" username="PHPKD" version="4.0.101"><![CDATA[Yazılımın sadece belirli bir zaman aralığında çalışacak şekilde ayarlayabilirsin.<br />
+İki Farklı Zaman Ayarı Seçebilirsin:<br />
+<strong>"Tanımlanmış Zaman":</strong> Bu ayarı seçerseniz yazılım bu tarihin hemen sonrasında çalışmaya başlar.<br />
+<strong>"Son X Gün(ler)":</strong> Bu ayarsı seçerseniz yazılım sadece belirleyeceğiniz günlerde yazılmış mesajları kontrol eder.<br />
+Arzu edilen ayarı seçtikten sonra, arzu edilen zaman dilimini girmelisiniz. Bu zaman dilimi ya "Tanımlanmış Zaman" ya da "Son X Gün(ler)" ayarı için aşağıdaki formatlarda seçilecek.<br /><br />
+<em><u>Zaman sınırı özelliğini kullanmak istemiyorsanız müteakip alanda bulunan "Zaman/Tarih Sınırlama Değeri" olarak sadece "0" yazmanız yeterli olacaktır.</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_title" date="1254891214" username="PHPKD" version="4.0.101"><![CDATA[Zaman/Tarih Sınırlama]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_desc" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[Yazılımın link kontrolü yapmasını sadece belirli bir zamanda yapmasını istiyorsanız uygun yerlere değerleri aşağıdaki formatlarda yazınız:<br />
+<strong>"Tanımlanmış Zaman"</strong>: Zaman formunu yıl-ay-gün (yyyy-mm-dd) formatlarda seçiniz. Bu şekilde bu tarihten sonra kontrol edilmee başlayacaktır.<br />
+<strong>"Son X Günde"</strong>: Bu bölüme pozitif bir sayı mesela "3" yazınız. Yazılım da son 3 günde gönderilen mesajlardaki linkleri kontrol eder.<br /><br />
+<em><u>Eğer Zaman/Tarih Sınırlama özelliğini kullanmak istemiyorsanız ayar bölümüne "0" yazınız.</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_title" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[Zaman/Tarih Sınırlama Değeri]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_desc" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[Are you looking for dedicated support, feature feature request, bug report and/or any other inquiry?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_title" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[Help & Support]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_desc" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>depositfiles.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_title" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: depositfiles.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_desc" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>easy-share.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_title" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: easy-share.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_desc" date="1256673998" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>filefactory.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_title" date="1256673998" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: filefactory.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_desc" date="1256674007" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>mediafire.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_title" date="1256674007" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: mediafire.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_desc" date="1256668899" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>megaupload.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_title" date="1256668899" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: megaupload.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_desc" date="1256668924" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>netload.in</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_title" date="1256668924" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: netload.in]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_desc" date="1256668953" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>rapidshare.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_title" date="1256668953" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: rapidshare.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_desc" date="1256668972" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>rapidshare.de</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_title" date="1256668972" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: rapidshare.de]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_desc" date="1256669001" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>sendspace.com</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_title" date="1256669001" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: sendspace.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_desc" date="1256669048" username="PHPKD" version="4.0.101"><![CDATA[Eğer '<strong>zshare.net</strong>' linklerini kontrol etmek istiyorsanız "Evet"i istemiyorsanız "Hayır"ı Seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_title" date="1256669048" username="PHPKD" version="4.0.101"><![CDATA[Host Adı: zshare.net]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.<br />
+You've three options to choose from:<br />
+<ul>
+	<li><strong>Include All Forums</strong></li>
+	<li><strong>Include Specific Forums</strong></li>
+	<li><strong>Exclude Specific Forums</strong></li>
+</ul>
+Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts <strong>except</strong> those specific forums' posts -defined in the following setting-.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to enter their IDs here in this setting separated by commas ','.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Included/Excluded Forums]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include/Exclude Forums]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_desc" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[Genellikle, aynı anda kontrol edilecek mesaj sayısı, sunucunun aşırı şekilde yüklenmesini ya da bağlantısının kopmasını önlemek için sınırlandırmak gerekmektedir. <strong>Çok mesajı olan ya da mesajlarında çok link barındıran forumlarda sınırlama yapılması şiddetle öneririlr. Bunu da: <span class="diff-changed">"Zaman/Tarih Sınırlama Modu" & "Zaman/Tarih Sınırlama Değeri", "Varolan Mesajlar: Hangisini Seçeceksin?", "Mesaj içerisinde kontrol edilecek azami link sayısı", "Check Succession Period"</span>; Onun için bu ayar/özelliklere akıllıca değerler vermeyi öneririz aksi taktirde forumunuzda; sadece X sayıda mesajın kontrol edilmesi ya da başka mesaja geçmeden tekrar aynısını kontrol etmesi gibi sorunlarla karşılaşabilirsiniz. Forumunuzun ihtyaçlarını en iyi siz biliyorsunuz ve hangi ayarların forumunuz için uygun düşeceğini bilen de sizsiniz.</strong> Sınırlama yapmak istemiyorsanız "0" yazınız!]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_title" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[Anlık Kontrol Edilecek Mesaj Sayısı]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[Mesaj başına kaç adet link kontrol etmek istiyorsun? Belirlediğin link limitini aşan mesajlarda bu linkler gözardı edilecek ve kontrole tabi tutulmayaca; sadece belirlenmiş sayıdaki "X Link Saysısı" ölü link kontrolüne tabi tutulacak. Herhangi bir sınır koymak istemiyorsanız "0" yazınız.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[Mesaj Başına Kontrol Edilecek Link Miktarı]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_desc" date="1257768137" username="PHPKD" version="4.0.101"><![CDATA[Yönetici, moderatör ya da kullanıcılara gönderilen otomatik mesaj içeriklerini değiştirme ya da kontrol edebilme hakkına sahipsiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_title" date="1257768137" username="PHPKD" version="4.0.101"><![CDATA[Kullanılan Cümleler]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_desc" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[Belirlediğiniz bazı üyelerin mesajlarında ölü link olsa dahi kritik ölü link seviyesini aşsalar dahi önlem yapılmasını engelleyebilirsiniz. Lütfen bu üyelerin ID'lerini virgül ile ayırarak yazınız.<br /><br />
+<strong>Not:</strong> Bu sadece bu üyelerin mesajlarını kapsamaz. Bu üyeler başka üyelerin mesajlarını düzenlediklerinde o mesajlar bu özelliğin kapsamına girer.(Bunun için tabiki öncelikle izinlerinin olması gerekir).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_title" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[İmtiyazlı Üye Grupları]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_desc" date="1255178933" username="PHPKD" version="4.0.101"><![CDATA[Önlem biçimi olarak "Konuyu Taşıma" seçtiyseniz bu konuyu forumun "Çöp Kutusuna" göndermeyi seçiyorsunuz demektir. Bu seçeneği kullandığınızda mesajlar otomatik olarak "Çöp Kutusu Forumuna" taşınacaktır.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_title" date="1255178933" username="PHPKD" version="4.0.101"><![CDATA[Çöp Kutusuna Taşı]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_desc" date="1256673957" username="PHPKD" version="4.0.101"><![CDATA[You may want to punish posts that has dead links exceeding the critical limit by moving to "Recycle Bin Forum". If so, then choose "Yes", otherwise choose "No".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_title" date="1256673957" username="PHPKD" version="4.0.101"><![CDATA[Punishment Method for Dead posts: Move to Recycle Bin]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_desc" date="1255090673" username="PHPKD" version="4.0.101"><![CDATA[Ölü mesajlar için rapor oluşturmayı seçiyorsanız yeni konu açmayı seçiyorsunuz demektir.Buradan rapor oluşturulacak forumunu seçiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_title" date="1255090673" username="PHPKD" version="4.0.101"><![CDATA[Rapor Forumu]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_desc" date="1256496285" username="PHPKD" version="4.0.101"><![CDATA[Rapor gönderimi özelliği (1. Özel Mesaj Olarak Gönderim, 2. Konuya ya da mesajlara yeni cevap) için raporları gönderen olarak üye ID'si gerekmektedir. Lütfen bu alana geçerli, mesaj göndermek ya da konu açmak için uygun kullanıcı hakları olan bir üye ID'si belirtiniz. Aksi taktirde E-Mail gönderim seçeneği dışında özellikler bu durum düzeltilene kadar çalışmayacaktır.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_title" date="1256496285" username="PHPKD" version="4.0.101"><![CDATA[Raporu Gönderecek Üye ID'sı (Numarası)]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_desc" date="1256310952" username="PHPKD" version="4.0.101"><![CDATA[ "Özel Mesaj" ya da "Email" seçeneğini kullandığınızda site yönetiminden kimilerin bunları alabileceğini seçbilirsiniz.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_title" date="1256310952" username="PHPKD" version="4.0.101"><![CDATA[Raporları Site Yöneticilere Gönderme]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_desc" date="1256659107" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, it's possible to auto send the final report to staff as a private message.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_title" date="1256659107" username="PHPKD" version="4.0.101"><![CDATA[Staff Reports: Private Messages]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_desc" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, it's possible to auto create a new thread with the final report so staff can view it.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_title" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[Staff Reports: Create Thread]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_desc" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, if there is punished posts: it's possible to auto send a simple report to their authors as a private message telling them that some of their posts has dead links.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_title" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[User Reports: Private Message]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[Bir mesaj için tekrar kontrol edilme aralığını belirleyebilirsin. Bu sayede bir süre önce kontrol edilmiş mesajlar yazılımın her kontrolünde tekrar kontrol edilmez. Ancak yazılımın mesajları her iki ardışık kontroller arasında en az 1 gün aralık olacak şekilde birçok defa kontrol edecek şekilde ayarlayabilirsiniz. Ardışık kontrolleri kaç gün yapacağınızı yazınız. Mesela; "7" yazarsanız mesajın 7 gün sonra tekrar kontrol edileceği anlamına geliyor. Bu özelliği kullanmak istemiyorsanız "0" yazınız. "0" burada sadece bir kez kontrol edileceği anlamına geliyor. Büyük forumların bunu tercih etmesi şiddetle önerilir.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[Ardışık Kontrol Özelliği]]></phrase>
+		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
+	</phrasetype>
+</language>
+
+<!-- SVN: $Version: 4.0.131 $ - $Id: Spanish_4.0.133.xml 137 2010-05-31 15:13:29Z PHPKD $ -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<language name="MASTER LANGUAGE" vbversion="4.0.1" product="phpkd_vblvb" type="master">
+<language name="MASTER LANGUAGE" vbversion="4.0.3" product="phpkd_vblvb" type="master">
 	<skippedgroups>
 		<skippedgroup>cphelptext</skippedgroup>
 	</skippedgroups>
@@ -29,15 +29,20 @@
 		<phrase name="phpkd_vblvb_rprts_messaging_moderators_and_administrators" date="1256310989" username="PHPKD" version="4.0.101"><![CDATA[Send Reports To Moderators & Administrators]]></phrase>
 	</phrasetype>
 	<phrasetype name="Scheduled Tasks" fieldname="cron">
-		<phrase name="task_phpkd_vblvb_desc" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[This script check posts against dead links.]]></phrase>
-		<phrase name="task_phpkd_vblvb_log" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Executed!]]></phrase>
-		<phrase name="task_phpkd_vblvb_title" date="1255323188" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
+		<phrase name="task_phpkd_vblvb_desc" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[This script check posts against dead links.]]></phrase>
+		<phrase name="task_phpkd_vblvb_log" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Executed!]]></phrase>
+		<phrase name="task_phpkd_vblvb_title" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
 	</phrasetype>
 	<phrasetype name="Error Messages" fieldname="error">
 		<phrase name="phpkd_vblvb_existing_notchecked" date="1266127622" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
 		<phrase name="phpkd_vblvb_invalid_criteria" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
 		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> first and try again.]]></phrase>
 		<phrase name="phpkd_vblvb_newpost" date="1256546122" username="PHPKD" version="4.0.101"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312192" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
 	</phrasetype>
 	<phrasetype name="GLOBAL" fieldname="global">
 		<phrase name="phpkd_vblvb_existing_notchecked" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
@@ -47,8 +52,12 @@
 		<phrase name="phpkd_vblvb_log_link_dead" date="1256670327" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: red; font-weight: bold">Dead:</span> ]]></phrase>
 		<phrase name="phpkd_vblvb_log_link_down" date="1256670279" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: orange; font-weight: bold">Temporary Down:</span> ]]></phrase>
 		<phrase name="phpkd_vblvb_log_punished_posts" date="1256667940" username="PHPKD" version="4.0.101"><![CDATA[<strong>Punished Posts:</strong>]]></phrase>
-		<phrase name="phpkd_vblvb_log_summery" date="1256737712" username="PHPKD" version="4.0.101"><![CDATA[<strong>Summery: All Links: {1}, <span style="color: blue">Checked Links: {2}</span>, <span style="color: green">Alive: {3}</span>, <span style="color: red">Dead: {4}</span>, Ignored: {5}.</strong>]]></phrase>
-		<phrase name="phpkd_vblvb_nothing_checked" date="1266074342" username="PHPKD" version="4.0.130"><![CDATA[Nothing to check, no records returned from your query. Please check <a href="options.php?do=options&dogroup=phpkd_vblvb">product's settings</a> first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_log_summery" date="1275319489" username="PHPKD" version="4.0.133"><![CDATA[<strong>Summery: All Links: {1}, <span style="color: blue">Checked Links: {2}</span>, <span style="color: green">Alive: {3}</span>, <span style="color: red">Dead: {4}</span>, <span style="color: orange">Temorary Down: {5}</span>, Ignored: {6}.</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312186" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
 		<phrase name="phpkd_vblvb_rprts_message" date="1256556785" username="PHPKD" version="4.0.101"><![CDATA[{1}]]></phrase>
 		<phrase name="phpkd_vblvb_rprts_title" date="1256556790" username="PHPKD" version="4.0.101"><![CDATA[Link Verifier Bot Report: {1} {2}]]></phrase>
 		<phrase name="phpkd_vblvb_rprtu_message" date="1256560375" username="PHPKD" version="4.0.101"><![CDATA[Hello {1},
@@ -90,8 +99,8 @@ After choosing your preferred mode, you've to enter the appropriate value either
 <strong>"Last X Days"</strong>: Enter a correct positive integer value for that period in days to check posts posted within last X days.<br /><br />
 <em><u>If you don't wish to use the Cutoff feature then enter "0" in this setting's field.</u></em>]]></phrase>
 		<phrase name="setting_phpkd_vblvb_cutoff_value_title" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[Time/Date Cutoff Value]]></phrase>
-		<phrase name="setting_phpkd_vblvb_help_desc" date="1264030402" username="PHPKD" version="4.0.120"><![CDATA[Are you looking for dedicated support, feature feature request, bug report and/or any other inquiry?]]></phrase>
-		<phrase name="setting_phpkd_vblvb_help_title" date="1264030402" username="PHPKD" version="4.0.120"><![CDATA[Help & Support]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_desc" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[Are you looking for dedicated support, feature feature request, bug report and/or any other inquiry?]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_title" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[Help & Support]]></phrase>
 		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_desc" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>depositfiles.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
 		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_title" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[Check Hosts: depositfiles.com]]></phrase>
 		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_desc" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[If you wish to check '<strong>easy-share.com</strong>' links, choose "Yes", otherwise choose "No".]]></phrase>
@@ -123,10 +132,10 @@ Select "Include All Forums" to check all forums' posts, or select "Include Speci
 		<phrase name="setting_phpkd_vblvb_inex_forums_ids_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to enter their IDs here in this setting separated by commas ','.]]></phrase>
 		<phrase name="setting_phpkd_vblvb_inex_forums_ids_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Included/Excluded Forums]]></phrase>
 		<phrase name="setting_phpkd_vblvb_inex_forums_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include/Exclude Forums]]></phrase>
-		<phrase name="setting_phpkd_vblvb_limit_desc" date="1262356373" username="PHPKD" version="4.0.101"><![CDATA[Commonly, it's recommended to set a specific number of posts to process in each turn to prevent any possible timeout or Memory/CPU exhausting during the execution process. <strong>A Lower Value usually recommended specially for boards that has long posts containing many links. There's other important factors that have strong affect also such as: <span class="diff-changed">"Time/Date Cutoff Mode" & "Time/Date Cutoff Value", "Existing Posts: What to check?", "Maximum Links to check per post", "Check Succession Period"</span>; So please take care & try to set a logical value for each of these settings/options or you may result in unexpected results; Such as checking only the first X number of posts in the forum & re-check them again without shifting to other posts. You're the one who knows your board & you're the one who can determine which suits you & your board according to your board's activity/content/requirements.</strong> Enter "0" for UNLIMITED!]]></phrase>
-		<phrase name="setting_phpkd_vblvb_limit_title" date="1262356373" username="PHPKD" version="4.0.101"><![CDATA[Posts To Check in Each Batch]]></phrase>
-		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1262356685" username="PHPKD" version="4.0.101"><![CDATA[How many links you do wish to check per post? If any post contains more than that defined limit, then those 'over limit' links will be ignored & will not be checked; only the first X links (as defined here) will be checked against dead links. Enter "0" for UNLIMITED.]]></phrase>
-		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1262356685" username="PHPKD" version="4.0.101"><![CDATA[Maximum Links to check per post]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_desc" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[Commonly, it's recommended to set a specific number of posts to process in each turn to prevent any possible timeout or Memory/CPU exhausting during the execution process. <strong>A Lower Value usually recommended specially for boards that has long posts containing many links. There's other important factors that have strong affect also such as: <span class="diff-changed">"Time/Date Cutoff Mode" & "Time/Date Cutoff Value", "Existing Posts: What to check?", "Maximum Links to check per post", "Check Succession Period"</span>; So please take care & try to set a logical value for each of these settings/options or you may result in unexpected results; Such as checking only the first X number of posts in the forum & re-check them again without shifting to other posts. You're the one who knows your board & you're the one who can determine which suits you & your board according to your board's activity/content/requirements.</strong> Enter "0" for UNLIMITED!]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_title" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[Posts To Check in Each Batch]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[How many links you do wish to check per post? If any post contains more than that defined limit, then those 'over limit' links will be ignored & will not be checked; only the first X links (as defined here) will be checked against dead links. Enter "0" for UNLIMITED.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[Maximum Links to check per post]]></phrase>
 		<phrase name="setting_phpkd_vblvb_phrases_desc" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[You've the ability to control/localize the content used in automated messages & reports sent to staff & users.]]></phrase>
 		<phrase name="setting_phpkd_vblvb_phrases_title" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[Used Phrases]]></phrase>
 		<phrase name="setting_phpkd_vblvb_powerful_ugids_desc" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[Powerful User Groups are those user groups that can override/overcome the "Critical Limit/Red Line" & force their posts to be posted despite of having dead links. Please enter User Group IDs separated by commas.<br /><br />
@@ -148,8 +157,8 @@ Select "Include All Forums" to check all forums' posts, or select "Include Speci
 		<phrase name="setting_phpkd_vblvb_rprts_thread_title" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[Staff Reports: Create Thread]]></phrase>
 		<phrase name="setting_phpkd_vblvb_rprtu_pm_desc" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[After each run of the script, if there is punished posts: it's possible to auto send a simple report to their authors as a private message telling them that some of their posts has dead links.]]></phrase>
 		<phrase name="setting_phpkd_vblvb_rprtu_pm_title" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[User Reports: Private Message]]></phrase>
-		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1262357279" username="PHPKD" version="4.0.101"><![CDATA[You can determine the separating time period between successive checks for same posts, so those "checked recently" posts don't be checked every time the script runs. If you wish you can force posts to be checked multiple times, but with at least 1 day between each two successive checks. Enter how many days you wish to separate each two successive checks here, or enter "0" to disable this feature. Note: "7" means your posts will be checked every seven days, those checked posts will not be checked again before seven days has been passed from the last check, "0" means that checked posts will be checked just once. <strong>A Higher Value usually recommended specially for large boards.</strong>]]></phrase>
-		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1262357279" username="PHPKD" version="4.0.101"><![CDATA[Check Succession Period]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[You can determine the separating time period between successive checks for same posts, so those "checked recently" posts don't be checked every time the script runs. If you wish you can force posts to be checked multiple times, but with at least 1 day between each two successive checks. Enter how many days you wish to separate each two successive checks here, or enter "0" to disable this feature. Note: "7" means your posts will be checked every seven days, those checked posts will not be checked again before seven days has been passed from the last check, "0" means that checked posts will be checked just once. <strong>A Higher Value usually recommended specially for large boards.</strong>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[Check Succession Period]]></phrase>
 		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
 	</phrasetype>
 </language>

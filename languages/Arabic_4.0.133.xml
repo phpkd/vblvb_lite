@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<language name="MASTER LANGUAGE" vbversion="4.0.0" product="phpkd_vblvb" type="master">
+	<skippedgroups>
+		<skippedgroup>cphelptext</skippedgroup>
+	</skippedgroups>
+	<phrasetype name="Control Panel Options" fieldname="cpoption">
+		<phrase name="phpkd_vblvb_checked_existingposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[ÌåêÙ ÇäåÔÇÑãÇÊ(ÈÏÇêÉ ÇäåèÖèÙ èÌåêÙÇäÑÏèÏ)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_existingposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Ãèä åÔÇÑãÉ áâ× (ÈÏÇêÉ ÇäåèÖèÙ)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[ÌåêÙ ÇäåÔÇÑãÇÊ ÇäÌÏêÏÉ (ÇäåèÇÖêÙ èÇäÑÏèÏ)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_newposts_first" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[áâ× ÇäåèÇÖêÙ ÇäÌÏêÏÉ (ÈÏÇêÉ ÇäåèÖèÙ ÈÏèæ ÇäÑÏèÏ)]]></phrase>
+		<phrase name="phpkd_vblvb_checked_none" date="1256564517" username="PHPKD" version="4.0.101"><![CDATA[äÇ ÔêÁ]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_lastx" date="1254889566" username="PHPKD" version="4.0.101"><![CDATA[ÂÎÑ X ÃêÇå]]></phrase>
+		<phrase name="phpkd_vblvb_cutoff_mode_specific" date="1254889584" username="PHPKD" version="4.0.101"><![CDATA[ÊÇÑêÎ åÍÏÏ]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_depositfiles_com" date="1254985505" username="PHPKD" version="4.0.101"><![CDATA[Depositfiles.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_easy_share_com" date="1254985523" username="PHPKD" version="4.0.101"><![CDATA[Easy-Share.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_filefactory_com" date="1254985561" username="PHPKD" version="4.0.101"><![CDATA[Filefactory.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_mediafire_com" date="1254985637" username="PHPKD" version="4.0.101"><![CDATA[Mediafire.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_megaupload_com" date="1254988551" username="PHPKD" version="4.0.101"><![CDATA[Megaupload.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_netload_in" date="1254988915" username="PHPKD" version="4.0.101"><![CDATA[NETLOAD.in]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_com" date="1254988632" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_rapidshare_de" date="1254988636" username="PHPKD" version="4.0.101"><![CDATA[Rapidshare.de]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_sendspace_com" date="1254988734" username="PHPKD" version="4.0.101"><![CDATA[Sendspace.com]]></phrase>
+		<phrase name="phpkd_vblvb_hosts_zshare_net" date="1254988886" username="PHPKD" version="4.0.101"><![CDATA[zSHARE.com]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_all" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include All Forums]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_ex" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Exclude Specific Forums]]></phrase>
+		<phrase name="phpkd_vblvb_inex_forums_in" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include Specific Forums]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators" date="1256311007" username="PHPKD" version="4.0.101"><![CDATA[ÇÑÓÇä ÇäÊâÇÑêÑ áâ× ääåÑÇâÈêæ]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_messaging_moderators_and_administrators" date="1256310989" username="PHPKD" version="4.0.101"><![CDATA[ÇÑÓÇä ÇäÊâÇÑêÑ ääåÑÇâÈêæ èÇäÅÏÇÑÉ]]></phrase>
+	</phrasetype>
+	<phrasetype name="Scheduled Tasks" fieldname="cron">
+		<phrase name="task_phpkd_vblvb_desc" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[çÐÇ ÇäÓãÑÈÊ êâèå ÈáÍÕ ÇäåÔÇÑãÇÊ åæ ÇäÑèÇÈ× ÇäåæÊçêÉ ÇäÕäÇÍêÉ.]]></phrase>
+		<phrase name="task_phpkd_vblvb_log" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite' Executed!]]></phrase>
+		<phrase name="task_phpkd_vblvb_title" date="1275311116" username="PHPKD" version="4.0.133"><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></phrase>
+	</phrasetype>
+	<phrasetype name="Error Messages" fieldname="error">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266127622" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_newpost" date="1256546122" username="PHPKD" version="4.0.101"><![CDATA[You've dead links inside your post, please check & validate links first.]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312192" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
+	</phrasetype>
+	<phrasetype name="GLOBAL" fieldname="global">
+		<phrase name="phpkd_vblvb_existing_notchecked" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[You've chosen not to check existing posts. Please review the <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Existing Posts: What to check?" and make sure it's active.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_criteria" date="1264021868" username="PHPKD" version="4.0.120"><![CDATA[ÇäåÙÇêêÑ äÇ ÊâÇÈä Ãê æØÑÇÁ äçÐç ÇäåÔÇÑãÉ.]]></phrase>
+		<phrase name="phpkd_vblvb_invalid_hosts" date="1266135257" username="PHPKD" version="4.0.130"><![CDATA[Sorry, no selected hosts to be checked! You should select at least one host to check, please set your hosts selection from <a href="options.php?do=options&dogroup=phpkd_vblvb">product's setting</a> "Checked Hosts" first and try again.]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_active" date="1256670134" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: green; font-weight: bold">áÙÇäÉ:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_dead" date="1256670327" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: red; font-weight: bold">åæÊçêÉ:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_link_down" date="1256670279" username="PHPKD" version="4.0.101"><![CDATA[<span style="color: orange; font-weight: bold">Temporary Down:</span> ]]></phrase>
+		<phrase name="phpkd_vblvb_log_punished_posts" date="1256667940" username="PHPKD" version="4.0.101"><![CDATA[<strong>ÇäåÔÇÑãÇÊ ÇäåÓÊÚæé ÙæçÇ:</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_log_summery" date="1275319489" username="PHPKD" version="4.0.133"><![CDATA[<strong>Summery: All Links: {1}, <span style="color: blue">Checked Links: {2}</span>, <span style="color: green">Alive: {3}</span>, <span style="color: red">Dead: {4}</span>, <span style="color: orange">Temorary Down: {5}</span>, Ignored: {6}.</strong>]]></phrase>
+		<phrase name="phpkd_vblvb_nothing_checked" date="1275312186" username="PHPKD" version="4.0.133"><![CDATA[Nothing checked. No records found meets your criteria. This may be caused by one of the following reasons:
+<ol>
+	<li>All posts has been checked already, and the next successive check didn't come yet.</li>
+	<li>As per your product's settings, there isn't any posts to check currently. <a href="options.php?do=options&dogroup=phpkd_vblvb">You may wish to review your product's settings</a>.</li>
+</ol>]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_message" date="1256556785" username="PHPKD" version="4.0.101"><![CDATA[{1}]]></phrase>
+		<phrase name="phpkd_vblvb_rprts_title" date="1256556790" username="PHPKD" version="4.0.101"><![CDATA[ÊâÑêÑ ÑèÈèÊ áÍÕ ÇäÑèÇÈ× {1} {2}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_message" date="1256560375" username="PHPKD" version="4.0.101"><![CDATA[åÑÍÈÇë {1},
+
+
+Åæ ÑèÈèÊ áÍÕ ÇäÑèÇÈ× âÏ ãÔá åÄÎÑÇë Ùæ ÈÙÖ ÇäÑèÇÈ× ÇäåæÊçêÉ áê ÈÙÖ åÔÇÑãÇÊã,èâÏ ÊÌÇèÒÊ çÐç ÇäÑèÇÈ× ÇäåæÊçêÉ ÇäÍÏ ÇäåÓåèÍ Èç ÇäÐê ÍÏÏÊç ÅÏÇÑÉ ÇäåæÊÏé äãä åÔÇÑãÉ. äÐäã, áâÏ Êå ÇäÇÓÊÚæÇÁ Ùæ ÇäåÔÇÑãÇÊ ÇäÊê ÊÍÊèê Ùäé ÇäÑèÇÈ× ÇäÒÇÆÏÉ Ùæ ÇäÍÏ ÇäåÓåèÍ Èç.
+
+[B]ÇäåÔÇÑãÇÊ ÇäåÓÊÚæé ÙæçÇ:[/B]
+{2}
+
+ÑÌÇÁë [URL="{3}"]ÇäÇÊÕÇä ÈÇäÅÏÇÑÉ[/URL] äåÒêÏ åæ ÇäåÙäèåÇÊ.
+
+
+åÙ Ã×êÈ ÊÍêÉ
+{4}]]></phrase>
+		<phrase name="phpkd_vblvb_rprtu_title" date="1256557527" username="PHPKD" version="4.0.101"><![CDATA[ÊâÑêÑ ÑèÈèÊ áÍÕ ÇäÑèÇÈ× {1} {2}]]></phrase>
+	</phrasetype>
+	<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+		<phrase name="setting_phpkd_vblvb_active_desc" date="1254750256" username="PHPKD" version="4.0.101"><![CDATA[ÇÎÊêÇÑ áêåÇ ÅÐÇ ãÇæ åæÊÌ "ÑèÈèÊ áÍÕ ÇäÑèÇÈ×" êÙåä Çå äÇ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_active_title" date="1254750256" username="PHPKD" version="4.0.101"><![CDATA[ÊáÙêä ÇäåæÊÌ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Ãê ÇäåÔÇÑãÇÊ ÇäÊê ÊÑêÏ áÍÕçÇ åæ ÇäÑèÇÈ× ÇäåæÊçêÉ ÇäÕäÇÍêÉ¿ êåãæã Ãåæ ÊÎÊÇÑ Èêæ áÍÕ :ÌåêÙ ÇäåÔÇÑãÇÊ" Ãè áÍÕ "ÇäåÔÇÑãÉ ÇäÃèäé åæ ãä åèÖèÙ" áâ×.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_existingposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[ÇäåÔÇÑãÇÊ ÇäåèÌèÏÉ: åÇÐÇ ÃáÍÕ¿]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Ãê ÇäåÔÇÑãÇÊ ÇäÌÏêÏÉ ÇäÊê ÊÑêÏ áÍÕçÇ åæ ÇäÑèÇÈ× ÇäåæÊçêÉ¿ êåãæã Ãæ ÊÎÊÇÑ Èêæ áÍÕ "ÌåêÙ ÇäåÔÇÑãÇÊ ÇäÌÏêÏÉ" Ãè áÍÕ áâ× "ÇäåèÇÖêÙ ÇäÌÏêÏÉ" (ÈÏÇêÉ ÇäåèÖèÙ, ÈÏèæ ÇäÑÏèÏ).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_checked_newposts_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[ÇäåÔÇÑãÇÊ ÇäÌÏêÏÉ: åÇÐÇ ÃáÍÕ¿]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_desc" date="1262357136" username="PHPKD" version="4.0.101"><![CDATA[Checked posts may contain dead links, you can control when posts should be punished because of high percentage of dead links within it. Just enter the Red Line percentage here as a positive integer value (without any symbols). This critical Limit/Red Line is the maximum percentage that dead links can represent from all links available per post.<br /><br />
+<strong>Examples:</strong> If you enter "10", that means 10% only of dead links allowed per post (And 90% alive), if that post contains more than that percentage of dead links from all links, then it will be flagged; this way it can be punished by the way you specify in the settings below. If the post has less than 10% of dead links then it will pass as valid without punishment.<br /><br />
+<strong>Please note</strong> that "0" means that all links per post should be valid & alive (no dead links allowed, if just one link is dead the post will be flagged); While "100" means the opposite, it means that all links per post should be dead to be flagged, that means if there is only one link alive & the rest are dead, the post will pass as valid without punishment.<br /><br />
+<strong>Note Also:</strong> If any post has only 5 links within it to be checked, then that means each link represents 20% from the whole checked links. This means also if only one link is dead & you've set this setting to '10%' the expression will evaluate as true & will punish that post since it has 20% dead links.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_critical_title" date="1262357136" username="PHPKD" version="4.0.101"><![CDATA[Critical Limit/Red Line]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_desc" date="1254891214" username="PHPKD" version="4.0.101"><![CDATA[You can force this product to process only posts in a specific time frame.<br />
+You've two modes to choose from:<br />
+<strong>"Specific Date":</strong> This mode will check all posts posted after that specific date.<br />
+<strong>"Last X Days":</strong> This mode will check all posts posted only in the last X days.<br />
+After choosing your preferred mode, you've to enter the appropriate value either it's for "Specific Date" OR "Last X Days" in the following setting.<br /><br />
+<em><u>If you don't wish to use the Cutoff feature then enter "0" in the following setting's field "Time/Date Cutoff Value".</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_mode_title" date="1254891214" username="PHPKD" version="4.0.101"><![CDATA[Time/Date Cutoff Mode]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_desc" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÑÚÈÊ ÈÅÌÈÇÑ ÇäåæÊÌ Ùäé åÙÇäÌÉ ÇäåÔÇÑãÇÊ áê áÊÑÉ ÒåæêÉ åÍÏÏÉ, Ëå ÇÎÊÑÊ ÇäèÖÙ ÇäåáÖä áê ÇäÎêÇÑÇÊ ÃÙäÇç, Ëå ÃÏÎä ÇäâêåÉ ÇäåæÇÓÈÉ çæÇ áê çÐÇ ÇäÍâä ÍÓÈ ÇäÊÙÑêá ÇäÊÇäê:<br />
+<strong>"ÊÇÑêÎ åÍÏÏ"</strong>: ÃÏÎä ÇäÊÇÑêÎ ÇäÕÍêÍ Ùäé ÇäÔãä (yyyy-mm-dd) äáÍÕ ÌåêÙ ÇäåÔÇÑãÇÊ ÈÙÏç.<br />
+<strong>"ÂÎÑ X ÃêÇå"</strong>: ÃÏÎä ÙÏÏ åèÌÈ ÕÍêÍ äáÊÑÉ ÇäÃêÇå äáÍÕ ÇäåÔÇÑãÇÊ ÇäÊê ÃÏÑÌÊ áê ÂÎÑ X êèå.<br /><br />
+<em><u>ÅÐÇ ãæÊ äÇ ÊÑÚÈ áê ÇÓÊÎÏÇå æØÇå Çäâ×Ù ÖÙ ÇäâêåÉ "0" áê çÐÇ ÇäÍâä.</u></em>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_cutoff_value_title" date="1254892204" username="PHPKD" version="4.0.101"><![CDATA[âêåÉ æØÇå Çäâ×Ù ÍÓÈ ÇäÊÇÑêÎ/ÇäèâÊ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_desc" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[çä ÊÈÍË Ùæ ÇäÏÙå Çäáæê, ×äÈ åêÒÇÊ, èÊâÇÑêÑ ÇäÃÎ×ÇÁ è/Ãè Ãê ÇÓÊáÓÇÑ ÂÎÑ¿]]></phrase>
+		<phrase name="setting_phpkd_vblvb_help_title" date="1275308084" username="PHPKD" version="4.0.133"><![CDATA[ÇäåÓÇÙÏÉ èÇäÏÙå]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_desc" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>depositfiles.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_depositfiles_com_title" date="1256673982" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: depositfiles.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_desc" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>easy-share.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_easy_share_com_title" date="1256673989" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: easy-share.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_desc" date="1256673998" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>filefactory.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_filefactory_com_title" date="1256673998" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: filefactory.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_desc" date="1256674007" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>mediafire.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_mediafire_com_title" date="1256674007" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: mediafire.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_desc" date="1256668899" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>megaupload.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_megaupload_com_title" date="1256668899" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: megaupload.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_desc" date="1256668924" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>netload.in</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_netload_in_title" date="1256668924" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: netload.in]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_desc" date="1256668953" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>rapidshare.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_com_title" date="1256668953" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: rapidshare.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_desc" date="1256668972" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>rapidshare.de</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_rapidshare_de_title" date="1256668972" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: rapidshare.de]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_desc" date="1256669001" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>sendspace.com</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_sendspace_com_title" date="1256669001" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: sendspace.com]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_desc" date="1256669048" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ ÊÑêÏ Ãæ ÊáÍÕ ÑèÇÈ× ÇäåÖêá '<strong>zshare.net</strong>', ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_hosts_zshare_net_title" date="1256669048" username="PHPKD" version="4.0.101"><![CDATA[áÍÕ ÇäåÖêá: zshare.net]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.<br />
+You've three options to choose from:<br />
+<ul>
+	<li><strong>Include All Forums</strong></li>
+	<li><strong>Include Specific Forums</strong></li>
+	<li><strong>Exclude Specific Forums</strong></li>
+</ul>
+Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts <strong>except</strong> those specific forums' posts -defined in the following setting-.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_desc" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to enter their IDs here in this setting separated by commas ','.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_ids_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Included/Excluded Forums]]></phrase>
+		<phrase name="setting_phpkd_vblvb_inex_forums_title" date="1266195634" username="PHPKD" version="4.0.130"><![CDATA[Include/Exclude Forums]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_desc" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[ÙÇÏÉ, êèÕé Ãæ Êâèå ÈÊÍÏêÏ ÙÏÏ åÙêæ åæ ÇäåÔÇÑãÇÊ äãê Êâèå áê ãä ÏèÑÉ ÈåæÙ Ãê ÎÑèÌ Ùæ ÇäèâÊ Ãè ÊÌÇèÒ èÇÓÊæÒÇá ÇäåÙÇäÌ ÎäÇä ÙåäêÉ ÇäÊæáêÐ. <strong>A Lower Value usually recommended specially for boards that has long posts containing many links. There's other important factors that have strong affect also such as: <span class="diff-changed">"Time/Date Cutoff Mode" & "Time/Date Cutoff Value", "Existing Posts: What to check?", "Maximum Links to check per post", "Check Succession Period"</span>; So please take care & try to set a logical value for each of these settings/options or you may result in unexpected results; Such as checking only the first X number of posts in the forum & re-check them again without shifting to other posts. You're the one who knows your board & you're the one who can determine which suits you & your board according to your board's activity/content/requirements.</strong> Enter "0" for UNLIMITED!]]></phrase>
+		<phrase name="setting_phpkd_vblvb_limit_title" date="1275310004" username="PHPKD" version="4.0.133"><![CDATA[ÇäåÔÇÑãÇÊ ÇäåáÍèÕÉ áê ãä ÏáÙÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_desc" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[ÙÏÏ ÇäÑèÇÈ× ÇäÊê ÊÑêÏ áÍÕçÇ áê ãä åÔÇÑãÉ, ÅÐÇ ãÇæ çæÇã åÔÇÑãÉ ÊÍèê ÙÏÏ åæ ÇäÑèÇÈ× ÃãËÑ åæ ÇäåÍÏÏÉ çæÇ áÓèá êÊå ÊÌÇçäçÇ èäæ êÊå áÍÕçÇ, áâ× Ãèä X ÑèÇÈ× (ãåÇ çè åÍÏÏ çæÇ áê çÐÇ ÇäÍâä) ÓêÊå áÍÕçÇ åæ ÇäÑèÇÈ× ÇäåæÊçêÉ. ÖÙ ÇäâêåÉ "0" äáÍÕ ÌåêÙ ÇäÑèÇÈ× Ïèæ ÇÓÊËæÇÁ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_maxlinks_title" date="1275310061" username="PHPKD" version="4.0.133"><![CDATA[ÇäÙÏÏ ÇäÃâÕé åæ ÇäÑèÇÈ× äáÍÕçÇ áê ãä åÔÇÑãÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_desc" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[äÏêã ÇåãÇæêÉ ÇäÊÍãå ÈÇäåÍÊèé ÇäåÓÊÎÏå áê ÇäÑÓÇÆä ÇäåÑÓäÉ èÇäÊâÇÑêÑ ÇäåÑÓäÉ åæ ÇäÃÙÖÇÁ èÇäåÔÑáêæ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_phrases_title" date="1262357788" username="PHPKD" version="4.0.101"><![CDATA[ÇäÙÈÇÑÇÊ ÇäåÓÊÎÏåÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_desc" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[åÌåèÙÇÊ ÇäÃÙÖÇÁ ÇäååêÒÉ çê Êäã ÇäåÌåèÙÇÊ ÇäÊê êåãæçÇ Ãæ ÊÊÎ×é "ÇäÍÏèÏ ÇäåÓåèÍ ÈçÇ" èÇÌÈÇÑ åÔÇÑãÇÊçå Ùäé Ãæ êÊå ÇÙÊåÇÏçÇ ÈÇäÑÚå åæ ÇÍÊèÇÁçÇ Ùäé ÑèÇÈ× åæÊçêÉ ÇäÕäÇÍêÉ. ÑÌÇÁë âå ÈÇÏÎÇä ÃÑâÇå åÌåèÙÇÊ ÇäÃÙÖÇÁ èÇáÕä ÈêæçÇ ÈáèÇÕä",".<br /><br />
+<strong>äÇÍØ:</strong> âÏÑÉ åÌåèÙÇÊ ÇäÃÙÖÇÁ ÇäååêÒÉ äÇ ÊÄËÑ Ùäé åÔÇÑãÇÊ ÃÙÖÇÁ Êäã ÇäåÌåèÙÇÊ èÍÓÈ, èÅæåÇ ÊÄËÑ ÃêÖÇë Ùäé Ãê åÔÇÑãÉ Êå ÊÙÏêäçÇ åæ âÈä ÇäåÌåèÙÉ ÇäååêÒÉ. çÐÇ êÙæê Ãæçå âÇÏÑêæ Ùäé ÊÎ×ê ÇäÍÏèÏ ÇäåÓåèÍ ÈçÇ ÙæÏ ÇäåÔÇÑãÉ èÙæÏ ÊÙÏêä åÔÇÑãÇÊ ÇäÂÎÑêæ (×ÈÙÇë êÌÈ Ãæ êãèæ åÕÑÍ äçå ÈÐäã).]]></phrase>
+		<phrase name="setting_phpkd_vblvb_powerful_ugids_title" date="1256564071" username="PHPKD" version="4.0.101"><![CDATA[åÌåèÙÇÊ ÇäÃÙÖÇÁ ÇäååêÒÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_desc" date="1255178933" username="PHPKD" version="4.0.101"><![CDATA[ÇÐÇ ãæÊ âÏ ÇÎÊÑÊ ÇäÇÓÊÚæÇÁ Ùæ ÇäåÔÇÑãÇÊ ÇäåæÊçêÉ Ùæ ×Ñêâ æâä ÇäåèÇÖêÙ, êÌÈ Ùäêã ÊÍÏêÏ "åæÊÏé ÓäÉ ÇäåÍÐèáÇÊ" åæ çæÇ. Êäã ÇäåÔÇÑãÇÊ ÇäåæÊçêÉ Óèá Êæâä ÊäâÇÆêÇë Åäé "åæÊÏé ÓäÉ ÇäåÍÐèáÇÊ" çÐÇ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_fid_title" date="1255178933" username="PHPKD" version="4.0.101"><![CDATA[åæÊÏé ÇäåèÇÖêÙ ÇäåÓÊÚæé ÙæçÇ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_desc" date="1256673957" username="PHPKD" version="4.0.101"><![CDATA[ÑÈåÇ ÊÑêÏ Ãæ ÊÓÊÚæê Ùæ ÇäåÔÇÑãÇÊ ÇäÊê ÊÍÊèê Ùäé ÑèÇÈ× åæÊçêÉ ÇäÕäÇÍêÉ èÇäÊê ÊÌÇèÒÊ ÇäÍÏèÏ ÇäåÓåèÍ ÈçÇ Ùæ ×Ñêâ ÇÑÓÇäçÇ Åäé "åæÊÏé ÓäÉ ÇäåÍÐèáÇÊ". ÅÐÇ ãæÊ ÊÑêÏ Ðäã ÇÎÊÑ "æÙå", èÅäÇ áÇÎÊÑ "äÇ".]]></phrase>
+		<phrase name="setting_phpkd_vblvb_punish_move_title" date="1256673957" username="PHPKD" version="4.0.101"><![CDATA[×ÑêâÉ ÇäÇÓÊÚæÇÁ Ùæ ÇäåÔÇÑãÇÊ ÇäåæÊçêÉ: Çäæâä Åäé ÓäÉ ÇäåÍÐèáÇÊ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_desc" date="1255090673" username="PHPKD" version="4.0.101"><![CDATA[ÇÐÇ ãæÊ âÏ ÇÎÊÑÊ èÖÙ ÇäÊâÇÑêÑ ãåèÇÖêÙ ÌÏêÏÉ áê åæÊÏé åêÙæ, êÌÈ Ùäêã ÇÎÊêÇÑ Ðäã ÇäåæÊÏé åæ çæÇ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_report_fid_title" date="1255090673" username="PHPKD" version="4.0.101"><![CDATA[åæÊÏé ÇäÊâÇÑêÑ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_desc" date="1262356161" username="PHPKD" version="4.0.101"><![CDATA[ÇäÊâÇÑêÑ (1- ÊÑÓä ãÑÓÇÆä ÎÇÕÉ Åäé ÇäåÔÑáêæ è/Ãè Åäé ÃÙÖÇÁ åÍÏÏêæ, 2- ÊèÖÙ ãÑÏèÏ áê ÇäåèÇÖêÙ) áê ãä åÑÉ êÊå áêçÇ ÊÔÚêä ÇäÓãÑÈÊ êÍÊÇÌ ÇÓåè ÙÖèêÉ åÔÑá ÕÍêÍÉ äÊÓÊÎÏå ãåÑÓä èãÇÊÈ äçÐç ÇäÊâÇÑêÑ. ÑÌÇÁë âå ÈÅÏÎÇä ÇÓå ÙÖèêÉ åÔÑá ÕÍêÍÉ åÍÏÏÉ çæÇ áê Íâä ÇäÎêÇÑ çÐÇ. äÇÍØ: ÅÐÇ ãÇæ çÐÇ ÇäÇÓå ÚêÑ ÕÍêÍÇë Ãè Ãæç äÇ êåäã ÇäÊÕÑêÍ ÇäåæÇÓÈ, ÙæÏçÇ ÌåêÙ "ÇäÑÓÇÆä ÇäÎÇÕÉ/ÇäÑÏèÏ/ÊâÇÑêÑ ÇäåèÇÖêÙ" ÓêÊå ÇäÚÇÄçÇ èäæ êÊå ÇäÊÙÇåä åÙçÇ Åäé Íêæ ÊÕÍêÍ ÇäÇÓå, áâ× "ÊâÇÑêÑ ÇäÈÑêÏ ÇäÇäãÊÑèæê" èÍÏçÇ ÓêÊå ÇäÊÙÇåä åÙçÇ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_reporter_title" date="1262356161" username="PHPKD" version="4.0.101"><![CDATA[ÙÖèêÉ ãÇÊÈ ÇäÊâÇÑêÑ èÇäåÔÇÑãÇÊ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_desc" date="1262355983" username="PHPKD" version="4.0.101"><![CDATA[ÅÐÇ ãæÊ âÏ ÇÎÊÑÊ ÇÑÓÇä ÇäÊâÇÑêÑ Åäé ÇäåÔÑá ãà "ÑÓÇäÉ ÎÇÕÉ" Ãè ãà " ÈÑêÏ ÇäãÊÑèæê", ÙæÏçÇ äÏêã ÇåãÇæêÉ ÇÎÊêÇÑ ÇäåÔÑá ÇäÐê ÓêÊäâé çÐç ÇäÊâÇÑêÑ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_messaging_title" date="1262355983" username="PHPKD" version="4.0.101"><![CDATA[ÇÑÓÇä ÇäÊâÇÑêÑ Åäé ÇäåÔÑá]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_desc" date="1256659107" username="PHPKD" version="4.0.101"><![CDATA[ÈÙÏ ãä ÊÔÚêä ääÓãÑÈÊ, åæ Çäååãæ ÇÑÓÇä ÊâÑêÑ æçÇÆê ÊäâÇÆêÇë Åäé ÇäåÔÑá ãÑÓÇäÉ ÎÇÕÉ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_pm_title" date="1256659107" username="PHPKD" version="4.0.101"><![CDATA[ÊâÇÑêÑ ÇäåÔÑáêæ: ÇäÑÓÇÆä ÇäÎÇÕÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_desc" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[ÈÙÏ ãä ÊÔÚêä ääÓãÑêÊ, åæ Çäååãæ ÇæÔÇÁ åèÖèÙ ÌÏêÏ ÊäâÇÆêÇë êÍèê ÇäÊâÑêÑ ÇäæçÇÆê äêÊÓæé ääåÔÑá ÇäÇ×äÇÙ Ùäêç.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprts_thread_title" date="1256659105" username="PHPKD" version="4.0.101"><![CDATA[ÊâÇÑêÑ ÇäåÔÑáêæ: ÇæÔÇÁ åèÇÖêÙ ÌÏêÏÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_desc" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[ÈÙÏ ãä ÊÔÚêä ääÓãÑÈÊ, èÅÐÇ ÊèÇÌÏ åÔÇÑãÇÊ êÊå ÇäÇÓÊÚæÇÁ ÙæçÇ: áÅæç åæ Çäååãæ ÇÑÓÇä ÊâÑêÑ ÈÓê× Åäé ãÇÊÈê Êäã ÇäåÔÇÑãÇÊ ãÑÓÇÆä ÎÇÕÉ ÊÎÈÑçå ÈçÇ Ãæ ÈÙÖ åÔÇÑãÇÊçå ÊÍèê Ùäé ÑèÇÈ× åæÊçêÉ ÇäÕäÇÍêÉ.]]></phrase>
+		<phrase name="setting_phpkd_vblvb_rprtu_pm_title" date="1262357430" username="PHPKD" version="4.0.101"><![CDATA[ÊâÇÑêÑ ÇäÃÙÖÇÁ: ÇäÑÓÇÆä ÇäÎÇÕÉ]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_desc" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[êåãæã ÊÍÏêÏ èâÊ ÇäáÊÑÉ ÇäÒåæêÉ Èêæ ãä ÙåäêÉ áÍÕ ääåÔÇÑãÇÊ, äÐäã áÅæ çÐç ÇäåÔÇÑãÇÊ "ÇäåáÍèÕÉ åÄÎÑÇë" äæ êÊå áÍÕçÇ áê ãä åÑÉ êÊå áêçÇ ÊÔÚêä ÇäÓãÑÈÊ. ÅÐÇ ãæÊ ÊÑêÏ ÇÌÈÇÑ ÇäåÔÇÑãÇÊ Ãæ êÊå áÍÕçÇ ÙÏÉ åÑÇÊ, äãæ åÙ ÇäÇæÊÈÇç Ùäé Ãæ Ãâä åÏÉ êåãæ èÖÙçÇ Èêæ ãä ÙåäêÉ áÍÕ çê "1" êèå. ÃÏÎä çæÇ ÙÏÏ ÇäÃêÇå ÇäÊê ÊÑêÏçÇ äÊáÕä Èêæ ãä áÍÕêæ åÊÊÇäêêæ,Ãè ÃÏÎä "0" äÊÙ×êä çÐç ÇäåêÒÉ. äÇÍØ: Ãæ ÇäâêåÉ "7" ÊÙæê Ãæ åÔÇÑãÇÊã Óèá êÊå áÍÕçÇ ãä ÓÈÙÉ ÃêÇå, èçÐç ÇäåÔÇÑãÇÊ äæ êÊå áÍÕçÇ åÑÉ ÃÎÑé Åäé Ãæ ÊæâÖê çÐç ÇäÓÈÙÉ ÃêÇå åæ ÊÇÑêÎ ÇäáÍÕ ÇäÃÎêÑ. èÃæ ÇäâêåÉ "0" Ãæ çÐç ÇäåÔÇÑãÇÊ äæ ÊáÍÕ ÅäÇ åÑÉ èÇÍÏÉ áâ×. <strong>êÓÊÍÓæ Ãæ Êãèæ ÇäâêåÉ ÙÇäêÉ áê ÇäåæÊÏêÇÊ ÇäãÈêÑÉ.</strong>]]></phrase>
+		<phrase name="setting_phpkd_vblvb_succession_period_title" date="1275310053" username="PHPKD" version="4.0.133"><![CDATA[ÊÙÇâÈ áÊÑÇÊ ÇäáÍÕ]]></phrase>
+		<phrase name="settinggroup_phpkd_vblvb" date="1254750170" username="PHPKD" version="4.0.101"><![CDATA[PHPKD - ÑèÈèÊ áÍÕ ÇäÑèÇÈ× "ÇäæÓÎÉ ÇäÎáêáÉ"]]></phrase>
+	</phrasetype>
+</language>
+
+<!-- SVN: $Version: 4.0.131 $ - $Id: Spanish_4.0.133.xml 137 2010-05-31 15:13:29Z PHPKD $ -->
