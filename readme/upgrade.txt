@@ -15,6 +15,7 @@
 	     Arabic » ISO-8859-6
 	     English, French, Spanish » ISO-8859-1
 	     Greek » ISO-8859-7
+	     Italian » ISO-8859-16
 	     Russian » ISO-8859-5
 	     Turkish » ISO-8859-9
 	     You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using the wonderful applications "Encoding Master" (http://www.elfdata.com/encodingmaster/).

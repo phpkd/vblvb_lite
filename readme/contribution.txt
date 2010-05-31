@@ -394,6 +394,7 @@
      [*]English .. [COLOR="Green"]Official[/COLOR]
      [*]French .. (by [URL="http://forum.phpkd.net/member.php?u=19"][COLOR="Green"]mitch84[/COLOR][/URL])
      [*]Greek .. (by [URL="http://forum.phpkd.net/member.php?u=49"][COLOR="Green"]greek-madness[/COLOR][/URL])
+     [*]Italian .. (by [URL="http://forum.phpkd.net/member.php?u=244"][COLOR="Green"]network[/COLOR][/URL] )
      [*]Russian .. (by [URL="http://forum.phpkd.net/member.php?u=158"][COLOR="Green"]xorex[/COLOR][/URL])
      [*]Spanish .. (by [URL="http://forum.phpkd.net/member.php?u=89"][COLOR="Green"]owned91[/COLOR][/URL])
      [*]Turkish .. (by [URL="http://forum.phpkd.net/member.php?u=34"][COLOR="Green"]laztrix[/COLOR][/URL])
@@ -423,6 +424,7 @@
 	     [*]Arabic » ISO-8859-6
 	     [*]English, French, Spanish » ISO-8859-1
 	     [*]Greek » ISO-8859-7
+	     [*]Italian » ISO-8859-16
 	     [*]Russian » ISO-8859-5
 	     [*]Turkish » ISO-8859-9
 	     You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using the wonderful applications "[URL="http://www.elfdata.com/encodingmaster/"]Encoding Master[/URL]".
@@ -606,10 +608,17 @@ This is a human-readable summary of the Legal Code (the full license).
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=56"]'temporary down' URL status doesn't appear in 'Lite' edition reports[/URL]
 	[*]Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
      [/LIST]
-     [*][B]v4.0.133[/B] 30/05/2010 10:00 AM UTC: Maintenance release (public)
+     [*][B]v4.0.133[/B] 31/05/2010 10:00 AM UTC: Maintenance release (public)
      [LIST=1]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
+	[*]Added new translations:
+		[LIST=1]
+		[*]Arabic .. (by [URL="http://forum.phpkd.net/member.php?u=86"][COLOR="Green"]CUPID[/COLOR][/URL])
+		[*]Italian .. (by [URL="http://forum.phpkd.net/member.php?u=244"][COLOR="Green"]network[/COLOR][/URL] )
+		[*]Russian .. (by [URL="http://forum.phpkd.net/member.php?u=158"][COLOR="Green"]xorex[/COLOR][/URL])
+		[*]Turkish .. (by [URL="http://forum.phpkd.net/member.php?u=34"][COLOR="Green"]laztrix[/COLOR][/URL])
+		[/LIST]
 	[*]Fixes & updates for the following hosts:
 		[LIST=1]
 		[*]depositfiles.com

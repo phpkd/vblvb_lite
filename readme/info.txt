@@ -355,9 +355,10 @@ Translations:
      2. English .. Official
      3. French .. (by mitch84: http://forum.phpkd.net/member.php?u=19 )
      4. Greek .. (by greek-madness: http://forum.phpkd.net/member.php?u=49 )
-     5. Russian .. (by xorex: http://forum.phpkd.net/member.php?u=158 )
-     6. Spanish .. (by owned91: http://forum.phpkd.net/member.php?u=89 )
-     7. Turkish .. (by laztrix: http://forum.phpkd.net/member.php?u=34 )
+     5. Italian .. (by network: http://forum.phpkd.net/member.php?u=244 )
+     6. Russian .. (by xorex: http://forum.phpkd.net/member.php?u=158 )
+     7. Spanish .. (by owned91: http://forum.phpkd.net/member.php?u=89 )
+     8. Turkish .. (by laztrix: http://forum.phpkd.net/member.php?u=34 )
      .. .. and counting!
      .. Submit new translation & get free 'Ultimate' edition!
 
@@ -379,6 +380,7 @@ Installation Procedure:
 	     Arabic » ISO-8859-6
 	     English, French, Spanish » ISO-8859-1
 	     Greek » ISO-8859-7
+	     Italian » ISO-8859-16
 	     Russian » ISO-8859-5
 	     Turkish » ISO-8859-9
 	     You can change language file's encoding before import to whatever encoding you wish/your forum works on (ex: UTF-8) using the wonderful applications "Encoding Master" (http://www.elfdata.com/encodingmaster/).
@@ -545,9 +547,14 @@ History:
 	+ Bug Fix: Forum excluding isn't working in 'Lite' edition (http://forum.phpkd.net/project.php?issueid=55)
 	+ Bug Fix: 'temporary down' URL status doesn't appear in 'Lite' edition reports (http://forum.phpkd.net/project.php?issueid=56)
 	+ Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
-     * v4.0.133 30/05/2010 10:00 AM UTC: Maintenance release (public)
+     * v4.0.133 31/05/2010 10:00 AM UTC: Maintenance release (public)
 	+ Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
 	+ Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
+	+ Added new translations:
+       1. Arabic .. (by CUPID: http://forum.phpkd.net/member.php?u=86 )
+       2. Italian .. (by network: http://forum.phpkd.net/member.php?u=244 )
+       3. Russian .. (by xorex: http://forum.phpkd.net/member.php?u=158 )
+       4. Turkish .. (by laztrix: http://forum.phpkd.net/member.php?u=34 )
 	+ Fixes & updates for the following hosts:
        1. depositfiles.com
        2. easy-share.com
