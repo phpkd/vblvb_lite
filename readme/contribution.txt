@@ -394,7 +394,7 @@
      [*]English .. [COLOR="Green"]Official[/COLOR]
      [*]French .. (by [URL="http://forum.phpkd.net/member.php?u=19"][COLOR="Green"]mitch84[/COLOR][/URL])
      [*]Greek .. (by [URL="http://forum.phpkd.net/member.php?u=49"][COLOR="Green"]greek-madness[/COLOR][/URL])
-     [*]Italian .. (by [URL="http://forum.phpkd.net/member.php?u=244"][COLOR="Green"]network[/COLOR][/URL] )
+     [*]Italian .. (by [URL="http://forum.phpkd.net/member.php?u=244"][COLOR="Green"]network[/COLOR][/URL])
      [*]Russian .. (by [URL="http://forum.phpkd.net/member.php?u=158"][COLOR="Green"]xorex[/COLOR][/URL])
      [*]Spanish .. (by [URL="http://forum.phpkd.net/member.php?u=89"][COLOR="Green"]owned91[/COLOR][/URL])
      [*]Turkish .. (by [URL="http://forum.phpkd.net/member.php?u=34"][COLOR="Green"]laztrix[/COLOR][/URL])
@@ -548,7 +548,6 @@ This is a human-readable summary of the Legal Code (the full license).
      [LIST=1]
 	[*]Miscellaneous optimizations & tweaks.
      [/LIST]
-
      [*][B]v4.0.120[/B] 20/01/2010 10:00 AM UTC: Featured release (public)
      [LIST=1]
 	[*][URL="http://forum.phpkd.net/project.php?issueid=23"]Standardizing product's code (one product, multiple compatibilities) [All 3.8.x and 4.0.x series][/URL].
@@ -575,7 +574,6 @@ This is a human-readable summary of the Legal Code (the full license).
 	[*][URL="http://forum.phpkd.net/project.php?issueid=30"]Optimizations: Ability to follow redirected pages till reaching the actual download page & verify it.[/URL].
 	[*]New feature: Exclude forums.
      [/LIST]
-
      [*][B]v4.0.130[/B] 14/02/2010 10:00 PM UTC: Featured release (public)
      [LIST=1]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=43"]No reports sent when the cronjob autorun[/URL].
@@ -608,7 +606,7 @@ This is a human-readable summary of the Legal Code (the full license).
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=56"]'temporary down' URL status doesn't appear in 'Lite' edition reports[/URL]
 	[*]Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
      [/LIST]
-     [*][B]v4.0.133[/B] 31/05/2010 10:00 AM UTC: Maintenance release (public)
+     [*][B]v4.0.133[/B] 01/06/2010 10:00 AM UTC: Maintenance release (public)
      [LIST=1]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
