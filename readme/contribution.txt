@@ -612,7 +612,7 @@ This is a human-readable summary of the Legal Code (the full license).
      [LIST=1]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
-	[*]Added new translations:
+	[*]Added the following new translations:
 		[LIST=1]
 		[*]Arabic .. (by [URL="http://forum.phpkd.net/member.php?u=86"][COLOR="Green"]CUPID[/COLOR][/URL])
 		[*]Italian .. (by [URL="http://forum.phpkd.net/member.php?u=244"][COLOR="Green"]network[/COLOR][/URL] )

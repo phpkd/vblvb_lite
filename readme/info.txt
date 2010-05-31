@@ -550,7 +550,7 @@ History:
      * v4.0.133 31/05/2010 10:00 AM UTC: Maintenance release (public)
 	+ Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
 	+ Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
-	+ Added new translations:
+	+ Added the following new translations:
        1. Arabic .. (by CUPID: http://forum.phpkd.net/member.php?u=86 )
        2. Italian .. (by network: http://forum.phpkd.net/member.php?u=244 )
        3. Russian .. (by xorex: http://forum.phpkd.net/member.php?u=158 )
