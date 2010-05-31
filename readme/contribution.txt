@@ -631,7 +631,7 @@ This is a human-readable summary of the Legal Code (the full license).
 [U][B]Technical Notes:[/B][/U]
 [LIST]
      [*][COLOR="DimGray"]New Plugins:[/COLOR] 1
-     [*][COLOR="DimGray"]New Phrases:[/COLOR] 107
+     [*][COLOR="DimGray"]New Phrases:[/COLOR] 108
      [*][COLOR="dimgray"]New Templates:[/COLOR] 0
      [*][COLOR="dimgray"]Manual Template changes:[/COLOR] 0
      [*][COLOR="dimgray"]Auto Template changes:[/COLOR] 0

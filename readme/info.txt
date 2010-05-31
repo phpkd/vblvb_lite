@@ -564,7 +564,7 @@ Screen Shots:
 Technical Notes:
 ~~~~~~~~~~~~~~~~~
      * New Plugins: 1
-     * New Phrases: 107
+     * New Phrases: 108
      * New Templates: 0
      * Manual Template changes: 0
      * Auto Template changes: 0
