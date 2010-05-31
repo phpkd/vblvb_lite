@@ -1,3 +1,8 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|              Brought to you by PHP KingDom (www.phpkd.net)              |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
      Read Here: http://info.phpkd.net/en/license/free/
      _____________________________________________________________
 
@@ -26,5 +31,10 @@
      This is a human-readable summary of the Legal Code (the full license).
      http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
      _____________________________________________________________
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|              Brought to you by PHP KingDom (www.phpkd.net)              |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 $Version: 4.0.133 $ - $Id$

@@ -1,5 +1,10 @@
-﻿Installation Procedure:
-~~~~~~~~~~~~~~~~~~~~~~~~
+﻿~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|              Brought to you by PHP KingDom (www.phpkd.net)              |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+PHPKD - vB Link Verifier Bot 'Ultimate' -- Installation Procedure:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      1. Upload required files to their appropriate places:
 	includes
 	     cron
@@ -22,5 +27,9 @@
 
      5. You're Done :).
 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|              Brought to you by PHP KingDom (www.phpkd.net)              |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 $Version: 4.0.133 $ - $Id$
