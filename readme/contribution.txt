@@ -98,7 +98,7 @@
 		     [*][B]Included/Excluded User Groups ([URL="http://go.phpkd.net/en/product/vblvb/"]Ultimate Edition Only[/URL])[/B]
 		     If you've chosen "Include Specific User Groups" OR "Exclude Specific User Groups" from the above setting, then you've to choose those specified user groups from the list displayed. Please note that you can multiple select options by clicking "CTRL" key & keep holding it while selecting.
 
-		     [*][B]Include/Exclude Forums
+		     [*][B]Include/Exclude Forums[/B]
 		     You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.
 		     You've three options to choose from:
 		     [LIST]
@@ -108,7 +108,7 @@
 		     [/LIST]
 		     Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts except those specific user groups' posts -defined in the following setting-.
 
-		     [*][B]Included/Excluded Forums
+		     [*][B]Included/Excluded Forums[/B]
 		     If you've chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you've to choose those specified forums from the list displayed. Please note that you can multiple select options by clicking "CTRL" key & keep holding it while selecting.
 
 		     [*][B]Time/Date Cutoff Mode[/B]
