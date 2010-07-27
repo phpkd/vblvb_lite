@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<language name="MASTER LANGUAGE" vbversion="4.0.3" product="phpkd_vblvb" type="master">
+<language name="MASTER LANGUAGE" vbversion="4.0.5" product="phpkd_vblvb" type="master">
 	<skippedgroups>
 		<skippedgroup>cphelptext</skippedgroup>
 	</skippedgroups>

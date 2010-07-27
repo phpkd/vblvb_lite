@@ -32,4 +32,4 @@ PHPKD - vB Link Verifier Bot 'Ultimate' -- Installation Procedure:
 |              Brought to you by PHP KingDom (www.phpkd.net)              |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-$Version: 4.0.133 $ - $Id$
+$Version: 4.0.137 $ - $Id$

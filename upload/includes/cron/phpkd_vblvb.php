@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.133 # ||
+|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.137 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -104,7 +104,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 			$cutoff
 			$inex_forums
 			" . (($vbulletin->options['phpkd_vblvb_checked_existingposts'] == 2) ? 'AND post.postid = thread.firstpostid' : '') . "
-			" . (($vbulletin->options['phpkd_vblvb_succession_period'] > 0) ? 'AND post.phpkd_vblvb_lastcheck < ' . (TIMENOW - ($vbulletin->options['phpkd_vblvb_succession_period'] * 86400)) : '') . "
+			AND post.phpkd_vblvb_lastcheck " . (($vbulletin->options['phpkd_vblvb_succession_period'] > 0) ? '< ' . (TIMENOW - ($vbulletin->options['phpkd_vblvb_succession_period'] * 86400)) : '= 0') . "
 			" . (($vbulletin->options['phpkd_vblvb_limit'] > 0) ? 'LIMIT ' . $vbulletin->options['phpkd_vblvb_limit'] : '')
 	);
 
@@ -206,7 +206,7 @@ if ($vbulletin->options['phpkd_vblvb_active'])
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.133
+|| # Version: 4.0.137
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

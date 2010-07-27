@@ -1,7 +1,7 @@
 <?php
 /*==================================================================================*\
 || ################################################################################ ||
-|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.133 # ||
+|| # Product Name: vB Link Verifier Bot 'Lite'                   Version: 4.0.137 # ||
 || # License Type: Free License                                  $Revision$ # ||
 || # ---------------------------------------------------------------------------- # ||
 || # 																			  # ||
@@ -89,7 +89,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_easy_share_com'])
 		{
-			$hosts[] = array("easy-share\.com\/[0-9]+", "wcontent");
+			$hosts[] = array("easy-share\.com\/[0-9]+", "tabCaptcha");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_filefactory_com'])
@@ -104,7 +104,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_megaupload_com'])
 		{
-			$hosts[] = array("megaupload\.com\/\?d=[0-9a-z]+(&setlang=[a-z]{2}\/)?", "(javascript:checkcaptcha|All download slots assigned to your country)", "@&setlang=[a-z]{2}@i", "&setlang=en', 'temporary access restriction is in place");
+			$hosts[] = array("megaupload\.com\/\?d=[0-9a-z]+(&setlang=[a-z]{2}\/)?", "(javascript:checkcaptcha|javascript:postpassword|All download slots assigned to your country|The file that you\'re trying to download is larger than 1 GB.)", "@&setlang=[a-z]{2}@i", "&setlang=en', 'temporary access restriction is in place");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_netload_in'])
@@ -124,12 +124,12 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_sendspace_com'])
 		{
-			$hosts[] = array("sendspace\.com\/file\/[0-9a-z]+", "REGULAR DOWNLOAD");
+			$hosts[] = array("sendspace\.com\/file\/[0-9a-z]+", "downlink");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_zshare_net'])
 		{
-			$hosts[] = array("zshare\.net\/(download|audio|video)\/[0-9a-z]+", "download\.gif");
+			$hosts[] = array("zshare\.net\/(download|audio|video)\/[0-9a-z]+", "delete\.html");
 		}
 
 
@@ -218,7 +218,7 @@ function phpkd_vblvb_curl($url, $post = '0')
 	$vurl->set_option(VURL_URL, $url);
 	$vurl->set_option(VURL_USERAGENT, 'vBulletin/' . FILE_VERSION);
 	$vurl->set_option(VURL_FOLLOWLOCATION, 1);
-	$vurl->set_option(VURL_MAXREDIRS, 1);
+	$vurl->set_option(VURL_MAXREDIRS, 3);
 
 	if($post != '0') 
 	{
@@ -380,7 +380,7 @@ function phpkd_vblvb_rprts($log)
 				if (!$db)
 				{
 					global $db;
-					$db = $this->registry->db;
+					$db = $vbulletin->db;
 				}
 				// End: Required for 'mark_thread_read', fix the following bug: http://forum.phpkd.net/project.php?issueid=76
 
@@ -636,7 +636,7 @@ function phpkd_vblvb_cron_kill($log, $nextitem)
 
 /*============================================================================*\
 || ########################################################################### ||
-|| # Version: 4.0.133
+|| # Version: 4.0.137
 || # $Revision$
 || # Released: $Date$
 || ########################################################################### ||

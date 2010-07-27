@@ -11,7 +11,7 @@ Name:
 
 Version:
 ~~~~~~~~~
-     * 4.0.133
+     * 4.0.137
 
 
 Description:
@@ -550,8 +550,8 @@ History:
 	+ Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
 
      * v4.0.133 01/06/2010 10:00 AM UTC: Maintenance release (public)
-	+ Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=76"]"Call to a member function query_write() on a non-object"[/URL].
-	+ Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=71"]Auto exclude report forum & recycle bin forum from being checked[/URL].
+	+ Bug Fix: Call to a member function query_write() on a non-object (http://forum.phpkd.net/project.php?issueid=76)
+	+ Bug Fix: Auto exclude report forum & recycle bin forum from being checked (http://forum.phpkd.net/project.php?issueid=71)
 	+ Added the following new translations:
        1. Arabic .. (by CUPID: http://forum.phpkd.net/member.php?u=86 )
        2. Italian .. (by network: http://forum.phpkd.net/member.php?u=244 )
@@ -563,6 +563,18 @@ History:
        3. mediafire.com
        4. netload.in
        5. sendspace.com
+
+     * v4.0.137 27/07/2010 10:00 AM UTC: Maintenance release (public)
+	+ Bug Fix: Using $this when not in object context (http://forum.phpkd.net/project.php?issueid=109)
+	+ Bug Fix: Check Succession Period = 0 (http://forum.phpkd.net/project.php?issueid=104)
+	+ Bug Fix: megaupload.com 1 GB files marked as dead (http://forum.phpkd.net/project.php?issueid=105)
+	+ Bug Fix: megaupload.com password protected files marked as dead (http://forum.phpkd.net/project.php?issueid=106)
+	+ Bug Fix: Updated maximum redirects from 1 to 3.
+	+ Fixes & updates for the following hosts:
+       1. easy-share.com => Fixed
+       2. megaupload.com => Fixed
+       3. sendspace.com => Fixed
+       4. zshare.net => Fixed
 
 
 Screen Shots:
@@ -615,4 +627,4 @@ Recent Products:
 |              Brought to you by PHP KingDom (www.phpkd.net)              |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-$Version: 4.0.133 $ - $Id$
+$Version: 4.0.137 $ - $Id$
