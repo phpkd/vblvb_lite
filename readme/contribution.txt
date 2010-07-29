@@ -626,13 +626,14 @@ This is a human-readable summary of the Legal Code (the full license).
 		[*]sendspace.com
 		[/LIST]
      [/LIST]
-     [*][B]v4.0.137[/B] 27/07/2010 10:00 AM UTC: Maintenance release (public)
+     [*][B]v4.0.137[/B] 29/07/2010 10:00 PM UTC: Maintenance release (public)
      [LIST=1]
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=109"]Using $this when not in object context[/URL].
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=104"]Check Succession Period = 0[/URL].
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=105"]megaupload.com 1 GB files marked as dead[/URL].
 	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=106"]megaupload.com password protected files marked as dead[/URL].
-	[*]Bug Fix: Updated maximum redirects from 1 to 3.
+	[*]Bug Fix: [URL="http://forum.phpkd.net/project.php?issueid=112"]Critical Limit/Red Line not working accurate[/URL].
+	[*]Updated maximum redirects from 1 to 3.
 	[*]Fixes & updates for the following hosts:
 		[LIST=1]
 		[*]easy-share.com => Fixed

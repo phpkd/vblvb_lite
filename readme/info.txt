@@ -564,12 +564,13 @@ History:
        4. netload.in
        5. sendspace.com
 
-     * v4.0.137 27/07/2010 10:00 AM UTC: Maintenance release (public)
+     * v4.0.137 29/07/2010 10:00 PM UTC: Maintenance release (public)
 	+ Bug Fix: Using $this when not in object context (http://forum.phpkd.net/project.php?issueid=109)
 	+ Bug Fix: Check Succession Period = 0 (http://forum.phpkd.net/project.php?issueid=104)
 	+ Bug Fix: megaupload.com 1 GB files marked as dead (http://forum.phpkd.net/project.php?issueid=105)
 	+ Bug Fix: megaupload.com password protected files marked as dead (http://forum.phpkd.net/project.php?issueid=106)
-	+ Bug Fix: Updated maximum redirects from 1 to 3.
+	+ Bug Fix: Critical Limit/Red Line not working accurate (http://forum.phpkd.net/project.php?issueid=112)
+	+ Updated maximum redirects from 1 to 3.
 	+ Fixes & updates for the following hosts:
        1. easy-share.com => Fixed
        2. megaupload.com => Fixed
