@@ -3,7 +3,7 @@
 <product productid="phpkd_vblvb" active="1">
 	<title><![CDATA[PHPKD - Link Verifier Bot 'Lite']]></title>
 	<description><![CDATA[This product extract sharing links (Rapidshare, Megaupload, Zshare, Adrive, Depositfiles, Filefactory, ...etc) from posts, then verifies them; If they're "Alive" the post will pass, otherwise the post will be punished (Fully Customizable).]]></description>
-	<version><![CDATA[4.0.137]]></version>
+	<version><![CDATA[4.0.138]]></version>
 	<vendor><![CDATA[$Vendor: PHP KingDom $]]></vendor>
 	<author><![CDATA[$Author$]]></author>
 	<revision><![CDATA[$Revision$]]></revision>
@@ -12,7 +12,7 @@
 	<versioncheckurl><![CDATA[http://tools.phpkd.net/en/producthelp/version/vblvb/]]></versioncheckurl>
 	<extradetails><![CDATA[http://tools.phpkd.net/en/producthelp/info/vblvb/]]></extradetails>
 	<dependencies>
-		<dependency dependencytype="vbulletin" minversion="3.8.0" maxversion="4.0.99" />
+		<dependency dependencytype="vbulletin" minversion="3.8.0" maxversion="4.1.99" />
 	</dependencies>
 	<codes>
 		<code version="*">
@@ -498,7 +498,7 @@ $options = construct_forum_chooser_options(1);</optioncode>
 			<setting varname="phpkd_vblvb_help" displayorder="320">
 				<datatype>free</datatype>
 				<optioncode><![CDATA[<strong style='color: #FF0000'>vB Link Verifier 'Ultimate' edition</strong> [<a href='http://go.phpkd.net/en/product/vblvb/' target='_blank'>Features & Details</a>] <span class='smallfont'>* Free Trail Available *</span><br />
-<strong style='color: #FF0000'>Help & Support:</strong> [<a href='http://forum.phpkd.net/forumdisplay.php?f=4' target='_blank'>Free Support</a>] [<a href='http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=feature' target='_blank'>Feature Requests</a>] [<a href='http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=bug' target='_blank'>Bug Reports</a>]<br />]]></optioncode>
+<strong style='color: #FF0000'>Help & Support:</strong> [<a href='http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=feature' target='_blank'>Feature Requests</a>] [<a href='http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=bug' target='_blank'>Bug Reports</a>]<br />]]></optioncode>
 			</setting>
 		</settinggroup>
 	</options>

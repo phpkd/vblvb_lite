@@ -94,7 +94,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_filefactory_com'])
 		{
-			$hosts[] = array("filefactory\.com\/file\/[0-9a-z]+", "metadata");
+			$hosts[] = array("filefactory\.com\/file\/[0-9a-z]+", "greyDownload");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_mediafire_com'])
@@ -104,7 +104,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_megaupload_com'])
 		{
-			$hosts[] = array("megaupload\.com\/\?d=[0-9a-z]+(&setlang=[a-z]{2}\/)?", "(javascript:checkcaptcha|javascript:postpassword|All download slots assigned to your country|The file that you\'re trying to download is larger than 1 GB.)", "@&setlang=[a-z]{2}@i", "&setlang=en', 'temporary access restriction is in place");
+			$hosts[] = array("megaupload\.com\/\?d=[0-9a-z]+(&setlang=[a-z]{2}\/)?", "(downl_main|temporary access restriction is in place|The file you are trying to access is temporarily unavailable)", "@&setlang=[a-z]{2}@i", "&setlang=en', 'temporary access restriction is in place");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_netload_in'])
@@ -124,7 +124,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_sendspace_com'])
 		{
-			$hosts[] = array("sendspace\.com\/file\/[0-9a-z]+", "downlink");
+			$hosts[] = array("sendspace\.com\/file\/[0-9a-z]+", "checkregister2");
 		}
 
 		if ($vbulletin->options['phpkd_vblvb_hosts_zshare_net'])
@@ -187,7 +187,7 @@ function phpkd_vblvb_fetch_urls($messagetext)
 					$down++;
 					break;
 			}
-	
+
 			$log .= $rtrn['log'];
 		}
 		$log .= '</ol>';
@@ -220,7 +220,7 @@ function phpkd_vblvb_curl($url, $post = '0')
 	$vurl->set_option(VURL_FOLLOWLOCATION, 1);
 	$vurl->set_option(VURL_MAXREDIRS, 3);
 
-	if($post != '0') 
+	if($post != '0')
 	{
 		$vurl->set_option(VURL_POST, 1);
 		$vurl->set_option(VURL_POSTFIELDS, $post);
@@ -244,7 +244,7 @@ function phpkd_vblvb_check($link, $regex, $pattern = '', $replace = '', $downmat
 {
 	global $vbphrase;
 
-	if(!empty($pattern)) 
+	if(!empty($pattern))
 	{
 		$link = preg_replace($pattern, $replace, $link);
 	}
@@ -253,17 +253,17 @@ function phpkd_vblvb_check($link, $regex, $pattern = '', $replace = '', $downmat
 	$link = htmlentities($link, ENT_QUOTES);
 
 
-	if($regex != '' AND preg_match("#$regex#i", $page)) 
+	if($regex != '' AND preg_match("#$regex#i", $page))
 	{
 		$status = 'alive';
 		$log = '<li>' . $vbphrase['phpkd_vblvb_log_link_active'] . "<a href=\"$link\" target=\"_blank\">$link</a></li>";
 	}
-	else if($downmatch != '' AND preg_match("#$downmatch#i", $page)) 
+	else if($downmatch != '' AND preg_match("#$downmatch#i", $page))
 	{
 		$status = 'down';
 		$log = '<li>' . $vbphrase['phpkd_vblvb_log_link_down'] . "<a href=\"$link\" target=\"_blank\">$link</a></li>";
 	}
-	else 
+	else
 	{
 		$status = 'dead';
 		$log = '<li>' . $vbphrase['phpkd_vblvb_log_link_dead'] . "<a href=\"$link\" target=\"_blank\">$link</a></li>";
