@@ -1,0 +1,99 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|    PHPKD - vB Link Verifier Bot 'Lite'    |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Changelog:
+~~~~~~~~~~~
+     * v4.0.101 06/01/2010 12:12 AM UTC: First 4.0.x release (public)
+
+     * v4.0.102 07/01/2010 12:12 PM UTC: Maintenance release (public)
+	+ Miscellaneous optimizations & tweaks.
+
+     * v4.0.120 20/01/2010 10:00 AM UTC: Featured release (public)
+	+ Standardizing product's code (one product, multiple compatibilities) [All 3.8.x and 4.0.x series] (http://forum.phpkd.net/project.php?issueid=23).
+	+ Scanning all default tags including [ CODE ], [ PHP ], [ HTML ], [ QUOTE ] and others (http://forum.phpkd.net/project.php?issueid=1).
+	+ Fixed/Updated sharing hosts: (http://forum.phpkd.net/project.php?issueid=24)
+       1. depositfiles.com => OK
+       2. easy-share.com => Fixed
+       3. filefactory.com => Fixed
+       4. mediafire.com => Fixed
+       5. megaupload.com => Updated
+       6. netload.in => Fixed
+       7. rapidshare.com => Updated
+       8. rapidshare.de => Updated
+       9. sendspace.com => Updated
+      10. zshare.net => Updated
+
+      Flag declaration:
+      OK: means that there's no different between the old & the current version of this host's module. It was working fine & still working as it is.
+      Fixed: means that the previous version of that host's module had some problems & wasn't working good, but the new version has been fixed & confirmed to be working fine now.
+      Updated: means that the previous version of that host's module was good, but the current one has some tweaks & some optimizations.
+
+	+ Deprecated Feature: URL status 'Temporary Down' is useless (http://forum.phpkd.net/project.php?issueid=28).
+	+ Optimizations: Ability to follow redirected pages till reaching the actual download page & verify it (http://forum.phpkd.net/project.php?issueid=30).
+	+ New feature: Exclude forums.
+
+     * v4.0.130 14/02/2010 10:00 PM UTC: Featured release (public)
+	+ Bug Fix: No reports sent when the cronjob autorun (http://forum.phpkd.net/project.php?issueid=43).
+	+ Bug Fix: Massive checking MegaUpload.Com Links lead to wrong dead status reports (http://forum.phpkd.net/project.php?issueid=37).
+	+ Task Achieved: URL status 'Temporary Down' is Important (http://forum.phpkd.net/project.php?issueid=38).
+	+ Task Achieved: Multilingual hosts requires checking & optimizing (http://forum.phpkd.net/project.php?issueid=46).
+	+ Optimization: Cronjob has more checks now before running, it will check if there's hosts/protocols/bbcodes to be checked or not. If yes, proceed, if no then kill the process & display an error message. Additional check added to make sure there's posts to be checked, if there isn't then an error message displayed (http://forum.phpkd.net/project.php?issueid=8).
+	+ Optimization: Display punished posts report within manual cronjob run report (http://forum.phpkd.net/project.php?issueid=50).
+	+ Optimization: Always send staff reports regardless there's checked/punished posts or not.
+	+ Optimization: Multiple tweaks and optimizations to the product's core.
+	+ New Feature: Ability to determine forums inclusion/exclusion mode.
+	+ New: Added three translations to the product's package (French, Greek, Spanish).
+	+ Updated the following hosts:
+       1. depositfiles.com
+       2. easy-share.com
+       3. filefactory.com
+       4. mediafire.com
+       5. megaupload.com
+       6. netload.in
+       7. rapidshare.com
+       8. rapidshare.de
+       9. sendspace.com
+       10. zshare.net
+
+     * v4.0.131 17/02/2010 10:00 AM UTC: Maintenance release (public)
+	+ Bug Fix: Forum excluding isn't working in 'Lite' edition (http://forum.phpkd.net/project.php?issueid=55)
+	+ Bug Fix: 'temporary down' URL status doesn't appear in 'Lite' edition reports (http://forum.phpkd.net/project.php?issueid=56)
+	+ Optimization: other optimizations introduced in this maintenance release which should affect cronjob performance & decrease server load chances.
+
+     * v4.0.133 01/06/2010 10:00 AM UTC: Maintenance release (public)
+	+ Bug Fix: Call to a member function query_write() on a non-object (http://forum.phpkd.net/project.php?issueid=76)
+	+ Bug Fix: Auto exclude report forum & recycle bin forum from being checked (http://forum.phpkd.net/project.php?issueid=71)
+	+ Added the following new translations:
+       1. Arabic .. (by CUPID: http://forum.phpkd.net/member.php?u=86 )
+       2. Italian .. (by network: http://forum.phpkd.net/member.php?u=244 )
+       3. Russian .. (by xorex: http://forum.phpkd.net/member.php?u=158 )
+       4. Turkish .. (by laztrix: http://forum.phpkd.net/member.php?u=34 )
+	+ Fixes & updates for the following hosts:
+       1. depositfiles.com
+       2. easy-share.com
+       3. mediafire.com
+       4. netload.in
+       5. sendspace.com
+
+     * v4.0.137 29/07/2010 10:00 PM UTC: Maintenance release (public)
+	+ Bug Fix: Using $this when not in object context (http://forum.phpkd.net/project.php?issueid=109)
+	+ Bug Fix: Check Succession Period = 0 (http://forum.phpkd.net/project.php?issueid=104)
+	+ Bug Fix: megaupload.com 1 GB files marked as dead (http://forum.phpkd.net/project.php?issueid=105)
+	+ Bug Fix: megaupload.com password protected files marked as dead (http://forum.phpkd.net/project.php?issueid=106)
+	+ Bug Fix: Critical Limit/Red Line not working accurate (http://forum.phpkd.net/project.php?issueid=112)
+	+ Updated maximum redirects from 1 to 3.
+	+ Fixes & updates for the following hosts:
+       1. easy-share.com => Fixed
+       2. megaupload.com => Fixed
+       3. sendspace.com => Fixed
+       4. zshare.net => Fixed
+
+     * v4.2.110 29/09/2012 10:00 PM UTC: Featured release (public)
+	+ Complete re-write from scratch inspired by the 'Ultimate' edition, it's now using 'Ultimate' edition's native code but with stripped features.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

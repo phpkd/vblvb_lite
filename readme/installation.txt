@@ -1,0 +1,43 @@
+﻿~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|    PHPKD - vB Link Verifier Bot 'Lite'    |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Installation Procedure:
+~~~~~~~~~~~~~~~~~~~~~~~~
+     1. Upload required files to their appropriate places:
+    |- /includes
+         + /phpkd
+              + /vblvb
+        - class_core.php
+        - class_cron.php
+        - class_dm.php
+        - class_hooks.php
+        - class_init.php
+        - class_install.php
+
+         + /xml
+              - bitfield_phpkd_vblvb.xml
+              - cpnav_phpkd_vblvb.xml
+
+         - md5_sums_phpkd_vblvb.php
+
+     2. Import the product's XML file "product-phpkd_vblvb.xml" from AdminCP.
+
+     3. Activate & Configure product's settings as preferred.
+
+     4. If you are upgrading from 'Lite' edition to 'Ultimate' edition, you've to import the product "product-phpkd_vblvb_fix.xml" from AdminCP found inside "do_not_upload" folder (however it's recommended to uninstall 'Lite' edition first and then clean install the 'Ultimate' edition).
+
+     5. You're Done :).
+
+
+Upgrade Procedure:
+~~~~~~~~~~~~~~~~~~~~~~~~
+     * Same as "Installation Procedure", but "Allow Overwrite" for both file uploads & product import.
+     * If upgrading from the first generation (4.0.1x releases), you should delete the whole 'vblvb' folder from your website, then upload the new one.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

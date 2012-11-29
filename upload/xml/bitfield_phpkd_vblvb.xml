@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="phpkd_vblvb">
+	<bitfielddefs>
+		<group name="phpkd_vblvb">
+			<group name="thread_punishs">
+				<bitfield name="moderate">1</bitfield>
+				<bitfield name="delete"  >2</bitfield>
+			</group>
+			<group name="staff_reports">
+				<bitfield name="pm"    >1</bitfield>
+				<bitfield name="thread">2</bitfield>
+			</group>
+			<group name="user_reports">
+				<bitfield name="pm"    >1</bitfield>
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

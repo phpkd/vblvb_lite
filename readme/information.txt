@@ -1,0 +1,402 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|    PHPKD - vB Link Verifier Bot 'Lite'    |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Name:
+~~~~~~
+     * PHPKD - vB Link Verifier Bot 'Lite'
+
+
+Version:
+~~~~~~~~~
+     * 4.2.110
+
+
+Description:
+~~~~~~~~~~~~~
+     * This product extract sharing links of hundreds of sharing hosts, and verifies them; If they're "Alive" the post will pass, otherwise it will be punished. (ex: Hotfile, Mediafire, Rapidshare, 4shared, Depositfiles, Filefactory, ...etc).
+
+
+Compatible With:
+~~~~~~~~~~~~~~~~~~~~~~~~~
+     * All 4.0.x/4.1.x/4.2.x vBulletin versions.
+
+
+Requirements:
+~~~~~~~~~~~~~~
+     * vBulletin version 4.0.x/4.1.x/4.2.x
+
+
+License:
+~~~~~~~~~
+     * http://info.phpkd.net/en/license/commercial/
+
+
+Helpful links:
+~~~~~~~~~~~~~~
+     * Bug Reports: http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=bug
+     * Feature Requests: http://forum.phpkd.net/project.php?do=issuelist&projectid=2&issuetypeid=feature
+
+
+Features:
+~~~~~~~~~~
+     |- General Features:-
+	* 100% OOP.
+	* MD5 checked.
+	* Fully Phrased.
+	* Fully Supported.
+	* Fully Automated.
+	* Accurate Processing.
+	* Professionally Coded.
+	* Detailed Documentation.
+	* Doesn't require any manual edits.
+	* Supports hundreds of sharing hosts by default.
+	* Depends on & uses default vBulletin techniques with full compatibility.
+	* Board Load Zero Queries, queries executed only when the scheduled task run.
+	* The cronjob (scheduled Task) logs every run details in "Scheduled Task Log", so you can review it later within the log viewer. (Ultimate Edition Only)
+	* The product's code base is very solid, and is very rich as well with a 'plug-and-play' architecture for easier expansion & for much more flexibility.
+	* Auto generate pretty nice reports for instant/later review, these reports can be displayed in real time while running the scheduled task, sent as a private/email message, post as a thread/reply.
+
+
+     |- Specific Features:-
+	* Administrator Permissions:
+	     o Can Administer "PHPKD - vB Link Verifier Bot"
+
+	* General Settings:
+
+	     o Product Active
+	          - Choose whether the product "PHPKD - Link Verifier Bot" is active or not (Global On/Off Switch).
+
+	     o Include/Exclude Users (Ultimate Edition Only)
+	          - You can specify certain users to check their posts against dead links, or to exclude others' posts from being checked at all.
+
+	          - Select "Include All Users" to check all users' posts, or select "Include Specific Users" to check only those specific users' posts -defined in the following setting-, or select "Exclude Specific Users" to check all users' posts except those specific users' posts -defined in the following setting-.
+
+	     o Included/Excluded Users (Ultimate Edition Only)
+	          - If you have chosen "Include Specific Users" OR "Exclude Specific Users" from the above setting, then you have to enter those specified user IDs here in this setting's field. Separate user IDs by normal English comma.
+
+	     o Include/Exclude Usergroups (Ultimate Edition Only)
+	          - You can specify certain usergroups to check their posts against dead links, or to exclude others' posts from being checked at all.
+
+	          - Select "Include All Usergroups" to check all usergroups' posts, or select "Include Specific Usergroups" to check only those specific usergroups' posts -defined in the following setting-, or select "Exclude Specific Usergroups" to check all usergroups' posts except those specific usergroups' posts -defined in the following setting-.
+
+	     o Included/Excluded Usergroups (Ultimate Edition Only)
+	          - If you have chosen "Include Specific Usergroups" OR "Exclude Specific Usergroups" from the above setting, then you have to choose those specified usergroups from the list displayed. Note that you can select multiple options by holding "CTRL" key while selecting.
+
+	     o Include/Exclude Forums
+	          - You can specify certain forums to check their posts against dead links, or to exclude others' posts from being checked at all.
+
+	          - Select "Include All Forums" to check all forums' posts, or select "Include Specific Forums" to check only those specific forums' posts -defined in the following setting-, or select "Exclude Specific Forums" to check all forums' posts except those specific forums' posts -defined in the following setting-.
+
+	     o Included/Excluded Forums
+	          - If you have chosen "Include Specific Forums" OR "Exclude Specific Forums" from the above setting, then you have to choose those specified forums from the list displayed. Note that you can select multiple options by holding "CTRL" key while selecting.
+
+	     o Time/Date Cutoff Mode
+	          - You can force this product to process only posts in a specific time frame.
+	          - You've two modes to choose from:
+		+ Last X Days: This mode will check all posts posted only in the last X days.
+		+ Before Specific Date: This mode will check all posts posted before that specific date.
+		+ After Specific Date: This mode will check all posts posted after that specific date.
+		+ Between Two Specific Dates: This mode will check all posts posted between those two specific dates.
+	          - After choosing your preferred mode, you have to enter the appropriate value in the following setting according to the declaration defined down there.
+	          - If you do not want to use the Cutoff feature at all then enter "0" in the following setting's field "Time/Date Cutoff Value".
+
+	     o Time/Date Cutoff Value
+	          - To force this product to process only posts in a specific time frame, choose your preferred mode in the above setting, then enter the appropriate value here in this setting's field according to the following definition:
+		+ Last X Days: Enter a correct positive integer value for that period in days to check posts posted within last X days.
+		+ Before Specific Date: Enter a correct date in the format (yyyy-mm-dd) to check posts posted before it.
+		+ After Specific Date: Enter a correct date in the format (yyyy-mm-dd) to check posts posted after it.
+		+ Between Two Specific Dates: Enter two correct dates in the format (yyyy-mm-dd|yyyy-mm-dd) -note the separator symbol '|' (without quotes)- to check posts posted between them. Make sure to set the older date first then the newer.
+	          - To turn off the "Time/Date Cutoff Mode" feature totally, enter "0" in this setting's field.
+
+	     o Checked Protocols (Ultimate Edition Only)
+	          - Which internet protocols should be checked?
+		+ HTTP
+		+ HTTPS
+		+ FTP
+
+	     o Checked BBCodes (Ultimate Edition Only)
+	          - Select which BBCodes should be scanned. Note that URL tags are checked by default.
+		+ Basic BB Code
+		+ Color BB Code
+		+ Size BB Code
+		+ Font BB Code
+		+ Alignment BB Code
+		+ List BB Code
+		+ Link BB Code
+		+ Code BB Code
+		+ PHP BB Code
+		+ HTML BB Code
+		+ QUOTE BB Code
+		+ HIDE BB Code
+		+ CHARGE BB Code
+	          - 'Lite' edition scans & check all default vBulletin BBCode Tags without the ability to select which should & which shouldn't be checked.
+
+	     o Excluded Thread Modes (Ultimate Edition Only)
+	          - Specific thread modes can be excluded from being checked. By default all threads are checked regardless of it is mode. To exclude certain thread mode, choose it from the list.
+		+ Opened
+		+ Closed
+		+ Moderated
+		+ Sticky
+		+ Deleted
+		+ Redirected
+
+	     o Excluded Post Modes (Ultimate Edition Only)
+	          - Specific post modes can be excluded from being checked. By default all posts are checked regardless of it is mode. To exclude certain post mode, choose it from the list.
+		+ Opened
+		+ Moderated
+		+ Deleted
+
+	     o Check Existing Posts
+	          - Should existing posts be checked? If yes, then which of it should be? Only thread's head (first post), or all posts within?
+	          - Turning this option 'OFF' means that the scheduled task (cronjob) will be completely useless, it will not do any work at all. Only new & edited posts will be checked if activated in the following settings.
+	          - Options: [None | All Posts | Thread's First Post]
+
+	     o Check New Posts (Ultimate Edition Only)
+	          - Should new posts be checked live (on real time)? If yes, then which of it should be? Only thread's head (first post), or all replies as well?
+	          - Turning this option 'OFF' means that the scheduled task (cronjob) will be completely useless, it will not do any work at all. Only new & edited posts will be checked if activated in the following settings.
+	          - Options: [None | All Posts | Thread's First Post]
+
+	     o Check Edited Posts (Ultimate Edition Only)
+	          - Should edited posts be checked live (on real time)? If yes, then which of it should be? Only thread's head (first post), or all replies as well?
+	          - Turning this option 'ON' may cause users with low/limited internet connections to have some issues and may not be able to post, specially if their post contains many links to be checked.
+	          - Options: [None | All Posts | Thread's First Post]
+
+	     o Maximum Checked Links Per Post
+	          - How many links should be checked per post? If any post contains more than that defined limit, then those 'over limit' links will be ignored & will not be checked; only the first X links (as defined here) will be checked. Enter "0" for UNLIMITED.
+
+	     o Critical Limit/Red Line
+	          - Posts can be punished because of high percentage of dead links within. Define the "Critical Limit/Red Line" percentage here as a positive integer value (without any symbols). This "Critical Limit/Red Line" is the percentage that if dead links reaches or exceeded within a post, then that post will be punished.
+	          - Notes & Examples:
+		+ "10" means if dead links within a post reaches or exceeded 10% of all included links it will be punished. If a post has less than 10% of dead links, then it will pass as valid without punishment.
+		+ "0" means that all links per post should be valid & alive (no dead links allowed, if just one link is dead the post will be punished); While "100" means the opposite, it means that all links within a post should be dead to be punished, that means if there is only one link alive & the rest are dead, the post will pass as valid without punishment.
+		+ If any post has only 5 links within it to be checked, that means each link represents 20% from all checked links. It means also if only one link is dead & you have set this setting to '10%' the expression will evaluate as true & will punish that post since it has 20% of dead links.
+
+
+	     o Check Succession Period
+	          - Successive checks for same posts can be separated by a certain period of time, so those 'checked recently' posts did not checked every time the script runs. Same posts can be checked multiple times, but with at least 1 day between each two successive checks. Define how many days should separate each two successive checks for the same post, or enter "0" to check posts ONLY ONCE. Note: "14" means your checked posts will be checked again every fourteen days (two weeks). "0" or a high Value usually recommended specially for large boards.
+
+	     o Checked Posts Per Batch
+	          - It is recommended to define a specific low number of posts to process in each run to prevent any possible timeout or Memory/CPU exhausting during the execution process. A Lower Value usually recommended specially for boards that has long posts with many links. There is other important factors that have strong affect as well such as: "Time/Date Cutoff Mode", "Time/Date Cutoff Value", "Check existing posts", "Maximum Checked Links Per Post", "Check Succession Period"; So please take care & try to set a logical acceptable value for each of these settings to avoid any expected/unexpected issues. You are the best one who knows your board & you are the one who can determine which suits you & your board according to your board's activity/content/requirements.
+
+	     o Remote Functions Maximum Redirections
+	          - The maximum amount of HTTP redirections to follow.
+
+	     o Remote Functions Execution Timeout
+	          - The maximum number of seconds to allow remote functions to execute.
+
+	     o Remote Functions Maximum Response Size
+	          - The maximum allowed size of response to accept, enter value in bytes.
+
+	     o Required Sharing Links (Ultimate Edition Only)
+	          - You may force users to post 'supported' sharing links within their posts in order to submit their posts, otherwise they will get an error message.
+	          - You can select which forums would you like to force users include 'supported' sharing links within their posts.
+
+
+	* Reporting Settings:
+
+	     o Reports Staff Handler
+	          - Reports posted in forums or sent as PMs to both staff and normal users requires a valid staff member username to use as a poster & sender for these reports. Enter a valid staff member username with appropriate privileges here in this setting's field. Note: If this username is invalid or does not has appropriate privileges, then all "PM/Reply/Thread Reports" will not work until it is corrected, however "Email Reports" does not affected by this option and will keep working regardless of this option's value.
+
+	     o Staff Reports
+	          - After each run of the script, it is possible to auto generate final reports for staff using any of the following methods: (PM, Email, New Reply, New Thread). Select your preferred methods.
+		+ Send Private Message
+		+ Send Email Message (Ultimate Edition Only)
+		+ Post New Thread
+		+ Post New Reply (Ultimate Edition Only)
+
+	     o Sending Staff Reports
+	          - In case you want to send reports to staff via PM or Email, you have the ability to choose which staff should receive those reports.
+		+ Send Reports To Moderators Only
+		+ Send Reports To Moderators & Administrators
+
+	     o Staff Reports Mode
+	          - Staff reports can be sent in certain conditions, which conditions should staff reports sent in?
+	          - Select the appropriate option:
+		+ Always send: always send regardless there is checked/dead/punished posts or not.
+		+ Send Only If There is Checked Posts: send only if there is checked posts, regardless there is dead/punished posts or not.
+		+ Send Only If There is Dead Posts: send only if there is checked posts with dead links regardless it exceeds the critical limit or not -punished or not-.
+		+ Send Only If There is Punished Posts: send only if there is checked posts with dead links that exceeds the critical limit, and thus punished.
+	          - Note: Punished posts implicitly included within dead posts.
+
+	     o User Reports
+	          - After each run of the script, if there is punished posts: it is possible to auto generate simple reports to their owners using any of the following methods: (PM, Email) telling them that some of their posts contains some dead links. Select your preferred methods.
+		+ Send Private Message
+		+ Send Email Message (Ultimate Edition Only)
+
+	     o User Reports Mode
+	          - User reports can be sent in certain conditions, which conditions should user reports sent in?
+	          - Select the appropriate option:
+		+ Send Only If There is Dead Posts: send only if there is checked posts with dead links regardless it exceeds the critical limit or not -punished or not-.
+		+ Send Only If There is Punished Posts: send only if there is checked posts with dead links that exceeds the critical limit, and thus punished.
+	          - Note: Punished posts implicitly included within dead posts.
+
+	     o Reports: Included Posts (Ultimate Edition Only)
+	          - Which posts to include in the generated reports?
+	          - Select the appropriate option:
+		+ Checked Posts Only: include checked Posts, ignore punished posts.
+		+ Punished Posts Only: include punished Posts, ignore checked posts.
+		+ Checked Posts & Punished Posts: include both checked Posts and punished posts as well.
+	          - 'Lite' edition uses Checked Posts & Punished Posts by default & without available choices.
+
+	     o Reports: Included Links (Ultimate Edition Only)
+		+ All Links
+		+ Alive Links
+		+ Dead Links
+		+ Down Links
+		+ None
+	          - 'Lite' edition uses All Links by default & without available choices.
+
+	     o Staff Report Forum
+	          - If "Post New Thread" staff report method is enabled, then a forum should be selected to post those threads in.
+
+	     o Staff Report Thread (Ultimate Edition Only)
+	          - If "Post New Reply" staff report method is enabled, then a thread should be selected to post those replies in. Valid thread ID is required.
+
+	     o Reports Phrases
+	          - Modify and localize reports' subject & message as preferred.
+
+
+	* Punishment Settings:
+
+	     o Thread Punishment Methods
+	          - Multiple "Thread Punishment Methods" are available to choose from. Select preferred "Thread Punishment Methods" to apply. Note that "Thread Punishment Methods" are applied on Threads, regardless the checked post is the thread's header (first post) or not. If multiple posts in a thread were checked and any of these posts had dead links that exceeds the critical limit (has been flagged for punishment), and there is selected "Thread Punishment Methods", then the whole thread will be punished.
+		+ Close Thread (Ultimate Edition Only)
+		+ Un-stick Thread (Ultimate Edition Only)
+		+ Moderate Thread
+		+ Delete Thread
+		+ Move Thread (Ultimate Edition Only)
+
+	     o Post Punishment Methods (Ultimate Edition Only)
+	          - Multiple "Post Punishment Methods" are available to choose from. Select preferred "Post Punishment Methods" to apply. Note that "Post Punishment Methods" are applied on individual posts.
+	          - While it may be more logical to apply "Post Punishment Methods" on individual posts rather than applying "Thread Punishment Methods", it is recommended to use "Thread Punishment Methods" for technical reasons. At the mean time "Post Punishment Methods" is not as stable/solid as "Thread Punishment Methods", however both are using default vBulletin scenarios in applying their actions -exactly as normal moderation actions-.
+		+ Moderate Post
+		+ Delete Post
+
+	     o Punishment Recycle Bin Forum (Ultimate Edition Only)
+	          - If "Move Thread" method is selected in "Thread Punishment Methods" then a forum should be selected to move punished threads to it. Select preferred forum from the list.
+
+	     o On Edit: Revert Actions (Ultimate Edition Only)
+	          - If this option is enabled & if edited posts is being checked, and there were a past punishment for that specific post, then it can be reverted if the new check reports it as 'passed' (no dead links or few dead links under the critical limit). Suppose that the edited post was previously punished with (Close Thread - Move Thread - Moderate Post), after a valid check those past punishment actions can be reverted to (Open Thread - Move Thread back to it is original forum - Approve Post).
+
+	     o Powerful Usergroups (Ultimate Edition Only)
+	          - Powerful Usergroups are those usergroups that can override/overcome the "Critical Limit/Red Line" & force their posts to be posted despite of having dead links. Enter User Group IDs separated by normal English comma.
+	          - Note: This powerful ability does not affect only posts for those powerful usergroups, but affects also any post for any user that is edited by those powerful usergroups. It means they can overcome limits when posting/editing their own or others posts as well (They should have permissions to do so of course).
+
+
+	* Tagging Settings:
+
+	     o Tag Threads - Reported Status
+	          - After checking a thread, threads can be tagged according to it is reported status: (ex: Alive, Dead).
+
+	     o Tag Threads - Reported Status - Phrases
+	          - Modify and localize status tags' text for tagged threads as preferred.
+
+	     o Tag Threads - Included Hosts
+	          - After checking a thread, threads can be tagged according to included hosts: (ex: HF, RS, MU) OR (ex: Hotfile, Rapidshare, Megaupload).
+	          - This setting has a global effect, turning it off disables this feature globally regardless the per host/module settings.
+	          - You can control this feature per host/module & set host tag's text as well.
+
+
+	* Look & Feel Settings:
+
+	     o Link Status Colors (Ultimate Edition Only)
+	          - Checked links can be colored according to their reported status, select your preferred colors from the color picker or write down the hexadecimal code for each status.
+	          - 'Lite' edition uses default colors without the ability to customize it from control panel.
+
+	     o Post Flag: Last Check Note
+	          - Last check note can be displayed within each post to determine whether or not it has been checked before by "PHPKD - vB Link Verifier Bot" and when, simply select in which forums' posts this note should be displayed. That note will appear in posts within those selected forums only. Note that you can select multiple options by holding "CTRL" key while selecting.
+	          - After selecting appropriate forums, you have to do two simple manual edits as follow:
+	          - In 'postbit' & 'postbit_legacy' templates search for:
+
+	          - <div class="postfoot">
+
+	          - And put before it directly the following code
+	          - This is where the "Last Check Note" will be displayed, so you can choose another place as preferred
+
+	          - {vb:raw template_hook.postbit_phpkd_vblvb}
+
+	     o Post Flag: Last Check Note in first post only
+	          - Post Flag: Last Check Note can be displayed either in thread's head (first post) only, or in every post in the thread. That is depends on your usage & your product's settings.
+
+
+	* Link Directory Settings:
+
+	     o Link Directory Recorder Active *(Experimental)* (Ultimate Edition Only)
+	          - When active, all checked links will be recorded in a central database table for further display in "Link Directory Browser". However it will add some performance overhead.
+	          - This feature is highly experimental in it is nature, and not complete yet. This part is working anyway.
+
+
+	* Public Verifier Settings:
+
+	     o Public Script Name (Ultimate Edition Only)
+	          - The public script name available for users, this script displays list of supported hosts, allow users to live check sharing links on the fly, etc..
+
+	     o Public Script Title (Ultimate Edition Only)
+	          - The public script title available for users, this script displays list of supported hosts, allow users to live check sharing links on the fly, etc..
+
+
+Controls:
+~~~~~~~~~~
+     * Administrator Permissions
+	vBulletin AdminCP » Usergroups » Administrator Permissions » Select Administrator » [Edit Permissions] » Can Administer vB Link Verifier Bot
+
+     * AdminCP Settings:
+	vBulletin AdminCP » Settings » Options » PHPKD - Link Verifier Bot 'Lite'
+
+     * Run Scheduled Task:
+	vBulletin AdminCP » Scheduled Tasks » Scheduled Task Manager » PHPKD - Link Verifier Bot 'Lite'
+
+
+License:
+~~~~~~~~~
+     * http://info.phpkd.net/en/license/commercial/
+
+
+Help with:
+~~~~~~~~~~~
+     * Suggestions & feature requests to develop this product.
+     * Contributing any updates, upgrades and/or any new features.
+     * Translations to benefit more users (Translate the product & win a free 'Ultimate' edition: http://forum.phpkd.net/showthread.php?t=21 ).
+     * Spreading the 'Lite' edition of this product product. Yes, you're free to re-distribute 'Lite' edition of this product as it is (See 'Free' license details).
+
+
+
+Screen Shots:
+~~~~~~~~~~~~~~
+     * Available at: http://product.phpkd.net/en/commercial/vblvb/
+
+
+Technical Notes:
+~~~~~~~~~~~~~~~~~
+     * New Plugins: 7
+     * New Phrases: 107
+     * New Templates: 0
+     * Manual Template changes: 1 (optional)
+     * Auto Template changes: 1
+     * New Files: 9
+     * Manual File Changes: 0
+     * New vBulletin Settings: 28
+     * New Usergroup Permissions: 0
+     * New Moderator Permissions: 0
+     * New Administrator Permissions: 1
+     * New Forum Options: 0
+     * New DB Tables: 0
+     * DB Alterations: 3
+     * New Cronjobs: 1
+        --------------------------
+     * Installation Level: Easy
+     * Installation Time: ~20 seconds
+
+
+Reference Links:
+~~~~~~~~~~~~~~~~~
+     * PHPKD.NET: http://product.phpkd.net/en/commercial/vblvb/
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Brought to you by PHP KingDom (www.phpkd.net)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

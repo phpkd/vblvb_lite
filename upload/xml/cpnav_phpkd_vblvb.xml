@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<navgroups product="phpkd_vblvb" master="true">
+
+	<navgroup phrase="phpkd_vblvb_nav" permissions="phpkd_vblvb" hr="true" displayorder="105">
+
+		<navoption displayorder="10">
+			<phrase>phpkd_vblvb_nav_settings</phrase>
+			<link>options.php?do=options&amp;dogroup=phpkd_vblvb</link>
+		</navoption>
+
+		<navoption displayorder="20">
+			<phrase>phpkd_vblvb_nav_run</phrase>
+			<link>cronadmin.php?do=modify</link>
+		</navoption>
+
+	</navgroup>
+
+</navgroups>
