@@ -16,16 +16,16 @@
 
 $md5_sums = array(
 	'/includes/phpkd/vblvb' => array(
-		'class_core.php'			=> 'c9c06a76e10ad002fafae09c6ad88b18',
-		'class_cron.php'			=> 'eb73364c0abab5c3074393465dfe3511',
-		'class_dm.php'				=> 'c5fac4c6843b27bb9881e3411faa46fa',
-		'class_hooks.php'			=> 'd786451b511082b9bc3623f0ae486458',
-		'class_init.php'			=> '484333de4ec7f9bdec44a13d58f1a415',
-		'class_install.php'			=> 'c6bae854db816df452ee83e09857602a',
+		'class_core.php'			=> 'f2423614375e62cca1170e6743d79a58',
+		'class_cron.php'			=> '6a3f5849ec712f51d7c9b3853c697337',
+		'class_dm.php'				=> '69150120c93403ec23f60730e9c70d61',
+		'class_hooks.php'			=> '9439db5028cd531840d75efa5f6077ef',
+		'class_init.php'			=> '98f6a00e85fda4ce6c1fa610f5077f58',
+		'class_install.php'			=> '33c9b1cbbccb221d8d436b029eac2be6',
 	),
 	'/includes/xml' => array(
-		'bitfield_phpkd_vblvb.xml'	=> 'f7198b729a84d132ddca91c6e2835085',
-		'cpnav_phpkd_vblvb.xml'		=> '94ed7f71c932c284cd98ed34be2239b0',
+		'bitfield_phpkd_vblvb.xml'	=> 'ff9a71345b13ac9028b7068f720fb9e5',
+		'cpnav_phpkd_vblvb.xml'		=> '799df0a5b5552c494c30c98871c03ca0',
 	),
 );
 $md5_sum_softwareid = 'phpkd_vblvb';
